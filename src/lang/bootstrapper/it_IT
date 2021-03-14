@@ -1,0 +1,41 @@
+# notification java updater
+updater.java.notification.message=Hai scoperto versione di Java, che sarà presto lanciatore non supportato. <br><br> È possibile installare la versione Java di ultima cliccando indipendente sulla \"Installato sul proprio\". È inoltre possibile utilizzare questo autoinstaller clic \"SET\".
+updater.java.notification.message.special=Hai scoperto versione di Java, che sarà presto lanciatore non supportato. <br><br> È possibile installare la versione Java di ultima cliccando indipendente sulla \"Installato sul proprio\".
+updater.java.notification.title=aggiornare la versione di Java!!!
+updater.java.install.button=Set
+updater.java.reminder.button=Ricordamelo dopo
+updater.java.myself.button=installato in modo indipendente
+update.java.notification.title=Java installazione
+updater.java.notification.before.install.myself=Dopo aver installato l'ultima versione di Java, eseguire nuovamente il programma di avvio.
+# download java
+updater.java.jre.message=Caricamento Java. Attendere qualche minuto. Una volta scaricato viene richiesto di installare un Java appropriata (Per fare ciò cliccate sul \"Install\"), quindi è possibile eseguire il programma di avvio e giocare.
+updater.java.jre.title=Scaricare e installare Java
+unknown.config.error=Il programma non ha potuto determinare la configurazione del sistema o non hanno le impostazioni di installazione di Java appropriate per il sistema.
+error.network.message=Si è verificato un errore durante la trasmissione dei dati, è possibile luoghi che non hanno accesso a Internet.
+error.title=Errore
+download.jre.title=Seleziona posizione per memorizzare il Java.
+download.jre.not.enough.space=Liberare spazio su disco per salvare il file e riprovare.
+save.file.in.label=Salva
+file.name.label=Nome del file
+type.label=Tipo di file
+save.button=Salva
+cancel.button=Annulla
+# download libraries
+updater.frame.name=Caricamento delle librerie per il client. Sinistra
+updater.frame.speed=MB
+updater.download.fail=Impossibile scaricare le librerie necessarie da Internet quindi <br> - Controllare la connessione a Internet.<br>- %0
+java.reinstall=Rimuovi tutto Java, installa la versione stabile dal <a href='https://java-for-minecraft.com'>sito web </a>, se non aiuta, installa l'ultima (nuova) Java.
+updater.download.disk.not_place=Insufficiente disk per installare la libreria e riprovare.
+place.disk.warning=Affinché il programma funzioni correttamente, si consiglia di liberare spazio su disco su %0, dopo il rilascio, avviare nuovamente il programma di avvio. Leggi l'articolo qui sotto.
+double.running.title=Doppio inizio
+double.running=Sembra che tu abbia già avviato TLauncher e funzioni. \r\nAttendi 1-10 minuti fino a quando non inizia.\r\n\r\nLanciare TLauncher comunque?
+yes=Sì
+no=No
+addr.table.error=Hai un errore critico, <b> è scritto sotto come ripararlo </b>, se sai allora cosa hai. Ad esempio, ieri ha funzionato, oggi non funziona, dopo aver installato qualsiasi programma o dopo l'aggiornamento, faccelo sapere in <a href='https://fb.com/tlauncher'> https://fb.com/tlauncher </a>, se le informazioni sono preziose, ti rilasciamo un premio per un anno. <br> <br> Per risolvere il problema, crea un nuovo utente per Windows 7 <a href='https://www.bleepingcomputer.com/tutorials/create-new-user-account-in-windows-vista-7'>fai clic qui</a><br>Per Windows 10 <a href =' https://support.microsoft.com/en-us/help/4026923/windows-10-create-a-local-user-or-administrator-account'> Fai clic qui </a> <br> Accedi al nuovo utente e installa il tlauncher e inizia il gioco!
+alert.start.message=Leggi questo tutorial per correggerlo. <a href='%0'>Cliccami</a>!
+run.again.launcher=Avvia di nuovo il programma di avvio (quando chiudi i messaggi).
+warning.KB4515384.problem=Se TLauncher non viene eseguito o si verifica un errore dopo aver chiuso questo messaggio, è necessario seguire i passaggi seguenti:<br>1) Aprire Start e scrivere nel testo di ricerca "Cronologia aggiornamenti" e aprire questa cronologia.<br>2) È possibile vedere nella parte superiore della finestra aperta 'Disinstalla aggiornamenti' e fare clic su di esso.<br>3) Ora trova l'aggiornamento KB4515384 ed eliminalo, riavvia il computer (in modo da non eliminare ogni volta - devi disabilitare l'aggiornamento di Windows così che Windows non lo installa di nuovo, puoi leggere su Internet come farlo).
+skin.notification.state=Non mostrare questa notifica
+msi.after.burner.block=È necessario disattivare il post-masterizzatore MSI Afterburner o un programma simile in funzionalità e provare a riavviare il client.
+temp.dir.error=Le variabili temporanee sono impostate in modo errato, è necessario impostarle da soli. In Start, inserisci "variabili di ambiente" e apri questo programma. Trova TEMP, TEMP, ora devi inserire cartelle esistenti per queste variabili ed essere sicuro che esistano cartelle, ad esempio C:\\TEMP, C:\\TMP!
+alert.access.denied.message=Non è stato possibile avviare il programma di avvio nel percorso specificato %0 a causa della mancanza di diritti, creeremo una nuova cartella %1 per il corretto funzionamento, riavvia il programma di avvio!

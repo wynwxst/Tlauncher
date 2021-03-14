@@ -1,0 +1,41 @@
+# notification java updater
+updater.java.notification.message=Ha descubierto versión de Java, que pronto será lanzador no soportado. Usted puede instalar la versión Java de última clic independiente sobre la \"Instalado en su propia\". También puede utilizar este Autoinstaller clic \"SET\".
+updater.java.notification.message.special=Ha descubierto versión de Java, que pronto será lanzador no soportado. Usted puede instalar la versión Java de última clic independiente sobre la \"Instalado en su propia\".
+updater.java.notification.title=Actualizar la versión de Java !!!
+updater.java.install.button=Set
+updater.java.reminder.button=Recuérdame más tarde
+updater.java.myself.button=Instalado de forma independiente
+update.java.notification.title=Java instalación
+updater.java.notification.before.install.myself=Después de instalar la última versión de Java, ejecute el programa de lanzamiento.
+# download java
+updater.java.jre.message=Cargando java. Espere unos minutos. Una vez descargado, se le pedirá que instale un Java adecuada (Para ello, haga clic en \"Instalar\"), a continuación, puede ejecutar su lanzador y el juego.
+updater.java.jre.title=Descargar e instalar Java
+unknown.config.error=El programa no se pudo determinar la configuración del sistema o no tiene los ajustes de instalación de Java adecuada para el sistema.
+error.network.message=Se ha producido un error durante la transmisión de datos, es posible sobre el acceso a Internet.
+error.title=Error
+download.jre.title=Elegir un lugar para almacenar el Java.
+download.jre.not.enough.space=Liberar espacio en disco para guardar el archivo y vuelva a intentarlo.
+save.file.in.label=Guardar
+file.name.label=Nombre de archivo
+type.label=Tipo de archivo
+save.button=Guardar
+cancel.button=Cancelar
+# download library
+updater.frame.name=Cargando bibliotecas para el cliente. Izquierda
+updater.frame.speed=MB
+updater.download.fail=Por lo tanto, no se pudieron descargar las bibliotecas necesarias de Internet. <br> - Compruebe la conexión a Internet.<br>- %0
+java.reinstall=Elimine todo Java, instale la versión estable del <a href='https://java-for-minecraft.com'>sitio web </a>, si no ayuda, instale el último (nuevo) Java.
+updater.download.disk.not_place=Insuficiente disk disco para instalar la biblioteca y vuelva a intentarlo.
+place.disk.warning=Para que el programa funcione correctamente, le recomendamos que libere espacio en el %0; después del lanzamiento, vuelva a iniciar el iniciador. Lea el artículo a continuación.
+double.running.title=Doble comienzo
+double.running=Parece que ya has iniciado TLauncher y funciona. \r\n Espera de 1 a 10 minutos hasta que comience. \r\n\r\nEjecutar TLauncher de todos modos?
+yes=Si
+no=No
+addr.table.error=Tienes un error crítico, <b> está escrito debajo de cómo solucionarlo </b>, si sabes lo que tienes. Por ejemplo, ayer funcionó, hoy no funciona, después de haber instalado algún programa o después de la actualización, avísenos en <a href='https://fb.com/tlauncher'> https://fb.com/tlauncher </a>, si la información es valiosa, le emitiremos una prima por un año. <br> <br> Para solucionarlo, cree un nuevo usuario para Windows 7 <a href='https://www.bleepingcomputer.com/tutorials/create-new-user-account-in-windows-vista-7'>Haga clic aquí</a><br>Para windows 10 <a href ='https://support.microsoft.com/en-us/help/4026923/windows-10-create-a-local-user-or-administrator-account'> Haga clic aquí </a> <br> ¡Inicie sesión en el nuevo usuario e instale el tlauncher, y comience el juego!
+alert.start.message=Lee este tutorial para corregirlo. <a href='%0'>Haz clic en mí</a>!
+run.again.launcher=Ejecute de nuevo el iniciador (cuando cierre los mensajes).
+warning.KB4515384.problem=Si TLauncher no se ejecuta o se produce algún error después de cerrar este mensaje, debe seguir los siguientes pasos:<br>1) Abra Inicio y escriba en el texto de búsqueda 'Actualizar historial' y abra este historial.<br>2) Puede vea en la parte superior de la ventana abierta 'Desinstalar actualizaciones' y haga clic en ella.<br>3) Ahora busque la actualización KB4515384 y elimínela, reinicie la computadora (para no eliminarla cada vez; debe deshabilitar la actualización de Windows para que Windows no lo instala nuevamente, puede leer en Internet cómo hacerlo).
+skin.notification.state=No mostrar esta notificación
+msi.after.burner.block=Debe desactivar MSI Afterburner o un programa similar en funcionalidad e intentar iniciar el cliente nuevamente.
+temp.dir.error=Las variables temporales están configuradas incorrectamente, debe configurarlas usted mismo. En Inicio, ingrese 'variables de entorno' y abra este programa. Encuentre TEMP, TEMP, ahora necesita insertar carpetas existentes para estas variables y asegúrese de que existan carpetas, por ejemplo C:\\TEMP, C:\\TMP!
+alert.access.denied.message=No pudimos iniciar el lanzador en la ruta especificada %0 debido a la falta de derechos, crearemos una nueva carpeta %1 para que funcione correctamente, ¡reinicie el lanzador!

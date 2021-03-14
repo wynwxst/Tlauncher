@@ -1,0 +1,186 @@
+{
+  "libraries": [
+    {
+      "groupId": "com.google.inject",
+      "artifactId": "guice",
+      "version": "4.1.0",
+      "url": [
+        "http://advancedrepository.com/update/downloads/libraries/com/google/inject/guice/4.1.0/guice-4.1.0.jar",
+        "http://repo.tlauncher.org/update/downloads/libraries/com/google/inject/guice/4.1.0/guice-4.1.0.jar",
+        "https://securerepository.net/update/downloads/libraries/com/google/inject/guice/4.1.0/guice-4.1.0.jar"
+      ],
+      "storagePath": "tlauncher_libraries/com/google/inject/guice/4.1.0/guice-4.1.0.jar",
+      "shaCode": "eeb69005da379a10071aa4948c48d89250febb07",
+      "size": 674028
+    },
+    {
+      "groupId": "com.google.inject.extensions",
+      "artifactId": "guice-assistedinject",
+      "version": "4.1.0",
+      "url": [
+        "http://advancedrepository.com/update/downloads/libraries/com/google/inject/extentions/guice-assistedinject/4.1.0/guice-assistedinject-4.1.0.jar",
+        "http://repo.tlauncher.org/update/downloads/libraries/com/google/inject/extentions/guice-assistedinject/4.1.0/guice-assistedinject-4.1.0.jar",
+        "https://securerepository.net/update/downloads/libraries/com/google/inject/extentions/guice-assistedinject/4.1.0/guice-assistedinject-4.1.0.jar"
+      ],
+      "storagePath": "tlauncher_libraries/com/google/inject/extentions/guice-assistedinject/4.1.0/guice-assistedinject-4.1.0.jar",
+      "shaCode": "af799dd7e23e6fe8c988da12314582072b07edcb",
+      "size": 42873
+    },
+    {
+      "groupId": "javax.inject",
+      "artifactId": "javax.inject",
+      "version": "1",
+      "url": [
+        "http://advancedrepository.com/update/downloads/libraries/javax/inject/javax.inject/1/javax.inject-1.jar",
+        "http://repo.tlauncher.org/update/downloads/libraries/javax/inject/javax.inject/1/javax.inject-1.jar",
+        "https://securerepository.net/update/downloads/libraries/javax/inject/javax.inject/1/javax.inject-1.jar"
+      ],
+      "storagePath": "tlauncher_libraries/javax/inject/javax.inject/1/javax.inject-1.jar",
+      "shaCode": "6975da39a7040257bd51d21a231b76c915872d38",
+      "size": 2497
+    },
+    {
+      "groupId": "aopalliance",
+      "artifactId": "aopalliance",
+      "version": "1.0",
+      "url": [
+        "http://advancedrepository.com/update/downloads/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar",
+        "http://repo.tlauncher.org/update/downloads/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar",
+        "https://securerepository.net/update/downloads/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"
+      ],
+      "storagePath": "tlauncher_libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar",
+      "shaCode": "0235ba8b489512805ac13a8f9ea77a1ca5ebe3e8",
+      "size": 4467
+    },
+    {
+      "groupId": "com.google.guava",
+      "artifactId": "guava",
+      "version": "19.0",
+      "url": [
+        "http://advancedrepository.com/update/downloads/libraries/com/google/guava/guava/19.0/guava-19.0.jar",
+        "https://securerepository.net/update/downloads/libraries/com/google/guava/guava/19.0/guava-19.0.jar",
+        "http://repo.tlauncher.org/update/downloads/libraries/com/google/guava/guava/19.0/guava-19.0.jar"
+      ],
+      "storagePath": "tlauncher_libraries/com/google/guava/guava/19.0/guava-19.0.jar",
+      "shaCode": "6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9",
+      "size": 2308517
+    },
+    {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-lang3",
+      "version": "3.4",
+      "url": [
+        "http://advancedrepository.com/update/downloads/libraries/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar",
+        "https://securerepository.net/update/downloads/libraries/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar",
+        "http://repo.tlauncher.org/update/downloads/libraries/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+      ],
+      "storagePath": "tlauncher_libraries/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar",
+      "shaCode": "5fe28b9518e58819180a43a850fbc0dd24b7c050",
+      "size": 434678
+    },
+    {
+      "groupId": "net.sf.jopt-simple",
+      "artifactId": "jopt-simple",
+      "version": "4.9",
+      "url": [
+        "http://advancedrepository.com/update/downloads/libraries/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar",
+        "http://repo.tlauncher.org/update/downloads/libraries/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar",
+        "https://securerepository.net/update/downloads/libraries/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar"
+      ],
+      "storagePath": "tlauncher_libraries/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar",
+      "shaCode": "ee9e9eaa0a35360dcfeac129ff4923215fd65904",
+      "size": 66469
+    },
+    {
+      "groupId": "log4j",
+      "artifactId": "log4j",
+      "version": "1.2.17",
+      "url": [
+        "http://advancedrepository.com/update/downloads/libraries/log4j/log4j/1.2.17/log4j-1.2.17.jar",
+        "http://repo.tlauncher.org/update/downloads/libraries/log4j/log4j/1.2.17/log4j-1.2.17.jar",
+        "https://securerepository.net/update/downloads/libraries/log4j/log4j/1.2.17/log4j-1.2.17.jar"
+      ],
+      "storagePath": "tlauncher_libraries/log4j/log4j/1.2.17/log4j-1.2.17.jar",
+      "shaCode": "5af35056b4d257e4b64b9e8069c0746e8b08629f",
+      "size": 489884
+    },
+    {
+      "groupId": "org.tukaani",
+      "artifactId": "xz",
+      "version": "1.5",
+      "url": [
+        "http://advancedrepository.com/update/downloads/libraries/org/tukaani/xz/1.5/xz-1.5.jar",
+        "http://repo.tlauncher.org/update/downloads/libraries/org/tukaani/xz/1.5/xz-1.5.jar",
+        "https://securerepository.net/update/downloads/libraries/org/tukaani/xz/1.5/xz-1.5.jar"
+      ],
+      "storagePath": "tlauncher_libraries/org/tukaani/xz/1.5/xz-1.5.jar",
+      "shaCode": "9c64274b7dbb65288237216e3fae7877fd3f2bee",
+      "size": 99555
+    },
+    {
+      "groupId": "org.tlauncher",
+      "artifactId": "picture-bundle",
+      "version": "3.0",
+      "url": [
+        "http://advancedrepository.com/update/downloads/libraries/org/tlauncher/picture-bundle/3.0/picture-bundle-3.0.jar",
+        "http://repo.tlauncher.org/update/downloads/libraries/org/tlauncher/picture-bundle/3.0/picture-bundle-3.0.jar",
+        "https://securerepository.net/update/downloads/libraries/org/tlauncher/picture-bundle/3.0/picture-bundle-3.0.jar"
+      ],
+      "storagePath": "tlauncher_libraries/org/tlauncher/picture-bundle/3.0/picture-bundle-3.0.jar",
+      "shaCode": "68a99ba91c2fff3758bee18ac56acbe8b10f2f50",
+      "size": 2178026
+    },
+    {
+      "groupId": "org.tlauncher",
+      "artifactId": "skin-server-API",
+      "version": "1.0",
+      "url": [
+        "http://advancedrepository.com/update/downloads/libraries/org/tlauncher/skin-server-API/1.0/skin-server-API-1.0.jar",
+        "http://repo.tlauncher.org/update/downloads/libraries/org/tlauncher/skin-server-API/1.0/skin-server-API-1.0.jar",
+        "https://securerepository.net/update/downloads/libraries/org/tlauncher/skin-server-API/1.0/skin-server-API-1.0.jar"
+      ],
+      "storagePath": "tlauncher_libraries/org/tlauncher/skin-server-API/1.0/skin-server-API-1.0.jar",
+      "shaCode": "6c3daf89705427f73e6106d2d4d9619e99c5ecb5",
+      "size": 14761
+    },
+    {
+      "groupId": "org.tlauncher",
+      "artifactId": "tlauncher-resource",
+      "version": "1.4",
+      "url": [
+        "http://advancedrepository.com/update/downloads/libraries/org/tlauncher/tlauncher-resource/1.4/tlauncher-resource-1.4.jar",
+        "http://repo.tlauncher.org/update/downloads/libraries/org/tlauncher/tlauncher-resource/1.4/tlauncher-resource-1.4.jar",
+        "https://securerepository.net/update/downloads/libraries/org/tlauncher/tlauncher-resource/1.4/tlauncher-resource-1.4.jar"
+      ],
+      "storagePath": "tlauncher_libraries/org/tlauncher/tlauncher-resource/1.4/tlauncher-resource-1.4.jar",
+      "shaCode": "63b4bf89744b532e65c1afa3294743d2b3798f2b",
+      "size": 3312651
+    },
+    {
+      "groupId": "com.github.junrar",
+      "artifactId": "junrar",
+      "version": "0.7",
+      "url": [
+        "http://advancedrepository.com/update/downloads/libraries/com/github/junrar/junrar/0.7/junrar-0.7.jar",
+        "http://repo.tlauncher.org/update/downloads/libraries/com/github/junrar/junrar/0.7/junrar-0.7.jar",
+        "https://securerepository.net/update/downloads/libraries/com/github/junrar/junrar/0.7/junrar-0.7.jar"
+      ],
+      "storagePath": "tlauncher_libraries/com/github/junrar/junrar/0.7/junrar-0.7.jar",
+      "shaCode": "18cc717b85af0b12ba922abf415c2ff4716f8219",
+      "size": 155205
+    },
+    {
+      "groupId": "dnsjava",
+      "artifactId": "dnsjava",
+      "version": "2.1.8",
+      "url": [
+        "http://advancedrepository.com/update/downloads/libraries/dnsjava/dnsjava/2.1.8/dnsjava-2.1.8.jar",
+        "http://repo.tlauncher.org/update/downloads/libraries/dnsjava/dnsjava/2.1.8/dnsjava-2.1.8.jar",
+        "https://securerepository.net/update/downloads/libraries/dnsjava/dnsjava/2.1.8/dnsjava-2.1.8.jar"
+      ],
+      "storagePath": "tlauncher_libraries/dnsjava/dnsjava/2.1.8/dnsjava-2.1.8.jar",
+      "shaCode": "eed8a2cbf56cc60d07a189a429ead3067564193c",
+      "size": 314639
+    }
+  ]
+}

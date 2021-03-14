@@ -1,0 +1,41 @@
+# notification java updater
+updater.java.notification.message=您已经发现了Java版本，它很快将不受支持发射器。搜索结果可以安装在“安装在自己的\”的\最后一个独立的点击Java版。您也可以使用此autoinstaller点击\“设置\”。
+updater.java.notification.message.special=你已经发现了Java版本，这是在发射装置。搜索结果您可以通过点击“安装在自己的\”会不会很快被支持\安装最新版本的Java自己。
+updater.java.notification.title=更新的Java版本！
+updater.java.install.button=设置
+updater.java.reminder.button=以后提醒我
+updater.java.myself.button=独立安装
+update.java.notification.title=安装java
+updater.java.notification.before.install.myself=安装最新版本的Java后，再次运行启动程序。
+# download java
+updater.java.jre.message=装载Java。等待几分钟。下载完成后系统会提示您安装适当的Java（要做到这一点单击\“安装\”），那么你就可以运行你的启动和发挥。
+updater.java.jre.title=下载并安装Java
+unknown.config.error=程序无法确定系统的配置或不具备该系统的适当的Java安装设置。
+error.network.message=数据传输过程中出现错误，这是不上网的地方可能。
+error.title=错误
+download.jre.title=選擇的位置來存儲Java的。
+download.jre.not.enough.space=釋放磁盤空間來保存文件，然後再試一次。
+save.file.in.label=保存
+file.name.label=文件名
+type.label=文件類型
+save.button=保存
+cancel.button=取消
+# download libraries
+updater.frame.name=为客户端加载库。剩下
+updater.frame.speed=MB
+updater.download.fail=无法从Internet下载必要的库因此<br>  - 检查与Internet的连接。<br>- %0
+java.reinstall=删除所有Java，然后从<a href='https://java-for-minecraft.com'>网站</a>安装稳定版本，如果这样做没有帮助，请安装最新（新）的Java。
+updater.download.disk.not_place=不足 disk 空间来安装库，然后再试一次。
+place.disk.warning=为了正确操作程序，我们建议释放%0上的磁盘空间，释放后再次启动启动器。 阅读下面的文章。
+double.running.title=双重开始
+double.running=看起来你已经启动了TLauncher并且它可以工作。\r\n等到它开始的1-10分钟。\r\n\r\n无论如何创建TLauncher？
+yes=是的
+no=没有
+addr.table.error=如果您知道自己拥有什么，那么您有一个严重的错误，<b>下面写的是如何解决它</b>。例如，昨天它工作，今天它不起作用，安装任何程序后或更新后，请告诉我们<a href='https://fb.com/tlauncher'>https://fb.com/tlauncher</a>，如果信息有价值，我们会向您发放一年的溢价。<br> <br>要修复，请为Windows 7创建新用户<a href ='https://www.bleepingcomputer.com/tutorials/create-new-user-account-in-windows-vista-7'>点击此处</a><br>对于Windows 10 <a href ='https://support.microsoft.com/en-us/help/4026923/windows-10-create-a-local-user-or-administrator-account'>单击此处</a> <br>登录新用户并安装TLauncher，然后开始游戏！
+alert.start.message=阅读本教程以更正它。<a href='%0'>点击我</a>!
+run.again.launcher=再次启动启动器（关闭消息时)
+warning.KB4515384.problem=如果关闭此消息后TLauncher没有运行或发生任何错误，则应执行以下步骤：<br> 1）打开“开始”并输入搜索文本“更新历史记录”，然后打开此历史记录。<br> 2）您可以 请参见打开的窗口的上部“卸载更新”，然后单击它。<br> 3）现在找到更新KB4515384并将其删除，重新启动计算机（以免每次都删除-您需要禁用Windows更新，以便 Windows不会再次安装它，您可以在Internet上阅读如何操作）。
+skin.notification.state=没有显示这通知
+msi.after.burner.block=您需要关闭MSI Afterburner或功能类似的程序，然后尝试重新启动客户端
+temp.dir.error=临时变量设置不正确，您需要自己进行设置。 在“开始”中，输入“环境变量”并打开该程序。 找到TEMP，TEMP，现在您需要为此变量插入现有文件夹，并确保文件夹存在，例如C：\\TEMP，C：\\TMP ！
+alert.access.denied.message=由于权限不足，我们无法在指定的路径％0上启动启动器，我们将创建一个新文件夹％1进行正确操作，然后重新启动启动器！ old %0 new %1

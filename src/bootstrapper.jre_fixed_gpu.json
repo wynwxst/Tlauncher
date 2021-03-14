@@ -1,0 +1,28 @@
+{
+  "config": {
+    "WINDOWS": {
+      "x64": {
+        "javaFolder": "jre1.8.0_51_v1",
+        "url": [
+          "http://res.tlauncher.org/b/client/jre/windows/jre-8u51-windows-x64_v1.zip",
+          "http://res.tlauncher.org/unb/client/jre/windows/jre-8u51-windows-x64_v1.zip",
+          "https://securerepository.net/update/downloads/jre/windows/jre-8u51-windows-x64_v1.zip"
+        ],
+        "shaCode": "57716373ae56cc9b8facffa787ee3bfd962e3249",
+        "storagePath": "jre-8u51-windows-x64_v1.zip",
+        "size": 56595628
+      },
+      "x32": {
+        "javaFolder": "jre1.8.0_51_v1",
+        "url": [
+          "http://res.tlauncher.org/b/client/jre/windows/jre-8u51_v1-windows-i586.zip",
+          "http://res.tlauncher.org/unb/client/jre/windows/jre-8u51_v1-windows-i586.zip",
+          "https://securerepository.net/update/downloads/jre/windows/jre-8u51_v1-windows-i586.zip"
+        ],
+        "shaCode": "acf8566c7c51567d1ebf3ebff1136e3849098195",
+        "storagePath": "jre-8u51_v1-windows-i586.zip",
+        "size": 53610811
+      }
+    }
+  }
+}

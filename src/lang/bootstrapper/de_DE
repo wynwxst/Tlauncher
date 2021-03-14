@@ -1,0 +1,41 @@
+# notification java updater
+updater.java.notification.message=Sie haben Java-Version entdeckt, die bald nicht mehr unterstützt Launcher sein wird. <br><br> Sie können Java-Version des letzten unabhängigen Klick auf das \"Installiert auf ihren eigenen\" installieren. Sie können auch diese Autoinstaller Klick \"SET\" verwenden. Aktualisieren
+updater.java.notification.message.special=Sie haben Java-Version entdeckt, die bald nicht mehr unterstützt Launcher sein wird. <br><br> Sie können Java-Version des letzten unabhängigen Klick auf das \"Installiert auf ihren eigenen\" installieren 
+updater.java.notification.title=Java-Version!!!
+updater.java.install.button=Set später 
+updater.java.reminder.button=Remind me
+updater.java.myself.button=Installiert unabhängig
+update.java.notification.title=Installation von Java
+updater.java.notification.before.install.myself=Nachdem die neueste Version von Java-Installation wieder das Startprogramm laufen.
+# download java
+updater.java.jre.message=Loading Java. Warten Sie ein paar Minuten. Einmal aufgefordert werden, heruntergeladen Sie eine entsprechende Java zu installieren (dies zu tun, klicken Sie auf \"Installieren\"), dann können Sie Ihre Launcher laufen und zu spielen.
+updater.java.jre.title=Download und Installation von Java
+unknown.config.error=Das Programm konnte die Konfiguration des Systems nicht bestimmen oder verfügen nicht über die entsprechende Java-Installationseinstellungen für das System.
+error.network.message=Fehler bei der Datenübertragung aufgetreten ist, ist es möglich, Stellen ohne Zugang zum Internet.
+error.title=Fehler
+download.jre.title=Ort wählen die Java zu speichern.
+download.jre.not.enough.space=Freier Speicherplatz zum Speichern der Datei und versuchen Sie es erneut.
+save.file.in.label=Speichern
+file.name.label=Dateiname
+type.label=Dateityp
+save.button=Speichern
+cancel.button=Abbrechen
+# download libraries
+updater.frame.name=Laden die Bibliotheken für den Client. Links
+updater.frame.speed=MB
+updater.download.fail=Konnte die benötigten Bibliotheken daher nicht aus dem Internet herunterladen. - Überprüfen Sie die Verbindung zum Internet.<br>- %0
+java.reinstall=Entfernen Sie alles Java und installieren Sie die stabile Version von der <a href='https://java-for-minecraft.com'>Website</a>. Wenn dies nicht hilft, installieren Sie das neueste (neue) Java.
+updater.download.disk.not_place=Freien Speicherplatz auf disk Bibliotheken zu installieren und versuchen Sie es erneut.
+place.disk.warning=Damit das Programm ordnungsgemäß funktioniert, empfehlen wir %0, Speicherplatz auf der Festplatte freizugeben, und starten Sie den Launcher nach der Freigabe erneut. Lesen Sie den Artikel unten.
+double.running.title=Doppelter Start
+double.running=Es sieht so aus, als ob du TLauncher bereits gestartet hast und es funktioniert. \r\nWarte 1-10 Minuten bis es startet.\r\n\r\nLaunch TLauncher sowieso?
+yes=Ja
+no=Nein
+addr.table.error=Sie haben einen kritischen Fehler. <b> Es wird unten beschrieben, wie Sie das Problem beheben können. </b> Wenn Sie wissen, was Sie haben. Zum Beispiel hat es gestern funktioniert, heute funktioniert es nicht, nachdem Sie ein Programm installiert haben oder nach dem Update, teilen Sie uns dies unter <a href='https://fb.com/tlauncher'>https://fb.com/tlauncher</a>, wenn die Informationen wertvoll sind, werden wir Ihnen eine Prämie für ein Jahr ausstellen. <br><br>Erstellen Sie zum Beheben einen neuen Benutzer für Windows 7 <a href='https://www.bleepingcomputer.com/tutorials/create-new-user-account-in-windows-vista-7'>Klicken Sie hier</a><br>Für Windows 10 <a href ='https://support.microsoft.com/en-us/help/4026923/windows-10-create-a-local-user-or-administrator-account'> Klicken Sie hier </a> <br> Melden Sie sich bei dem neuen Benutzer an, installieren Sie den Tlauncher und starten Sie das Spiel!
+alert.start.message=Lesen Sie dieses Tutorial, um es zu korrigieren. <a href='%0'>Klicken Sie auf mich</a>!
+run.again.launcher=Starten Sie den Launcher erneut (wenn Sie die Nachrichten schließen).
+warning.KB4515384.problem=Wenn TLauncher nach dem Schließen dieser Nachricht nicht ausgeführt wird oder ein Fehler auftritt, sollten Sie die folgenden Schritte ausführen:<br>1) Öffnen Sie Start und schreiben Sie in den Suchtext 'Update history' und öffnen Sie diesen Verlauf.<br>2) Sie können Siehe im oberen Teil des geöffneten Fensters 'Updates deinstallieren' und klicken Sie darauf. <br> 3) Suchen Sie nun das Update KB4515384 und löschen Sie es. Starten Sie den Computer neu (um nicht jedes Mal zu löschen - Sie müssen das Windows-Update deaktivieren dass Windows es nicht erneut installiert, können Sie im Internet lesen, wie es geht).
+skin.notification.state=Nicht zeigen diese Meldung
+msi.after.burner.block=Sie müssen MSI Afterburner oder ein ähnliches Programm in der Funktionalität deaktivieren und versuchen, den Client erneut zu starten.
+temp.dir.error=Die temporären Variablen sind falsch eingestellt, Sie müssen sie selbst einstellen. Geben Sie unter Start 'Umgebungsvariablen' ein und öffnen Sie dieses Programm. Suchen Sie TEMP, TEMP. Jetzt müssen Sie vorhandene Ordner für diese Variablen einfügen und sicherstellen, dass Ordner vorhanden sind. Beispiel C:\\TEMP, C:\\TMP!
+alert.access.denied.message=Wir konnten den Launcher aufgrund fehlender Rechte nicht unter dem angegebenen Pfad %0 starten. Wir werden einen neuen Ordner %1 für den korrekten Betrieb erstellen. Starten Sie den Launcher neu!

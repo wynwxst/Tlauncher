@@ -1,0 +1,809 @@
+# launcher progress
+progress.bar.panel.file.remained=Залишилося:
+progress.bar.panel.file=файлу(-ів), загальний розмір
+progress.bar.panel.speed=Швидкість
+progress.bar.panel.speed.unity.MB=МБ/с
+progress.bar.panel.speed.unity.KB=КБ/с
+progress.bar.panel.remaining.time=приблизний час
+progress.bar.panel.remaining.time.minutes=хв
+progress.bar.panel.remaining.time.less.than.minute=менше хвилини
+progress.bar.panel.size=MБ
+progress.bar.panel.init=Iніціалізація запуску
+# restart
+tlauncher.restart=Перезапуск
+tlauncher.restart.message=Зміни вступлять в силу після перезапуску! Запустити знову?
+# skin
+skin.notification.image.explanation=Іконка <img src="TlIcon" /> позначає те, що версія підтримує нашу систему скінів (Тільки при використанні "Акаунта TLauncher").
+skin.not.work.notification=<p><b> Ваш скін не буде доступний широкому! </b> <br> <br> Ви запускаєте версію гри без підтримки скінів TLauncher.org, але з нашим членством. У цій версії не будуть працювати наші скіни! <br> <br> Виберіть зі списку версію з іконкою <img src="%s">, як показано нижче - скіни почнуть працювати! <br> <br> <img src="%s" width="559" height="69"></p>
+skin.notification.up.title=Установи свій скін!
+skin.notification.common.message=Ви вибрали версію підтримує відображення вашого скіна. Для його установки, необхідно:<br>1) Пройти реєстрацію на сайті TLauncher.org.<br>2) Встановити скін в профілі.<br>3) В лаунчер встановити галочку біля "Акаунти", і використовуючи дані при реєстрації на сайті, додати "Аккаунт TLauncher".
+skin.notification.link.message=Повна інструкція! <a Href="https://tlauncher.org/ru/install-skins.html">Посилання!</a>
+skin.notification.title=Повідомлення
+skin.notification.state=Ніколи більше не відображати дане повідомлення
+skin.status.title=Підтвердження відключення
+skin.status.message=<b> Ви не будете бачити скіни всіх інших гравців на серверах! </b>\n\nВи впевнені, що хочете відключити використання системи скінів <a href="https://tlauncher.org">TLauncher.org</a>?
+skin.status.checkbox=Використовувати скіни TLauncher
+skin.checkbox.switch.on.title=Включення скінів
+skin.checkbox.switch.on.message=Система скінів <a href="https://tlauncher.org">TLauncher.org</a> активована! Тепер Ви зможете бачити скіни гравців на серверах, якщо хочете встановити свій - використовуйте акаунт <a href="https://tlauncher.org">TLauncher.org</a> з встановленим скіном.
+# Loginform
+loginform.checkbox.autologin=Автоматичний вхід
+loginform.checkbox.forceupdate=Оновити клієнт
+loginform.enter=Увійти в гру
+loginform.enter.install=Встановити
+loginform.checkbox.account=Акаунти
+loginform.enter.reinstall=Перевстановити
+loginform.enter.cancel=Відмінити
+loginform.cancel=Відмінити автологін (%0)...
+loginform.cancel-download=Зупинити Завантаження
+loginform.site=Відвідати наш сайт
+loginform.loading=Завантаження...
+loginform.button.refresh=Запит версії
+loginform.button.refresh-cancel=Відмінити
+loginform.button.folder=Відкрити папку
+loginform.button.feedback=Ми ВКонтакті
+loginform.button.settings=Настройки
+loginform.button.visit=Відвідати наш сайт
+loginform.button.settings.account=Менеджер аккаунтів
+loginform.button.settings.version=Управління версіями 
+loginform.button.settings.launcher=Налаштування
+loginform.helper.username=<html>1. Введіть ім'я<p style='margin-top:-3'>користувача (будь-яке)</p></html>
+loginform.helper.versions=2. Виберіть версію
+loginform.helper.play=<html>3. Натисніть кнопку<p style='margin-top:-3'>для початку гри</p></html>
+# Account
+account.list.remove=Видалити
+account.list.add=Додати
+account.config=Настройка акаунтів
+account.username=Ім'я користувача
+account.email=Електронна пошта/Ім'я користувача
+account.email.restrict=Електронна пошта
+account.auth.free=Без пароля
+account.auth.mojang=Авторизацiя на Mojang.com
+account.auth.tlauncher=Авторизацiя на TLauncher.org
+account.save=Зберегти аккаунт
+account.list=Доступні аккаунти
+account.empty=(немає аккаунтів)
+account.manage=Налаштувати аккаунти...
+account.creating=(новий аккаунт)
+account.protection.message.title=TLauncher Guard
+account.protection.message=<p align='center'> <b> Захисти свій аккаунт! </b> </p> <br> <p> TLauncher нагадує, що необхідно виконати наступні рекомендації, щоб захистити свій аккаунт: </p> <br> <p style='margin-left: 7px;'> - Не використовуйте в паролі тільки цифри. <br> - Не використовуйте один і той же пароль до аккаунту з ліцензією і авторизацією на серверах! <br> - Увімкніть секретні питання до аккаунту (на Mojang.com). <br> - Увімкніть двоетапну авторизацію до пошти від аккаунта. </p> <br> <p> Не виконання навіть одного пункту, може викликати загрозу вашого профілю з боку зловмисників! </p>
+account.message.show.again=Дякуємо. Я вже зробив це. Ніколи більше не відображати.
+account.not.proper.warn=Ви намагаєтеся увійти на ліцензійний сервер! <br> <br> Виберіть в списку ваш аккаунт <b> Mojang </b> або пройдіть авторизацію в лаунчер. Якщо у вас немає облікового запису, купити гру можна на сайті <a href='https://www.minecraft.net'> minecraft.net. </a>
+crash.2.monitor=Якщо у вас підключені два монітора до комп'ютера, вимкніть один, проблема через це.
+account.username.validation=Довжина никнейма повинна бути не більше 16 символів, а так само не повинна починатися з символу '-'
+# Versions
+versions.loading=Завантаження версій...
+versions.notfound.title=Помилка при запиті версій.
+versions.notfound=Не вдається отримати версії с серверів Minecraft. Можливі причини:\n- Погане підключення к мережі Інтернет\n- Брандмауер блокує підключення до Інтернету\n- Невірна дата / час\n\nСпробуйте змінити «Якість з'єднання» в опціях лаунчера.
+versions.notfound.tip=(не встановлено)
+version.refresh=Зачекайте...
+version.release=Версія
+version.snapshot=Снапшот
+version.old_beta=Бета
+version.old_alpha=Альфа
+version.latest.release=Останній реліз
+version.latest.snapshot=Останній снапшот
+version.latest.modified=Останній мод
+versions.found-update.title=Знайдено оновлення
+versions.found-update=Данна версія була оновлена на сервері. Настійно рекомендується відповісти «Так».\nЗверніть увагу, що будуть заново загружені усі бібліотеки.\nВи хочите оновити цю версію гри?
+versions.found-update.error.title=Помилка при відміні оновлення
+versions.found-update.error=Сталася при при перезаписі файла-дескріптора (.json): неможливо записати інформацію о відміненному оновленні, повідомлення буде показане заново при наступному запуску версії.
+versions.manage=Управління версіями...
+version.do.not.find=Чи не змогло знайти цю версію, спробуйте оновити версії в клієнті і спробувати знову.
+version.do.not.find.title=Помилка пошуку
+version.error.message.title=Помилка завантаження версії
+version.error.message=Сталася помилка під час завантаження файлів для гри, але гра запуститься, коли ви натиснете «ОК». Це може вплинути на звуки в грі і текстури або інші проблеми. Повинно завантажувати всі файли, тому пишіть на підтримку <a href='https://vk.com/tlauncher'> https://vk.com/tlauncher </a> з цього питання
+# Version manager
+version.manager.resolve.title=Запуск гри
+version.manager.resolve.message=Схоже, ви намагаєтеся запустити версію, до якої не встановлені всі необхідні бібліотеки. Увімкніть інтернет з'єднання для скачування.
+version.manager.list=<html><font style=\"color:D3D3D3;\">Налаштування/</font><font style=\"color:white;\">Управління версіями</font></html>
+version.manager.editor.select=Виберіть версію зі списку...
+version.manager.editor.multiselect=Обрано версій: %0
+version.manager.editor.label.select=Будь-ласка, оберіть версію зі списку зліва.
+version.manager.editor.label.download=Щоб редактувати версію, необхідно завантажити її.
+version.manager.editor.label.wise=Ви повинні чутко розуміти, що Ви редактуєте.
+version.manager.editor.label.downloading=Ця версія вже встановлюєтся...
+version.manager.editor.field.id=ID версії:
+version.manager.editor.field.type=Тип версии:
+version.manager.editor.field.releaseTime=Дата випуску:
+version.manager.editor.field.time=Дата оновлення:
+version.manager.editor.field.jvmArguments=JVM-аргументи:
+version.manager.editor.field.minecraftArguments=Minecraft-аргументи:
+version.manager.editor.field.mainClass=Головний клас:
+version.manager.editor.field.assets=Ресурси:
+version.manager.editor.field.source=Джерело:
+version.manager.editor.field.minimumLauncherVersion=Версія лаунчера:
+version.manager.editor.button.save=Зберегти версію
+version.manager.editor.button.reset=Скинути внесені зміни
+version.manager.editor.error.saving.title=Помилка при збереженні
+version.manager.editor.error.saving=Сталася помилка при збереженні обранної версії.
+version.manager.downloader.warning.title=Увага!
+version.manager.downloader.warning.force.single=Ви обрали версію %0, яка не потребує в оновленні. Продовжити?
+version.manager.downloader.warning.force.multiply=Ви обрали %0 версій, які не потребують в оновленні. Продовжити?
+version.manager.downloader.error.title=Сталася помилка!
+version.manager.downloader.error.local=Неможливо оновити версію %0, так як вона являється локальною.\nЯкщо Ви впевнені, що це помилка, заново оновіть список версій з сервера.
+version.manager.downloader.error.getting=Неможливо отримати інформацію про версію %0.
+version.manager.downloader.error.saving=Неможливо зберегти версію %0.
+version.manager.downloader.error.downloading=Неможливо завантажити версію %0.
+version.manager.downloader.info.title=Інформація
+version.manager.downloader.info.no-needed=Немає файлів для Завантаження.
+version.manager.downloader.menu.ordinary=Завантажити тільки відсутні файли
+version.manager.downloader.menu.force=Оновити версію (Force update)
+version.manager.refresher.menu.local=Оновити локальний список версій
+version.manager.refresher.menu.remote=Оновити список версій з сервера
+version.manager.delete.error.title=Помилка при видаленні
+version.manager.delete.error.single=Сталася помилка при видаленні версії.
+version.manager.delete.error.multiply=Сталися помилки при видаленні версій.
+version.manager.delete.menu.jar=Видалити тількі папку версії
+version.manager.delete.menu.libraries=Видалити разом зі зв'язанними библіотеками
+version.list.needsupdate=(доступне оновлення)
+# Loginform.errors
+auth.error.title=Помилка авторизаціїи
+auth.error.unknown=Сталася невідома помилка при спробі авторизуватися.
+auth.error.unreachable=Сервера Minecraft, можливо, недоступні. Якщо це не так, провірте подключення к Інтернету и Ваш брандмауер, який може блокувати TLauncher.
+auth.error.unparseable=Не вдалося розпізнати відповідь сервера.\nМожливо, в даний момент на ньому ведуться технічні роботи.
+auth.error.relogin=Невірний логін або пароль. Будь ласка, введіть логін і пароль ще раз.
+auth.error.restore.on.site.tlauncher=Якщо ви не можете авторизуватися кілька разів, то: <br> <br> - Перевірте авторизацію на сайті <a style='color:#1a75ff;' href='https://tlauncher.org'> TLauncher.org </a> (перед авторизацією натисніть кнопку 'Вийти', якщо авторизовані) <br> - Спробуйте відновити пароль через форму відновлення <a style='color:#1a75ff;' href='https://tlauncher.org/ru/lost/'> tlauncher.org/ru/lost/ </a>
+auth.error.restore.on.site.mojang=Якщо ви не можете авторизуватися кілька разів, то: <br> <br> - Перевірте авторизацію на сайті <a style='color:#1a75ff;' href='https://mojang.com'> Mojang.com </a> <br> - Спробуйте відновити пароль через форму відновлення <a style='color:#1a75ff;' href='https://account.mojang.com/password'> account.mojang.com/password </a>
+auth.error.authorization=Некоректні дані для авторизації. <br> При натисканні на 'ОК', ви будете направлені в 'Керування обліковими записами', де потрібно ввести пароль ще раз.
+auth.error.migrated=Цей користувач вже перейшов на аккаунти Mojang. Замість імені користувача введіть його E-mail.
+auth.error.internal=Сталася внутрішня помилка авторизаціє.
+auth.profiles.save-error.title=Помилка при збереженні профілів
+auth.profiles.save-error=Сталася помилка при збереженні профілей. Зв'яжіться з Розробником.
+auth.error.nopass.title=Неохідний пароль
+auth.error.nopass=Будь-ласка, введіть пароль від аккаунту!
+auth.error.nousername.title=Необхідне ім'я користувача
+auth.error.nousername=Будь-ласка, введіть ім'я користувача!
+auth.error.email.account=Будь ласка, введіть електронну пошту!
+auth.error.email.account.title=Aвторизація
+auth.tip.mojang=<span style="color:gray;"><b>Ліцензійні акаунти (Premium) </b><a style="color:#78d7ff;" href="https://Mojang.com">від Mojang.com</a> дають можливість заходити на ліцензійні сервера, використовувати офіційну систему скінів.</span>
+auth.tip.mojang.height=50
+auth.tip.tlauncher=<span style="color:gray;">Авторизація через акаунт  <a style="color:#78d7ff;" href="http://TLauncher.org"> TLauncher.org </a>. Дає можливо встановити власний скін, який видно на всіх серверах і Premium функції. Для авторизації пройдіть на сайт, створіть акаунт через форму реєстрації, вкажіть в даному вікні ваші дані для авторизації.</span>
+auth.tip.tlauncher.height=70
+forceupdate.local.title=Неможливо оновити локальну версію
+forceupdate.local=Дана версія є локальною, тому її оновленн неможливе.\nЯкщо ви не можете відновити необхідний файл, перезавантажте цю версію самостійно.
+forceupdate.question.title=Попередження про втрату даних
+forceupdate.question=Ви впевнені, що хочите скинути версію в початковий стан?\nБудуть оновлені всі бібліотеки та інші ресурси.
+account.empty.error.title=Список аккаунтів пустий
+account.empty.error=Щоб увійти в гру, створіть акаунт і виберіть його в списку, що випадає. Якщо хочете використовувати тільки свій нік без пароля, то приберіть галочку біля напису \"Акаунти\".
+# Loginform.info
+loginform.checkbox.autologin.tip.title=Повідомлення про автоматичний вхід
+loginform.checkbox.autologin.tip=При наступному вході лаунчер автоматично запустить Minecraft.\nДля миттєвого запуску гри по мережі Ви можете спеціальний аргумент, який задається в налаштуваннях лаунчера:
+loginform.checkbox.autologin.tip.arg=--server АДРЕС_СЕРВЕРА --port ПОРТ
+# Progressbar
+progressBar.init=Иніціалізація...
+progressBar.speed=MБ/s
+progressBar.completed=Файл %0 завантажений
+progressBar.downloading=Завантаження %0 файл(-ів)
+progressBar.downloading-one=Завантаження 1 файла / %1 MБ/с
+progressBar.remaining=Залишилося %0 файл(-ів) / %1 MБ/с
+# Launcher
+launcher.error.title=Сталася помилка
+launcher.error.unknown=Сталася невідома помилка
+launcher.error.noArgs=Помилка при запиті аргументів для запуску Minecraft.\r\nСпробуйте поставити галочку внизу "Оновити клієнт" і перевстановити версію.
+launcher.error.download-jar=Помилка при запиті виконуючих файлів з сервера. Провірте підключення.
+launcher.error.download-assets=Помилка при запиті ресурсів з сервера. Провірте підключення.
+launcher.error.save=Помилка при збереженні версії.
+launcher.error.unpack-natives=Сталася помилка при розпакуванні нативних бібліотек.\nВідзначте галочку «Оновити кліент», щоб завантажити їх заново.
+launcher.error.java-exec=Неможливо знайти виконуючий файл Java:
+launcher.error.folder-not-found=Неможливо знайти папку Minecraft:
+launcher.error.version-not-found=Неможливо знайти запускаемую версію Minecraft:
+launcher.error.account-invalid=Некоректне ім'я аккаунта:
+launcher.error.account-not-found=Неможливо знайти обраний аккаунт:
+launcher.error.start=Помилка під час запуску Java-машини. Спробуйте вказати в налаштуваннях TLauncher коректний шлях до Java або видаліть старий шлях до Java!
+launcher.error.download=При завантаженні файлів сталася помилка. Поширені причини:\n-Погане з'єднання з Інтернетом\n-Антивірус блокує підключення Java в цілому. Спробуйте відключити його на час.\n-Помилка перевірки сертифікату (при роботі з SSL). Можливі рішення:\n- - Налаштуйте правильно час на комп'ютері
+launcher.error.classpath=Не знайдений потрібний файл\nЯкщо Ви не можете його відновити, поставте прапорець «Оновити кліент»:
+launcher.error.version-info=Неможливо прийняти інформацію про версію!
+launcher.error.incompatible=Поточна версія TLauncher не зможе запустити цю версію Minecraft. Будь-ласка, обновіть TLauncher.
+launcher.error.delete-entries=Помилка при видаленні файлів з JAR-архіву версії.
+launcher.error.modpack.solutions=Не вдалося запустити Мод-пак. Швидше за все, проблема сталася через встановлені модів або ресурс-паків. (Несумісність з якимись модами або неякісні моди) <br> <br> Рекомендуємо відключити всі моди і активувати по одній штуці, щоб зрозуміти який викликає проблему. (Спробуйте встановити різні версії проблемного мода чи ресурс-пака) <br> <br> Для більш точного визначення, була викликана "Консоль розробника". Використовуйте наступні рекомендації по роботі з консоллю: <a href='https://tlauncher.org/ru/error-start-minecraft.html'> https://tlauncher.org/ru/error-start-minecraft.html </a>
+launcher.error.standard.version.solutions=Мінекрафт не запуститься через невідому помилки! Популярні вирішення проблеми: <br> <br>%0- Спробуйте встановити іншу версію Java. (Наприклад, Java 8 Update 45, попередньо видаливши встановлену) <br> - Спробуйте оновити драйвера відеокарти. <br> <br> Для більш точного визначення, була викликана "Консоль розробника". Використовуйте наступні рекомендації по роботі з консоллю: <a href='https://tlauncher.org/ru/error-start-minecraft.html'> https://tlauncher.org/ru/error-start-minecraft.html </a>
+launcher.error.standard.version.point.mod=Minecraft не запуститься через невідому помилки! Можливо, це сталося з вашими модами, спробуйте видалити або прочитати нижче<br> <br> Встановлено старі моди. Радимо зібрати вашу збірку за допомогою нашої мод-пак системи <a href='https://tlauncher.org/ru/news_26/modpack-system_5100.html'> посилання </a>. <br> <br> <b> як це допоможе! </b> <br> 1) Якщо гра у вас ламається (краш) з вашими модами, то вимкніть усі моди (натисніть на зелений квадратик, справо від встановленого мода) і запустіть лаунчер (щоб переконатися в працездатності порожній збірки ), далі активуйте (натисніть на сірий квадратик) по кілька штук або одному і запускайте гру, так зрозумієте в який момент виникає проблема. <br> 2) Робити бекапи ваших робочих збірок. <br> 3) Передати друзям ваші з вибірки. <br> <br> Для більш точного визначення, була викликана Використовуйте наступні рекомендації по роботі з консоллю: <a href='https://tlauncher.org/ru/error-start-minecraft.html'> https://tlauncher.org/ru/error-start-minecraft.html </a> <br> <br> Якщо нічого не допомогло, то %0
+launcher.error.standard.version.point.shaderpack=Minecraft не запуститься через невідому помилки! Можливо, це сталося з вашими шейдерамi, спробуйте видалити або прочитати нижче<br> <br> Встановлено старі шейдери. Радимо зібрати вашу збірку за допомогою нашої мод-пак системи <a href='https://tlauncher.org/ru/news_26/modpack-system_5100.html'> посилання </a>. <br> <br> <b> як це допоможе! </b> <br> 1) Якщо гра у вас ламається (краш) з вашими шейдерами, то вимкніть усі шейдери (натисніть на зелений квадратик, справо від встановленого шейдера) і запустіть лаунчер (щоб переконатися в працездатності порожній збірки ), далі активуйте (натисніть на сірий квадратик) по кілька штук або одному і запускайте гру, так зрозумієте в який момент виникає проблема. <br> 2) Робити бекапи ваших робочих збірок. <br> 3) Передати друз ьям ваші збірки. <br> <br> Для більш точного визначення, була викликана Використовуйте наступні рекомендації по роботі з консоллю: <a href='https://tlauncher.org/ru/error-start-minecraft.html'> https://tlauncher.org/ru/error-start-minecraft.html </a> <br> <br> Якщо нічого не допомогло, то %0
+launcher.error.standard.version.point.resourcepack=Minecraft не запуститься через невідому помилки! Можливо, це сталося з вашими ресурс-пакамi, спробуйте видалити або прочитати нижче<br> <br> Встановлено старі ресурс-паки. Радимо зібрати вашу збірку за допомогою нашої мод-пак системи <a href='https://tlauncher.org/ru/news_26/modpack-system_5100.html'> посилання </a>. <br> <br> <b> як це допоможе! </b> <br> 1) Якщо гра у вас ламається (краш) з вашими ресурс-паками, то вимкніть усі ресурс-паки (натисніть на зелений квадратик, справо від встановленого ресурс-пака) і запустіть лаунчер ( щоб переконатися в працездатності порожній збірки), далі активуйте (натисніть на сірий квадратик) по кілька штук або одному і запускайте гру, так зрозумієте в який момент виникає проблема. <br> 2) Робити бекапи ваших робочих збірок. <br> 3) Пе Реда друзям ваші збірки. <br> <br> Для більш точного визначення, була викликана Використовуйте наступні рекомендації по роботі з консоллю: <a href='https://tlauncher.org/ru/error-start-minecraft.html'> https://tlauncher.org/ru/error-start-minecraft.html </a> <br> <br> Якщо нічого не допомогло, то %0
+# Launcher steps
+launcher.step.collecting=Збір інформації про гру...
+launcher.step.comparing-assets=Перевірка ресурсів гри...
+launcher.step.downloading=Завантаження ресурсів гри...
+launcher.step.reconstructing-assets=Створення віртуальної папки...
+launcher.step.unpacking-natives=Розпакування бібліотек гри...
+launcher.step.deleting-entries=Зміна архівного файлу гри...
+launcher.step.constructing=Створення процесу гри...
+# Launcher warning
+launcher.warning.title=Попередження
+launcher.warning.incompatible.environment=Обрана версія Minecraft несумісна з вашим комп'ютером, але буде зроблена спроба її запуску.
+launcher.warning.incompatible.launcher=TLauncher несумісний з обраної версією Minecraft, але буде зроблена спроба її запуску.
+launcher.warning.assets=При завантаженні ресурсів сталася помилка. Це повідомлення знову буде показано після перезапуску лаунчера. Пам'ятайте, що не всі файли були завантажені.
+launcher.warning.assets.kaspersky=При завантаженні ресурсів сталася помилка. Вона пов'язана з тим, що антивірусне ПЗ від Лабораторії Касперського, встановлене на даному комп'ютері, блокує файли з серверів Mojang.\nЦе повідомлення знову буде показано після перезапуску лаунчер. Пам'ятайте, що не всі файли були завантажені.\nЩоб вирішити цю проблему, додайте в винятку Анти-банера наступний шлях:
+# Crashes
+crash.title=Сталася неочікувана помилка
+crash.unknown=Minecraft був аварійно закритий унаслідок невідомої помилки. Для визначення причин помилки була викликана Консоль розробника.
+crash.store.title=Зберігання краш-репортів
+crash.store=Ви хочете видалити файл краш-репорту?
+crash.store.success.title=Файл видалений!
+crash.store.success=Файл краш-репорту успішно видалено.
+crash.store.failed.title=Файл не був видалений!
+crash.store.failed=Файл краш-репорт не було видалено через помилки.
+crash.opengl=Minecraft був закритий унаслідок несумісності драйверів відеокарти. Вам необхідно скачати і встановити найновіші драйвера для відеокарти. Нижче описані способи як виправити <br> 1) Спочатку спробуйте 1 пункт <a href='https://ad.tlauncher.org/link/video-card-guide-ru'> Натисни тут </a>, потім решта по одному %s %s <br <br> Якщо ви спробувала всі пункти і у вас не запускається гра,%s
+crash.opengl.help=пишіть в нашу групу для допомоги по посиланню <a href='https://vk.com/tlauncher'> https://vk.com/tlauncher </a>
+crash.opengl.download.driver=скачати драйвер
+crash.opengl.install.gpu=Якщо не допоміг пункт вище, спробуйте самі скачати і встановити ваш драйвер для відеокарти з декількох сайтів по посиланню
+crash.opengl.install.cpu=Якщо не допоміг пункт вище, спробуйте самі скачати і встановити ваш драйвер для вбудованої в процеcсор відеокарти з декількох сайтів по посиланню
+crash.restart=Вам необхідно перезапустити лаунчер і спробувати знову запустити гру! <br> Можливо гра запуститься, але буде працювати повільно, подвисать через маленького фпс. <br> <br> <b> Якщо ваш комп'ютер старий або слабенький і у вас встановлена windows 10, то рекомендується встановити windows 7 замість windows 10, яка краще підходить для слабких або старий комп'ютерів. </b>
+crash.opengl.windows10.error=Ви можете спробувати встановити драйвера для відеокарти, якщо не допоможе, тоді ми радимо вам встановити операційну систему windows 7 замість windows 10, <b> це повинно допомогти! </b>
+click.me=Кликни на мене
+crash.invalid-modify=Minecraft був закритий унаслідок помилки, яка зазвичай виникає через некоректної установки модів. Переустановите їх і спробуйте ще раз.
+crash.meta-inf=Java не змогла завантажити класи Minecraft, так як виявила невідповідність у записах маніфесту. Видаліть папку META-INF / в JAR-файлі завантажуємої версії Minecraft і повторіть спробу.
+crash.missing-main=Java не змогла запустити Minecraft, оскільки не знайшла головний клас. Зазвичай це пов'язано з некоректною установкою модів. Якщо Ви не можете відновити JAR-файл версії Minecraft самостійно, натисніть «Оновити клієнт».
+crash.permgen-error=Minecraft був закритий унаслідок помилки виділення пам'яті в Java. \n- Спробуйте спочатку видалити: моди, шейдери, ресурс-паки і запускайте лаунчер, спостерігаючи чи є зміни, так як причина може бути в цьому. \n- Видаліть всі Java, встановіть стабільну версію з <a href='https://java-for-minecraft.com'> сайту </a>, якщо не допоможе встановіть найостаннішу Java <a href='https://www.java.com'> https://www.java.com </a>. \n- Спробуйте встановити в настройках лаунчер в 'Виділення пам'яті' різні значення, наприклад 1500 2500, 3500 мегабайт. \n \n Якщо це не допоможе і це відбувається часто, пишіть нам в групу <a href='https://vk.com/tlauncher'> https://vk.com/tlauncher </a>.
+crash.outofmemory=Minecraft був закритий через те, що він витратив всю виділену йому пам'ять. Спробуйте збільшити обсяг виділеної пам'яті за допомогою повзунка в налаштуваннях TLauncher.
+crash.outofmemory.32bit=\r\n\r\nУ вас встановлена ​​32 бітна система, але ваш процесор підтримує 64 бітну систему, радимо перевстановити з 32 бітної на 64 бітну операційну систему, це повинно допомогти виправити цю проблему. У вас встановлена ​​32 бітна система, але ваш процесор підтримує 64 бітну систему, радимо перевстановити з 32 бітної на 64 бітну операційну систему, це повинно допомогти виправити цю проблему.
+crash.old-videocard=Ваша відеокарта не підтримує версію OpenGL, яка використовується в даній версії Minecraft. Остання версія, яка підтримується Вашої відеокартою— це 1.7.2.
+crash.invalid-sys-username=Помилка викликана тим, що ім'я поточної облікового запису має неприпустимі символи, такі як «!», «?» І т.д. У налаштуваннях лаунчера в полі «Директорія» введіть шлях до папки, в дорозі якій немає неприпустимих символів.
+crash.old-ati-vdrivers=Ваша система використовує застарілі відеодрайвера, або сама відеокарта застаріла.\nУ кожному разі, спробуйте оновити драйвера з офіційного сайту <a href="http://amd.com/">AMD</a>.
+crash.java.unsupported.version=Для запуску поточної гри, вам необхідно встановити <br> новішу версію Java <a href='https://java.com'> https://java.com </a>
+crash.java.unsupported.java9=Версія гри не підтримує встановлену версію Java. <br> Використовуйте актуальну версію гри або встановіть старішу версію Java.
+crash.java.not.enough.memory=Ви встановили неробочий значення для оперативної пам'яті, натисніть "Да", щоб лаунчер скинув на дефолтний робоче значення і запускайте гру!
+crash.java.not.enough.memory.solve.title=Проблема з оперативною пам'яттю (RAM)
+crash.java.not.enough.memory.solve=Чи не змогло виділити необхідну кількість оперативної пам'яті (RAM), в вашому комп'ютері %s мегабайт оперативної пам'яті (RAM). Причини проблеми: <br> 1) Витік через модів. <br> 2) Слабенький комп'ютер. <br> 3) запущених багато інших програм. <br> 4) Проблема з визначенням всієї оперативної пам'яті.  %s <br> <br> Як виправляти: <br> 1) Вимкнути все програми, наприклад Браузер, все що можете. <br> 2) Спробуйте збільшити кількість оперативної пам'яті в настройках TLauncher. <br> 3) Спробуйте виконати цю інстуркції , якщо у вас не опредяет всю пам'ять <br> %s <br> 4) якщо не допоміг пункт 1 і 2, 3, то тоді можете проконсультуватися для покупки слушною і вставки оперативної пам'яті в комп'ютерному центрі. <br> <br> За додатковими питанням звертайтесь в <a style='color: #585858;' href='https://vk.me/tlauncher'> vk.me/tlauncher </a>
+crash.java.not.enough.memory.solve.additional.low.memory=<br> 5) У вас менше 1600 мегабайт оперативної пам'яті (RAM), рекомендоване значення близько 3000 мегабайт.
+crash.new.thread.problem=Запустіть цю версію ще раз, поки не пропаде це повідомлення (близько 1-7 спроб), TLauncher підбере відповідні налаштування для вашої системи (це може допомогти з запуском)!
+crash.run.version=Пробуйте ще раз запустити гру!
+crash.remove._java_options=Вам необхідно видалити цей параметр _java_options, вивчіть матеріал по посиланню нижче. <br><a href='https://tlauncher.org/en/java-options-problem.html'>https://tlauncher.org/en/java-options-problem.html</a>
+crash.vbo.vsync=Прочитайте цю інструкцію для виправлення <br> <a href='https://tlauncher.org/ru/ig9icd32-dll-error.html'> https://tlauncher.org/ru/ig9icd32-dll-error.html</a>
+crash.rerun.again=Спробуйте запустити гру знову!
+crash.reinstall.driver=Для виправлення вам необхідно спочатку видалити драйвер на відеокарту, потім встановити його знову.
+crash.proper.gpu=Якщо у вас не працює гра з версії 1.14, а інші версії молодше 1.14 працюють і у вас старий комп'ютер, значить ваша відеокарта не відповідає вимогам, тому для запуску 1.14 і вище, необхідно замінити стару відеокарту на більш сучасну.
+crash.switch.antivirus.system=Спробуйте вимкнути антивирусник і перезапустити лаунчер, якщо це не допоможе, можете спробувати видалити антивирусник і перевірити знову.
+crash.switch.antivirus.system.auto=Лаунчер запустить виправлення проблеми після закриття цього повідомлення (можливо буде потрібен доступ адміністратора, в цьому випадку дозвольте запуск від адміністратора). <br> Зачекайте секунд 20 і Перезапускайте комп'ютер, після перевірте усунулася чи проблема.
+crash.swap.file.increase=Вам необхідно самостійно іспрвіть цю проблему, для цього: <br> 1) Дізнайтеся скільки у вас виділено для swap пам'яті. <br> 2) Введіть в пошуковику інтернета'Ізменіть розмір swap пам'яті комп'ютера '. <br> 3) Якщо значення swap пам'яті 0 або маленьке, то встановіть в 3000 мегабайт.
+crash.gamepad=Можливо проблема через геймпада, вимкніть його від комп'ютера.
+crash.unrecognized.option=Ви додали в налаштування якусь опцію, вона створила проблему. Видаліть все, що ви можете розмістити фотографії настройах лаунчер.
+crash.safeip.delete=Якщо у вас встановлена програма 'SafeIp' або схожа, яка ховає ваш ип або змінює, то видаліть її, вона, цілком можливо, не дозволяє працювати Minecraft.
+crash.error87=Ім'я проблеми 'Loadlibrary failed with error 87 minecraft'. Ви можете пошукати в інтернеті, якщо нічого не допоможе, то тоді перевстановлення операційної системи, найпростіший спосіб виправлення.
+crash.reinstall.driver=Для исправления вам необходимо сначала удалить драйвер на видеокарту , потом установить его снова.
+# Settings
+settings.title=<html><font style=\"color:D3D3D3;\">Налаштування/</font><font style=\"color:white;\">Додатково</font></p></html>
+settings.warning=Змінюйте тільки якщо знаєте, що робите
+settings.restart=Буде застосовано при наступному запуску.
+settings.res.def=Розмір по стандарту: %0x%1
+settings.range=Число від %0 до %1
+settings.tab.minecraft=Запуск Minecraft
+settings.tab.tlauncher=Додатково
+settings.client.gamedir.label=Директорія:
+settings.client.gamedir.invalid=Введіть директоріюMinecraft!
+settings.client.gamedir.noaccess.title=Помилка при зміні директорії
+settings.client.gamedir.noaccess=Немає доступу до введеної директорії Minecraft!
+settings.client.gamedir.prompt=Шлях до папки, де зберігається Minecraft
+settings.client.resolution.label=Дозвіл:
+settings.client.resolution.width=Ширина (пікс.)
+settings.client.resolution.width.invalid=Неприпустима ширина!
+settings.client.resolution.height=Высота (пікс.)
+settings.client.resolution.height.invalid=Неприпустима висота!
+settings.client.resolution.fullscreen=Повноекранний режим
+settings.versions.label=Список версій:
+settings.versions.snapshot=Відображати снапшоти ("Snapshots")
+settings.versions.old_beta=Відображати Бета
+settings.versions.old_alpha=Відображати Альфа
+settings.versions.modified=Відображати модифікації
+settings.versions.sub.old_release=Відображати старі версії (до 1.5.2)
+settings.java.path.label=Шлях до Java:
+settings.java.path.invalid=Введіть шлях до Java!
+settings.java.path.prompt.win=Шлях до файлу "bin/javaw.exe"
+settings.java.path.prompt.other=Шлях до файлу "bin/java"
+settings.java.path.doesnotexist.title=Виконуваний файл не знайдено!
+settings.java.path.doesnotexist=Введений Вами шлях до виконуючого файлу Java некоректний.\nЯкщо Ви не знаєте, де знаходиться файл "bin/javaw.exe" або "bin/java", то просто очистіть рядок «Шлях Java».
+settings.java.args.label=Аргументи:
+settings.java.args.jvm=JVM-аргументи (напр. -XX:MaxPermSize=256M)
+settings.java.args.minecraft=Minecraft-аргументи (напр. --server 127.0.0.1)
+settings.java.memory.label=Виділення пам'яті:
+settings.java.memory.mb=Мб
+settings.java.memory.hint.ok=Рекомендоване значення
+settings.java.memory.hint.warning=Нерекомендоване значення
+settings.java.memory.hint.danger=Небезпечне значення!
+settings.clientres.label=Розмір лаунчера:
+settings.slide.list.label=Фоновий малюнок:
+settings.slide.list.prompt=Шлях до файлу зображення (JPG, PNG)
+settings.console.label=Консоль розробника:
+settings.console.global=Загальна
+settings.console.minecraft=Тільки в Minecraft
+settings.console.none=Відключена
+settings.console.fullcommand.label=Повна команда:
+settings.console.fullcommand=Показувати повну команду запуску Minecraft
+settings.console.fullcommand.warning.title=Попередження про крадіжку даних
+settings.console.fullcommand.warning=<b>Ви включили параметр «Повна команда»</b>.<br/>Якщо Ви використовуєте преміум-вхід, то намагайтеся не передавати вміст консолі по незахищеним каналам передачі даних (і тим більше зберігати де-небудь в публічному доступі) - у незашифрованому вигляді будуть записуватися токени, необхідні для преміум-входу.
+settings.extra.label=Додатково:
+settings.extra.check-username=Перевіряти ім'я користувача
+settings.connection.label=Якість з'єднання:
+settings.connection.good=Гарне
+settings.connection.normal=Нормальне
+settings.connection.bad=Погане
+settings.tlauncher.autologin.label=Автомат. вхід (в сек.):
+settings.tlauncher.autologin.parse=Нераспознанное число!
+settings.direction.label=Форма входу:
+settings.direction.top_left=Зверху ліворуч
+settings.direction.top=Зверху
+settings.direction.top_right=Зверху праворуч
+settings.direction.center_left=Ліворуч
+settings.direction.center=Посередині
+settings.direction.center_right=Праворуч
+settings.direction.bottom_left=Знизу ліворуч
+settings.direction.bottom=Снизу
+settings.direction.bottom_right=Снизу праворуч
+settings.launch-action.label=При запуску Minecraft:
+settings.launch-action.hide=Приховувати TLauncher
+settings.launch-action.exit=Закрывати TLauncher
+settings.launch-action.nothing=Нічого не робити
+settings.lang.label=Мова (Language):
+settings.tab.server=Створення серверу
+settings.default=По стандарту
+settings.default.warning.title=Попередження про втрату даних
+settings.default.warning=Ви впевнені, що хочете скинути налаштування в початковий стан?
+settings.save=Зберегти
+settings.back=Назад
+settings.popup.info=Поле: %0
+settings.popup.default=Скинути значення
+settings.reset.button=Повний скидання
+settings.reset.button.start=Скинути з перезапуском?
+settings.reset.message=Які дані необхідно скинути:
+settings.reset.question.confirm=Ви хочете видалити (скинути) деякі файли TLauncher, ви впевнені в цьому?
+settings.reset.question.confirm.title=
+settings.reset.remove.tlauncher.settings=Видалити налаштування TLauncher
+settings.reset.remove.versions=Видалити версії Minecraft (папка versions)
+settings.reset.remove.minecraft.folder=Видалити конфіги і бібліотеки Minecraft
+settings.reset.not.remove.maps=Увага! Ваші світи (saves) ні видалені!
+settings.guard=Захищати вас за допомогою TLauncher Guard
+settings.guard.title=Guard:
+settings.servers.recommendation=Додавати іноді сервера в Minecraft
+settings.servers.recommendation.title=Рекомендації:
+# Updater
+updater.required.found.title=Знайдено обов'язкове оновлення!
+updater.required.found.message=Увага! Знайдено оновлення, позначене як критичне.\nВи будете автоматично оновлені до версії %0.\nЯкщо програма не запуститься після оновлення, скачайте нову версію лаунчера самостійно.
+updater.found.cannotopen.title=Помилка при відкритті посилання
+updater.found.cannotopen=Сталася помилка при відкритті посилання. Будь ласка, перейдіть по ньому самостійно.
+updater.error.title=Помилка при запиті оновлення
+updater.error=Сталася помилка при запиті оновлення.
+updater.download-error=Сталася помилка при завантаженні оновлення. Ви хочете завантажити файл самостійно?
+updater.downloaded.title=Готовий до оновлення
+updater.downloaded=Лаунчер готовий до оновлення.\nодаток буде оновлено в автоматичному режимі, закрито і перезапущено.
+updater.save-error.title=Помилка при збереженні
+updater.save-error=При заміні файлу сталася помилка. Ви хочете завантажити файл самостійно?
+updater.notice=<p style='font-family: Calibri; color: #585858; margin-top: 11px; font-size: 11px;'> Якщо у вас є яка-небудь проблема, зв'яжіться з нами через <a style='color: #585858;' href='https://vk.me/tlauncher'>vk.me/tlauncher</a></p><p style='font-family: Calibri; color: #585858; margin-top: 5px; font-size: 11px;'> Отримати всю інформацію можна на офіційному сайті <a style='color: #585858;' href='https://tlauncher.org'>tlauncher.org </a></p>
+updater.access.denied.message=Помилка оновлення (відмовлено в доступі). Для успішного оновлення, \r\n перенесіть клієнт TLauncher на робочий стіл або запустіть з правами адміністратора. \r\n\r\n Або скачайте файл оновленого лаунчер вручну.
+updater.button.download.handle=Завантажити вручну
+updater.update.now=Оновити лаунчер
+# Notifier
+notifier.failed.title=Попередження про блокування з'єднання
+notifier.failed=TLauncher не зміг підключитися до Інтернету, щоб перевірити наявність оновлень.\nЯкщо Ви взагалі не підключені до нього, можете натиснути «ОК» і проігнорувати дане повідомлення.\nВ іншому випадку, перевірте Ваш брандмауер і антивірус: деякі з них блокують TLauncher без єдиного оповіщення.
+notifier.found.title=Знайдено оновлення
+notifier.found.question=Знайдена більш нова версія лаунчеру: %0. Ви хочете її завантажити?
+# Folder button
+folder.error.title=Помилка при відкритті папки
+folder.error=Неможливо відкрити папку Minecraft. Можливо, вона була видалена.\nСпробуйте знайти її самостійно:
+# Alert
+alert.error.title=Сталася помилка
+alert.error.message=Сталася неочікувана помилка
+alert.error.request=Ви можете відправити дані про помилку розробникам, тим допомогти в поліпшенні проекту.
+alert.error.send.log.unsuccess=Помилка була отримана під час передачі лог файлів.
+alert.error.send.log.success=Звіт про помилку був відправлений
+alert.error.send.log.title=Відправка лог файлів
+alert.error.linux.javafx=Виникла проблема при запуску лаунчер, через відсутність бібліотеки JavaFX у встановленій вами OpenJDK. Для вирішення встановіть цю бібліотеку через термінал: <br> <br> sudo apt-get install openjfx <br> <br> Після цього лаунчер нормально запуститься. Подробиці на сайті <a href='https://tlauncher.org/ru/openjdk-problem.html'> https://tlauncher.org/ru/openjdk-problem.html </a>
+alert.error.not.run=Відбулася критична помилка, зверніться за допомогою <br> <a href='https://vk.me/tlauncher'> https://vk.me/tlauncher </a> або поштою <b> support@tlauncher.org </b>
+alert.error.font.problem=Відбулася критична помилка, для її вирішення прочитайте даний матеріал і спробуйте виправити самостійно <br><a href='https://tlauncher.org/pageLang/check-disk.html'> https://tlauncher.org/pageLang/check-disk.html </a>
+alert.start.message=Прочитайте цю інструкцію для виправлення <a href='%0'> Натисни на мене </a>
+alert.block.ip=Ваш поточний ип був заблокований, щоб усунути проблему змініть ип. <br> <br> Способи: <br> 1) Вимкніть ваш модем і включайте модем через 10 хвилин, перевіряйте проблему. <br> 2) Cкопіруйте свій IP за допомогою <a href='2ip.ru'> https://2ip.ru </a> і напишіть нам на підтримку <a href = 'https: //vk.me/tlauncher '> https://vk.me/tlauncher </a> -' Розблокуйте мене (ВАШ IP) '. Там же, ви отримаєте консультацію по проблемі.
+# Text popup
+popup.cut=Вирізати
+popup.selectall=Виділити все
+popup.copy=Копіювати
+popup.paste=Вставити
+popup.copyall=Скопіюовати все
+# Console
+console=Консоль розробника
+console.kill=Закрити процес Minecraft
+console.close.cancel=Скасувати закриття вікна (%0)
+console.save.popup=Зберегти все в файл...
+console.save.exists=Файл вже існує, виберіть інше ім'я!
+console.save.error=Неможливо зберегти вміст консолі в файл!
+console.clear.popup=Очистити всі
+console.pastebin=Надіслати на Pastebin
+console.pastebin.sent.title=Успішно відправлено!
+console.pastebin.sent=Вміст консолі було відправлено на <a href=\"http://pastebin.com\">Pastebin.com</a>. Пам'ятайте, що воно за замовчуванням буде зберігатися всього 7 днів і доступно тільки по посиланню.\n\nВи хочете подивитися вміст консолі на сайті?
+console.pastebin.failed.title=Не вдається відправити
+console.pastebin.failed=Не вдається відправити вміст консолі на <a href=\"http://pastebin.com\">Pastebin.com</a>. Переконайтеся, що Ваше інтернет з'єднання доступно і не блокується антивірусним ПЗ або брандмауером.
+console.pastebin.invalid.title=Щось не так ...
+console.pastebin.invalid=Вміст консолі не може бути надіслано.
+# Link
+link.error.title=Помилка при переході
+link.error=Сталася помилка при спробі перейти за посиланням. Будь ласка, перейдіть по ньому самостійно:
+# Autoupdater
+autoupdater.preparing=Підготовка...
+autoupdater.requesting=Запит нової версії TLauncher...
+autoupdater.downloading=Установка TLauncher %0...
+autoupdater.opening=Відкриття TLauncher...
+autoupdater.buttons.hide=Приховати віконце оновлення
+autoupdater.buttons.skip=Пропустити оновлення
+# UI
+ui.ok=ОК
+ui.yes=Так
+ui.no=Ні
+ui.go.no.matter=Все одно зайти
+ui.cancel=Відміна
+ui.error.openfile.title=Помилка при відкритті файлу
+ui.error.openfile=Произошла ошибка при открытии файла. Консоль розробника містить додаткову інформацію. Спробуйте відкрити його самостійно:
+ui.error.openfolder.title=бпомилка при відкритті папки
+ui.error.openfolder=Сталася помилка при відкритті папки. Консоль розробника містить додаткову інформацію. Спробуйте відкрити її самостійно:
+ui.error.openlink.title=Помилка при відкритті посилання
+ui.error.openlink=Сталася помилка при відкритті посилання в зовнішньому браузері:
+# Explorer
+explorer.title=Вибрати файл
+explorer.title.save=Збереження файлу
+explorer.title.open=Відкриття файлу
+explorer.title.image=Вибрати зображення
+explorer.browse=Огляд...
+explorer.type.image=Тільки зображення(JPG, PNG)
+explorer.extension.jpeg=Зображення JPEG
+explorer.extension.jpg=Зображення JPEG
+explorer.extension.png=Зображення PNG
+explorer.extension.all=Всі файли
+explorer.extension.format=%0-файлів
+explorer.lookin=Каталог:
+explorer.input.filename=Им'я файла:
+explorer.input.foldername=Им'я папки:
+explorer.input.type=Тип файлу:
+explorer.button.up.tip=Вверх на один рівень
+explorer.button.up=Вверх
+explorer.button.newfolder.tip=Створити нову папку
+explorer.button.newfolder.name=Нова папка
+explorer.button.newfolder=Нова папка
+explorer.button.home.tip=Повернутися в папку по стандарту
+explorer.button.home=Додому
+explorer.button.list.tip=Список
+explorer.button.list=Список
+explorer.button.details.tip=Детальніше
+explorer.button.details=Детальніше
+explorer.button.view.tip=Вид
+explorer.button.view=Вид
+explorer.button.save.tip=Зберегти обраний файл
+explorer.button.save=Зберегти
+explorer.button.open.tip=Відкрити вибраний файл
+explorer.button.open=Відкрити
+explorer.button.cancel.tip=Вихід з діалогу вибору файлу
+explorer.button.cancel=Відміна
+explorer.button.update.tip=Оновити список директорій
+explorer.button.update=Оновити
+explorer.button.help.tip=Допомога
+explorer.button.help=Допомога
+explorer.button.open-dir.tip=Відкрити вибраний об'єкт
+explorer.button.open-dir=Відкрити
+explorer.context.refresh=Оновити
+explorer.context.newfolder=Створити нову папку
+explorer.view.list=Список
+explorer.view.list.name=Список файлів
+explorer.view.details=Таблиця
+explorer.view.details.name=Таблиця файлів
+explorer.details.file=Файл
+explorer.details.dir=Директорія
+explorer.error.newfolder=Помилка при створенні нової папки
+explorer.error.newfolder-nopath=Неможливість створити папку в цьому місці
+explorer.error.rename.title=Помилка при перейменуванні
+explorer.error.rename=Неможливо перейменувати файл.
+explorer.error.rename-exists=Неможливо перейменувати файл, так як файл з таким ім'ям вже існує.
+# Boot
+boot.loading=Завантаження TLauncher %0...
+# Ad
+ad.server.openwith=Виберіть версію для гри на «%0»:
+ad.server.openwith.current=Використовувати обрану Вами версію
+ad.server.error=Помилка при спробі запустити клієнт для підключення до сервера:
+# Browser
+browser.hyperlink.popup.open=Відкрити посилання
+browser.hyperlink.popup.copy=Скопіювати посилання
+browser.hyperlink.popup.show=Показати посилання
+browser.hyperlink.popup.show.alert.title=Посилання
+browser.hyperlink.popup.show.alert=
+browser.hyperlink.create.error.title=Помилка при створенні посилання
+browser.hyperlink.create.error=Неможливо створити посилання. Спробуйте відкрити його самі:
+# Message
+menu.chooseVersion=Виберіть версію для гри
+menu.version=Версія
+menu.start=Зайти на сервер
+menu.copy=Копіювати адресу сервера
+menu.copy.done=Сервер був успішно скопійований в буфер обміну
+menu.favorite=Додати у вибране
+menu.favorite.done=Сервер був успішно доданий в обране (У грі вкладка Мультіплеер)
+# Review
+review.button.send=Надіслати відгук
+review.button.close=Закрити
+review.button.addFile=Додати файли
+review.window.title=Від команди розробників
+review.label.wishesTitle=Відправка відкликання
+review.label.wishesDescription= Здравствуйте. Наша команда рада, що ви використовуєте наш Лаунчер.\n\r  Нам необхідно ваша думка, так як ми проводимо тестування нашої програми, і ваші зауваження буде цінні для нас.\n\r  Ви можете написати про баги і побажаннях в форму нижче, а також по можливості прикріпивши якомога більше інформації про вашу помилку: послідовність дій після яких спостерігається помилка, скріншоти, логи. А також можете ввести вашу поштову адресу, для можливості з вами зв'язатися.
+review.label.titleReview=Назва теми
+review.box.typeReviewBox=Жалоба,Благодарность,Баг,Недостаток,Пожелание
+review.description=Здесь пишіть свій відгук
+review.label.mail=Зворотній зв'язок
+review.label.titleReview=Тема
+review.chooser.addFile=Додати файл для відправки
+review.chooser.warning.maxFile=Максимальна кількість файлів для відправки не перевищує трьох
+review.chooser.warning.maxFile.title=Ліміт файлів
+review.chooser.warning.limitMaxSize=Файл великий, зменшіть файл або заархівуйте
+review.chooser.warning.limitMaxSize.title=Помилка додавання файлу
+review.message.sendFile=Дякуємо за допомогу! Завжди раді вашому відгуку
+review.message.fill=Заповніть обов'язкове поле:
+review.message.description=Відгук
+review.chooser.warning.incorrectFile=Заборонений формат для передачі
+review.message.email.invalid=Невірний адреса електронної пошти або Vk.com
+review.message.vk.mail=Електронна пошта чи Vk.com
+# Update
+launcher.update.title=Оновлення
+launcher.update.no.space=Звільніть місце на disk для поновлення при наступному запуску
+launcher.update.message.optional=<p style='font-family:Calibri; font-size:18;'>Знайдено нове оновлення!</p>
+launcher.update.message.mandatory=<p style='font-family:Calibri; font-size:18;'>Знайдено обов'язкове оновлення лаунчер.</p>
+launcher.update.updater.button=Оновити
+launcher.update.later.button=Нагадати пізніше
+# HelperEditorAccount
+auth.helper.help.username=1. Введіть пошту від аккаунта Mojang.net
+auth.helper.help.password=2. Введіть пароль від аккаунта
+auth.helper.help.button=3. Натисніть \"Зберегти аккаунт\"
+auth.helper.help.exit=4. Натисніть  \"Додому\", для виходу з меню
+auth.helper.help.account=0. Як додати Ліцензійний аккаунт Minecraft.
+# ServerPage
+server.page.title=Ігрові сервери
+server.page.online=онлайн
+server.page.back=Повернутися назад
+# Statistics
+statistics.settings.title=Аналітика:
+statistics.settings.checkbox.name=Відключити відправлення анонімної статистики
+# LogPage
+check.email.input=Електронна пошта невірна
+check.email.name=Ваша пошта (для зв'язку)
+log.email.error.description=Опишіть ваші дії до виникнення помилки
+log.email.error.issue=Опис помилки
+log.form.send=Відправити
+log.form.send.no=Не відправляти
+log.form.title=Відправлення звіту про помилку
+memory.notification.message=Звільніть мiсця на disk для коректної роботи програми (рекомендується близько 300 мегабайт).
+memory.notification.title=Брак вільного місця на диску
+system.32x.not.proper=<b> Це не обов'язково! Все зараз працює нормально! </b> <br> <br> Але краще виконати рекомендацію: <br>У вас зараз встановлена ​​Windows x32, хоча комп'ютер підтримує x64 розрядність. В даний момент, ви не зможете виділити більше 1.5 ГБ оперативної пам'яті грі і у вас можуть бути різні несправності. Рекомендуємо перевстановити систему на Windows x64.
+system.32x.not.proper.title=
+java.version.32x.not.proper=<b> Це не обов'язково! Все зараз працює нормально! </b> <br> <br> Але краще виконати рекомендацію: <br>У вас зараз встановлена ​​Windows x32, хоча комп'ютер підтримує x64 розрядність. В даний момент, ви не зможете виділити більше 1.5 ГБ оперативної пам'яті грі і у вас можуть бути різні несправності. Рекомендуємо перевстановити систему на Windows x64.
+java.version.32x.not.proper.title=
+error.jfxwebkit.title=Java проблема
+error.jfxwebkit.message=У вас виявлена проблема з поточною версією Java: "replace.message". Вам необхідно встановити старішу версію Java 8, наприклад update 101. <a href="https://tlauncher.org/ru/jfxwebkit-error.html"> Посилання на статтю з вирішенням проблеми. </a>
+server.error.code=код помилки:
+# modpack
+modpack.create.button=Створити
+modpack.search.text=Пошук
+modpack.button.mod=Моди
+modpack.button.modpack=Мод-паки
+modpack.button.resourcepack=Ресурс-паки
+modpack.button.map=Карти
+modpack.button.shaderpack=Шейдеры
+modpack.creation.modpack=Створення мод-пака
+modpack.creation.input.name=введіть ім'я
+modpack.creation.name=Назва:
+modpack.creation.version.game=Остання версія гри:
+modpack.creation.forge=Версія Forge:
+modpack.creation.save=Зберегти
+modpack.complete.site.button=Офіційний сайт
+modpack.complete.review.button=Огляд
+modpack.complete.picture.button=Зображення
+modpack.complete.versions.button=Версії
+modpack.complete.old.button=Стара версія
+modpack.complete.review.mod=Моди
+modpack.complete.review.map=Карти
+modpack.complete.review.resource=Ресурс-паки
+modpack.complete.back.button=Назад
+modpack.complete.next.button=Уперед
+modpack.complete.author=Автор:
+modpack.complete.picture.empty=Тут немає картинок!
+modpack.popup.delete=Видалити
+modpack.popup.open=Відкрити
+modpack.all=Все
+modpack.skyblock=SkyBlock
+modpack.fabric=Fabric
+modpack.storage=Сховище
+modpack.twitch_integration=Інтеграція з Twitch
+#mod
+modpack.adventure_rpg=RPG
+modpack.magic=Магія
+modpack.cosmetic=Декорації
+modpack.armor_weapons_tools=Військові
+modpack.technology=Технології
+modpack.mc_food=Їжа
+modpack.redstone=Redstone
+modpack.map_information=Світ
+modpack.library_api=API
+modpack.chita=Чити
+modpack.applied_energistics_2=Applied Energistics
+modpack.blood_magic=Blood Magic
+modpack.mc_addons=Аддони
+modpack.addons_buildcraft=Buildcraft
+modpack.addons_forestry=Forestry
+modpack.addons_industrialcraft=Industrial Craft
+modpack.addons_thaumcraft=Thaumcraft
+modpack.addons_thermalexpansion=Thermal Expansion
+modpack.addons_tinkers_construct=Tinker's Construct
+modpack.technology_energy=Енергія
+modpack.technology_item_fluid_energy_transport=Рідини
+modpack.technology_farming=Farming
+modpack.technology_genetics=Генетика
+modpack.technology_player_transport=Транспорт
+modpack.technology_processing=Виробництво
+modpack.world_gen=Світ
+modpack.world_biomes=Біоми
+modpack.world_dimensions=Вимірювання
+modpack.world_mobs=Моби
+modpack.world_ores_resources=Ресурси
+modpack.world_structures=Структури
+modpack.mc_miscellaneous=Різне
+modpack.server_utility=Серверні утиліти
+#map
+modpack.adventure=Пригода
+modpack.creation=Творчі
+modpack.game_map=Ігрові
+modpack.modded_world=С модами
+modpack.parkour=Паркур
+modpack.puzzle=Пазли
+modpack.survival=Виживання
+# Texture-pack
+modpack.sixteen_x=16x
+modpack.thirty_two_x=32x
+modpack.sixty_four_x=64x
+modpack.one_twenty_eight_x=128x
+modpack.two_fifty_six_x=256x
+modpack.five_twelve_x_and_beyond=512x і більше
+modpack.animated=Анімаційні
+modpack.medieval=Середньовічні
+modpack.mod_support=Підтримка модів
+modpack.modern=Сучасні
+modpack.photo_realistic=Реалістичні
+modpack.steampunk=Стимпанк
+modpack.traditional=Традиційні
+modpack.miscellaneous=Різне
+modpack.customization=Kастомізація
+modpack.shaderpacks=Шейдеры
+#shaderpack
+modpack.lucky_blocks=Лакi блоки
+modpack.guidebook=Путівник
+modpack.hardcore_questing_mode=Складні Квести
+modpack.configuration=Структурні
+modpack.scripts=Скриптові
+modpack.progression=Прогресивні
+modpack.crafttweaker=CraftTweaker
+modpack.recipes=Рецепти
+modpack.building_gadgets=Building Gadgets
+modpack.realistic=Реалістичні
+modpack.lag_less=Оптимізовані
+modpack.low_end=Прості
+modpack.psychedelic=Психоделічні
+#modpack
+modpack.adventure_and_rpg=RPG
+modpack.combat_pvp=PVP
+modpack.exploration=Дослідницькі
+modpack.extra_large=Великі
+modpack.ftb_official_pack=FTB
+modpack.hardcore=Хардкор
+modpack.map_based=НА основі карт
+modpack.mini_game=Міні ігри
+modpack.multiplayer=Мультіплеер
+modpack.quests=Квести
+modpack.sci_fi=Sci-Fi
+modpack.small_light=Легкі
+modpack.tech=Технологічні
+modpack.favorite=Вибрані
+modpack.populate_month=Популярні
+modpack.populate_all_time=Всього завантажень
+modpack.name=Назва
+modpack.date=По даті
+modpack.sort.label=Сортувати
+modpack.local.box.default=Чи не вибрано
+modpack.local.box.default.list=У вас немає Мод-паків
+modpack.search.textfield.map=Встановлені карти
+modpack.search.textfield.mod=Встановлені моди
+modpack.search.textfield.resourcepack=Встановлені ресурс-паки
+modpack.search.textfield.shaderpack=Встановлені шейдери
+modpack.filter.label=Категорії:
+modpack.remove.button=Видалити
+modpack.process.button=Виконується
+modpack.table.pack.element.name=Ім'я
+modpack.table.pack.element.author=Автор
+modpack.table.pack.element.operation=Операція
+modpack.table.pack.element.version=Версія гри
+modpack.table.denied.button=Обраний мод-пак і даний елемент несумісні! Виберіть доступний елемент для установки. Причини проблеми: версія гри або несумісність з іншими елементами мод-пака.
+modpack.version=Версія Forge:
+modpack.config.system.label=Система скінів TL:
+modpack.config.game.version=Версія гри:
+modpack.config.skin.use=Використовувати систему скінів TLauncher.org
+modpack.config.skin.install.message=Під цю версію гри відсутня підтримка системи скінів, рекомендуємо використовувати новішу версію гри:> 1.7.2.
+modpack.config.skin.install.message.title=
+modpack.config.title=Управління мод-паком
+modpack.config.memory.message=Змініть назву Мод-пака
+modpack.config.memory.message.title=
+modpack.config.memory.box=Використовувати налаштування лаунчер
+modpack.config.recommended=РЕКОМЕНДОВАНО
+modpack.config.high.level=<html> <div style='text-align: center;'>ДЛЯ ТЕКСТУР ВИСОКОЇ <br>РОЗДІЛЬНОЇ ДОЗВІЛ І ТП</div> <html>
+modpack.rename.exception=Чи не змогло переімновать! Можливі рішення: 1) осовободіте місце на диску. \r\n 2) Використовуйте інше ім'я. \r\n 3) Проблема з правами доступу. \r\n 4) Видаліть папку в версіях.
+modpack.rename.exception.title=Перейменування
+modpack.select.modpack=Спершу виберіть Мод-пак для установки.\r\n Для цього використовуйте список у верхньому лівому кутку. Якщо у вас немає Mод-паків, використовуйте кнопку "Створити".
+modpack.select.modpack.title=Установка в мод-пак
+modpack.backup.settings=Бекап модов
+modpack.backup.not.found=Чи не знайшли щось?
+modpack.backup.install.hand=Ручна установка
+modpack.not.found.elements=Не знайдено жодного елемента
+modpack.all.elements=Всі елементи
+modpack.added.request=Зробити запит на додавання файлу
+modpack.added.request.message=Ви можете повідомити про проблеми або побажання в нашу групу <a href='https://vk.com/tlauncher'> https://vk.com/tlauncher </a> <br> <br> Для додавання нового Мода, Мод-пака, Ресурс-пака, Карти вставте посилання з браузера в форму нижче і натисніть кнопку відправити.
+modpack.link.file=Посилання на файл
+modpack.error.send.unsuccess.title=Статус операції
+modpack.error.send.unsuccess=Помилка була отримана під час передачі даних.
+modpack.send.success.title=Статус операції
+modpack.send.success=Запит оброблений.
+modpack.description.download=Завантаження:
+modpack.description.date=Оновлене:
+modpack.request.update.title=Зробити запит на оновлення файлу
+modpack.element.old.question=Ви знайшли нову версію і хочете, щоб ми додали в список версій, скопіюйте посилання з браузера і вставте її в форму нижче, потім натисніть кнопку відправити! (Додавання відбувається протягом 1-7 діб)
+modpack.element.collapse=Згорнути
+modpack.open.folder=Відкрити папку мод-пака
+modpack.resave.exception=Помилка при зміна версії
+modpack.resave.exception.title=Зміна версії
+modpack.config.memory.title=Налаштування пам'яті:
+modpack.install.handle.title=Ручна установка
+modpack.install.handle.mod=Установка мода буде проведена в Мод-пак: modpack.name
+modpack.install.handle.resourcepack=Установка ресурс-пака буде проведена в Мод-пак: modpack.name
+modpack.install.handle.map=вставити картку буде проведена в Мод-пак: modpack.name
+modpack.install.handle.shaderpack=Установка шейдера буде проведена в Мод-пак: modpack.name
+modpack.install.handle.warning=<html> <div style='text-align: center;'> <font size="5"> Увага! </font> <br> Ми не гарантуємо роботоспроможність гри при ручній установці <br> неперевірених елементів в Мод-пак. <br> При краше гри, видаляйте дані моди! </div> </html>
+modpack.explorer.files=Вибрати файли
+modpack.install.files.error=<html> <div> Помилка під час аналізу. Можливі з причин: <br> 1) Елемент мод-пака з такою назвою є. <br> 2) Файл пошкоджений або невірний. </div> </html>
+modpack.install.files.error.title=
+modpack.install.files.installed=Встановлено.
+modpack.install.files.installed.title=
+modpack.install.process=Обробляє...
+modpack.backup.title=Управління бекапіть
+modpack.backup.files.do=Зроблено.
+modpack.backup.files.error=Помилка під час виконання операції.
+modpack.backup.button.backup=Створити бекап
+modpack.backup.button.restore=Відновити з резервної копії
+modpack.backup.down.button.restore=Відновити
+modpack.backup.info.label.0=Інформація:
+modpack.backup.modpack.box=Всі мод-паки
+modpack.backup.init=Створіть хоча б один модпак!
+modpack.backup.init.title=
+modpack.backup.button.do=Зробити
+modpack.backup.message.info=Для відображення інформації, виберіть файл бекапа.
+explorer.error.choose.file=Виберіть файл перед установкою
+explorer.error.choose.file.title=
+explorer.backup.file.chosen=Файл обраний
+modpack.million=млн.
+modpack.thousand=тис.
+modpack.remote.not.found=Неможливо відобразити цей елемент, причини: <br> Перевірте підключення до інтернету та оновити дані клієнта.<br> %0
+modpack.remote.not.found.title=
+modpack.internet.update=Для виконання цієї дії, перевірте підключення до інтернету та оновити дані клієнта(У правому нижньому кутку, кругла стрілочка).
+modpack.internet.update.title=
+account.premium.chita=Чити доступні тільки Premium користувачам, докладніше про нього можна дізнатися на офіційному сайті <a href='https://tlauncher.org/ru/premium.html'> https://tlauncher.org/ru/ premium.html </a>
+account.premium.not.available=Доступно тільки Premium користувачам, докладніше про нього можна дізнатися на офіційному сайті <br> <a href='https://tlauncher.org/ru/premium.html'> https://tlauncher.org/ru/premium.html < / a>
+modpack.left.empty.mod.label.mod=У вас немає модів!
+modpack.left.empty.mod.label.resourcepack=У вас немає ресурс-паків!
+modpack.left.empty.mod.label.map=У вас немає карт!
+modpack.left.empty.mod.label.shaderpack=У вас немає shaderpacks!
+modpack.left.fast.install=Швидше встановіть їх!
+modpack.left.element.remove.question=Видалення або вимкнення %0 може зламати залежні елементи:%1. \n Все одно видалити(вимкнення)? \n Версія може не запуститися!
+modpack.version.any=Будь-яка версія
+modpack.criteria.not.found.resourcepack=Не знайдено ресурс-паків по вашим критеріям!
+modpack.criteria.not.found.mod=Не знайдено модів по вашим критеріям!
+modpack.criteria.not.found.map=Не знайдено карт по вашим критеріям!
+modpack.criteria.not.found.modpack=Не знайдено мод-паків по вашим критеріям!
+modpack.criteria.not.found.shaderpack=Чи не знайдено шейдеров по вашим критеріям!
+modpack.search.without.modpack=<br> Щоб шукати без прив'язки до версії мод-пака, виставте в списку мод-паки: '%0'.
+modpack.backup.all.elements.mod=Всі моди!
+modpack.backup.all.elements.map=Всі карти!
+modpack.backup.all.elements.resourcepack=Всі ресурс-паки!
+modpack.backup.all.elements.shaderpack=Всі шейдери!
+modpack.table.empty.mod=В даному мод-паку немає модів!
+modpack.table.empty.map=В даному мод-паку немає карт!
+modpack.table.empty.resourcepack=В даному мод-паку немає ресурс-паків!
+modpack.table.empty.shaderpack=В даному мод-паку немає шейдеров!
+modpack.try.later=Спробуйте пізніше виконати цю дію, він перевантажений або недоступний.
+modpack.map.same.folder=Це карта не сумісна зі старою картою (вже встановленої). \r\n1) Зробіть бекап або скопіюйте стару версію карти, щоб ви могли відновити \r\n2) Видаліть стару версію карти \r\n3) Спробуйте встановити знову дану карту
+modpack.map.same.folder.title=
+block.doctor.web=If you have Dr.Web , you have blocked correct work Minecraft and launcher, you should do next steps by yourself to fix it:<br>Open Dr.Web and open in it 'Exclusions', further open 'Websites' and add next sites <br>tlauncher.org<br>tlrepo.com<br>after it restart launcher, it must help you.

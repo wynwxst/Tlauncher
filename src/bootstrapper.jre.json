@@ -1,0 +1,60 @@
+{
+  "config": {
+    "LINUX": {
+      "x64": {
+        "javaFolder": "jre1.8.0_51",
+        "url": [
+          "http://res.tlauncher.org/b/client/jre/linux/jre-8u51-linux-x64.zip",
+          "http://res.tlauncher.org/unb/client/jre/linux/jre-8u51-linux-x64.zip",
+          "https://securerepository.net/update/downloads/jre/linux/jre-8u51-linux-x64.zip"
+        ],
+        "shaCode": "388e5b738030308076086ca4ece44e209ea2fa6c",
+        "storagePath": "jre-8u51-linux-x64.zip"
+      },
+      "x32": {
+        "javaFolder": "jre1.8.0_51",
+        "url": [
+          "http://res.tlauncher.org/b/client/jre/linux/jre-8u51-linux-i586.zip",
+          "http://res.tlauncher.org/unb/client/jre/linux/jre-8u51-linux-i586.zip",
+          "https://securerepository.net/update/downloads/jre/linux/jre-8u51-linux-i586.zip"
+        ],
+        "shaCode": "1d1e4fdac28a4cb9aa91bad61ce1acd2c7e104eb",
+        "storagePath": "jre-8u51-linux-i586.zip"
+      }
+    },
+    "OSX": {
+      "x64": {
+        "javaFolder": "jdk1.8.0_202.jdk",
+        "url": [
+          "http://res.tlauncher.org/b/client/jre/mac/jdk1.8.0_202.jdk.zip",
+          "http://res.tlauncher.org/unb/client/jre/mac/jdk1.8.0_202.jdk.zip",
+          "https://securerepository.net/update/downloads/jre/mac/jdk1.8.0_202.jdk.zip"
+        ],
+        "shaCode": "c80d290b095fe7c4929a1d792d36c64f220def96",
+        "storagePath": "jdk1.8.0_202.jdk.zip"
+      }
+    },
+    "WINDOWS": {
+      "x64": {
+        "javaFolder": "jre1.8.0_51",
+        "url": [
+          "http://res.tlauncher.org/b/client/jre/windows/jre-8u51-windows-x64.zip",
+          "http://res.tlauncher.org/unb/client/jre/windows/jre-8u51-windows-x64.zip",
+          "https://securerepository.net/update/downloads/jre/windows/jre-8u51-windows-x64.zip"
+        ],
+        "shaCode": "76287a3c1c457160ba2fd90c2eac684ff49a5fbf",
+        "storagePath": "jre-8u51-windows-x64.zip"
+      },
+      "x32": {
+        "javaFolder": "jre1.8.0_51",
+        "url": [
+          "http://res.tlauncher.org/b/client/jre/windows/jre-8u51-windows-i586.zip",
+          "http://res.tlauncher.org/unb/client/jre/windows/jre-8u51-windows-i586.zip",
+          "https://securerepository.net/update/downloads/jre/windows/jre-8u51-windows-i586.zip"
+        ],
+        "shaCode": "273a7aea62e4298b9241aa57c20a716abbbfaee5",
+        "storagePath": "jre-8u51-windows-i586.zip"
+      }
+    }
+  }
+}

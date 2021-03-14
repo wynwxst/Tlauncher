@@ -1,0 +1,808 @@
+# launcher progress
+progress.bar.panel.file.remained=Stânga:
+progress.bar.panel.file=fișier(e), dimensiune totală
+progress.bar.panel.speed=Viteză
+progress.bar.panel.speed.unity.MB=MB/s
+progress.bar.panel.speed.unity.KB=KB/s
+progress.bar.panel.remaining.time=timp aproximativ
+progress.bar.panel.remaining.time.minutes=min.
+progress.bar.panel.remaining.time.less.than.minute=mai putin de un minut
+progress.bar.panel.size=MB
+progress.bar.panel.init=Run iniţializarea
+# restart
+tlauncher.restart=Reîncepe
+tlauncher.restart.message=Modificările vor intra în vigoare după o repornire! Repornească?
+# skin
+skin.notification.image.explanation=Pictograma <img src="TlIcon" /> indică faptul că versiunea sistemului suporta skin-uri noastre (numai atunci când se utilizează "Cont TLauncher").
+skin.not.work.notification=<p> <b> Pielea ta nu va fi afișată! </b> <br> <br> Puteți executa versiunea jocului fără suportul skin-urilor TLauncher.org, dar cu contul nostru. În această versiune, pielea noastră nu va funcționa! <br> <br> Selectați din listă versiunea cu pictograma <img src = "%s">, după cum se arată mai jos - piei vor începe să funcționeze! <br> <br> <img src = "%s" width = "559" height = "69"> </p>
+skin.notification.up.title=Set pielea ta!
+skin.notification.common.message=Ați ales versiunea acceptă afișarea pielii. Pentru al instala, trebuie să:<br>1) să fie înregistrate pe site-ul TLauncher.org.<br>2) Setați profilul de piele.<br>3) Lansator pentru a stabili o căpușă lângă "Conturi", și folosind datele de la înregistrarea pe site-ul, adăugați "Cont TLauncher".
+skin.notification.link.message=Instrucțiuni complete! <a Href="https://tlauncher.org/en/install-skins.html">Link!</a>
+skin.notification.title=Anunț
+skin.notification.state=Nu afișați această notificare
+skin.status.title=Confirmă off
+skin.status.message=<b> Nu vei vedea pieile tuturor celorlalți jucători de pe serverele! </b>\n\n Sigur doriți să dezactivați <a href="https://tlauncher.org/en/">TLauncher.org</a> sistem de skin-uri?
+skin.status.checkbox=Utilizați piei TLauncher
+skin.checkbox.switch.on.title=Activaţi piei
+skin.checkbox.switch.on.message=Piei sistem <a href="https://tlauncher.org/en/">TLauncher.org</a> activat! Acum puteți vedea piei de jucători de pe server, dacă doriți să instalați propriul - utilizați <a href="https://tlauncher.org/en/">TLauncher.org</a> contul stabilit cu pachetul de piele.
+# Loginform
+loginform.checkbox.autologin=Întrarea automata
+loginform.checkbox.forceupdate=Actualizarea clientului
+loginform.checkbox.account=Conturile
+loginform.enter=A întra in joacă
+loginform.enter.install=Înstalaţi
+loginform.enter.reinstall=Reînstalaţi
+loginform.enter.cancel=Anulați
+loginform.cancel=Anulaţi autologinul (%0)…
+loginform.cancel-download=Opriţi încarcarea
+loginform.site=Vizitaţi siteul nostru
+loginform.loading=Încărcarea…
+loginform.button.refresh=Cererea versiunelor
+loginform.button.refresh-cancel=Anularea
+loginform.button.folder=Deschideți dosarul
+loginform.button.feedback=Feedback-ul
+loginform.button.settings=Setările
+loginform.button.visit=Vizitaţi siteul nostru
+loginform.button.settings.account=Managerul conturilor
+loginform.button.settings.version=Conducera versiunelor
+loginform.button.settings.launcher=Setări
+loginform.helper.username=<html>1. Introduceți numele<p style='margin-top:-3'>utilizator (orice)</p></html>
+loginform.helper.versions=2. Selectați versiunea
+loginform.helper.play=<html>3. Apăsați<p style='margin-top:-3'>pentru a începe jocul</p></html>
+# Account
+account.list.remove=Elimina
+account.list.add=Adăugaţi
+account.config=Setări cont
+account.username=Numele utilizatorului
+account.email=Poşta electronică/Numele utilizatorului
+account.email.restrict=Poşta electronică
+account.auth.free=Fără parolă
+account.auth.mojang=Log on Mojang.com
+account.auth.tlauncher=Log on TLauncher.org
+account.save=Salvați de conectare
+account.list=Conturi disponibile
+account.empty=(nu sunt conturi)
+account.manage=Regularea contului…
+account.creating=(cont nou)
+account.protection.message.title=TLauncher Guard
+account.protection.message = <p align = 'center'> <b> Protejați-vă contul! </p> <p> TLauncher vă reamintește să respectați aceste instrucțiuni pentru a vă proteja contul: / p> <br> <p style = 'margin-left: 7px;'> - Nu folosiți doar parolele în parolă <br> <br> - Nu folosiți aceeași parolă pentru cont cu licență și autorizație pe servere! - Puneți întrebări secrete în contul dvs. (pe Mojang.com). <br> - Activați autentificarea în două etape în contul de e-mail. </p> <br> <p> În cazul în care nu efectuați nici un singur articol, puteți provoca o amenințare la adresa atacatorilor! </p>
+account.message.show.again=Mulțumesc. Am făcut-o deja. Nu arăta mai mult.
+account.not.proper.warn=Încercați să vă conectați la serverul licențiat! <br> <br> Selectați contul dvs. <b> Mojang </b> din listă sau conectați-vă la lansator. Dacă nu aveți un cont, puteți cumpăra jocul de pe site-ul <a href='https://www.minecraft.net'> minecraft.net. </a>
+crash.2.monitor=Dacă aveți două monitoare conectate la computer, deconectați unul, problema este din acest motiv.
+account.username.validation=Lungimea poreclului nu trebuie să depășească 16 caractere și, de asemenea, nu trebuie să înceapă cu caracterul '-'
+# Versions
+versions.loading=Încarcarea versiunii…
+versions.notfound.title=Eroare la cererea versiunilor.
+versions.notfound=Nu se poate obține o versiune de pe serverul Minecraft. Soluții posibile: \n- Verificați conexiunea la Internet \n- Verificați setările proxy ale sistemului în cazul în care vă conectați la Internet prin el \ n- Verificați setările antivirus : încercați să-l deactivați în timp jocului, pentru a confirma temerile \n- Dacă nu aveți Internet, puteți să nu acordați atenție la acest mesaj.\ n\nAceastă este cel mai probabil, o problemă locală, astfel încât de câteva ori, verificați totul înainte de a merge pentru a contacta cu cineva.
+versions.notfound.tip=(nu a fost găsit)
+version.refresh=Aşteptaţi…
+version.release=Versiune
+version.snapshot=Snapșot
+version.old_beta=Beta
+version.old_alpha=Alfa
+version.latest.release=Versiunea nouă
+version.latest.snapshot=Cel mai nou Snapșot
+version.latest.modified=Ultimul mod
+versions.found-update.title=Este găsită actualizarea
+versions.found-update=Această versiune a fost actualizată pe server. Este recomandat să se răspundă "Da". \n Atrageți atenția, că va fi reîncărcată toate bibliotecile. \n Doriți să actualizați această versiune a jocului?
+versions.found-update.error.title=Eroare la anularea actualizării
+versions.found-update.error=A apărut o eroare în timpul rescrierii descriptorului de fișier (.json): e imposibil de înregistrat informație despre actualizarea anulată, mesajul va fi afișat din nou atunci când se va porni versiunea următoare.
+versions.manage=Conducerea versiunelor...
+version.do.not.find=Nu s-a putut găsi această versiune, încercați să actualizați versiunea dvs. de client și încercați din nou.
+version.do.not.find.title=Eroare de căutare
+version.error.message.title=Eroare la descărcarea versiunii
+version.error.message=A apărut o eroare la încărcarea fișierelor pentru joc, dar jocul va începe când faceți clic pe OK. Acest lucru poate afecta sunetele și texturile din joc sau alte probleme. Ar trebui să descărcați toate fișierele, așa că scrieți pentru a susține <a href='https://vk.com/tlauncher'> https://vk.com/tlauncher </a> pe această problemă
+# Version manager
+version.manager.resolve.title=Începerea jocului
+version.manager.resolve.message=Se pare ca încercați să rulați versiunea la care sunt instalate nu toate bibliotecile necesare. Activați conexiunea la internet pentru a descărca.
+version.manager.list=<html><font style=\"color:D3D3D3;\">Cadru/</font><font style=\"color:white;\">Versionare</font></html>
+version.manager.editor.select=Alegeţi versiunea dsin listă...
+version.manager.editor.multiselect=Sunt alese versiuni: %0
+version.manager.editor.label.select=Vă rugăm să selectați versiunea listei de pe partea stângă.
+version.manager.editor.label.download=Pentre editația versiunii, trebuie să o încărcați.
+version.manager.editor.label.wise=Trebuie să înțelegeți clar, ce editați.
+version.manager.editor.label.downloading=Această versiune deacum se înstalează...
+version.manager.editor.field.id=ID versiuni
+version.manager.editor.field.type=Tipul versiunnelor
+version.manager.editor.field.releaseTime=Data lansării:
+version.manager.editor.field.time=Data actualizării:
+version.manager.editor.field.jvmArguments=JVM-argumente:
+version.manager.editor.field.minecraftArguments=Minecraft-argumente:
+version.manager.editor.field.mainClass=Clasa principală
+version.manager.editor.field.assets=Resursele
+version.manager.editor.field.source=Sursa:
+version.manager.editor.field.minimumLauncherVersion=Versiunea lansatorului:
+version.manager.editor.button.save=Reţineţi versiunea
+version.manager.editor.button.reset=Reduceți modificările efectuate
+version.manager.editor.error.saving.title=Eroare în timpul reținerii
+version.manager.editor.error.saving=S-a întîmplat o eroare în timpul reținerii versiunii selectate.
+version.manager.downloader.warning.title=Atenţie!
+version.manager.downloader.warning.force.single=Aţi ales o versiune %0, care nu are nevoie de actualizare. Continuaţi?
+version.manager.downloader.warning.force.multiply=Aţi ales o versiune %0, care nu are nevoie de actualizare. Continuaţi?
+version.manager.downloader.error.title=S-a întîmplat eroare!
+version.manager.downloader.error.local=E imposibil de actualizat versiunea%0, pentru că este locală. \nDacă credeți că este vorba despre o eroare, reactualizați lista versiunilor de pe server din nou.
+version.manager.downloader.error.getting=Imposibil de obținut informație despre versiune %0.
+version.manager.downloader.error.saving=Imposibil de reținut versiunea %0.
+version.manager.downloader.error.downloading=Imposibil de încărcat versiunea %0.
+version.manager.downloader.info.title=Informație
+version.manager.downloader.info.no-needed=Nu sunt fișiere pentru încărcare.
+version.manager.downloader.menu.ordinary=Încărcați numai fișierele care lipsesc
+version.manager.downloader.menu.force=Actualizați versiunea (Force update)
+version.manager.refresher.menu.local=Actualizarea listei locale a versiunilor
+version.manager.refresher.menu.remote=Actualizarea listei versiunelor de pe server
+version.manager.delete.error.title=Eroare la ștergere
+version.manager.delete.error.single=S-a întîmplat eroare la ștergerea versiunii.
+version.manager.delete.error.multiply=S-au întîmplat eroări la ștergerea versiunilor.
+version.manager.delete.menu.jar=Ștergeți numai dosarul versiunilor
+version.manager.delete.menu.libraries=Ștergeți împreună cu bibliotecile legate
+version.list.needsupdate=(e disponibilă actualizarea)
+# Loginform.errors
+auth.error.title=Eroare de autorizare
+auth.error.unknown=S-a întîmlat o eroare necunoscută la încercarea autorizării.
+auth.error.unreachable=Server de autorizare poate fi indisponibil.\n Vă rugăm să verificați conexiunea la internet și încercați să dezactivați antivirus.
+auth.error.unparseable=Nu s-a primit de recunscut răspunsul de la server. \nPosibil că, în acest moment pe el se efectuează lucrări de inginerie.
+auth.error.relogin=Nume de utilizator sau parolă nevalidă. Introduceți din nou numele de utilizator și parola.
+auth.error.restore.on.site.tlauncher=Dacă nu vă puteți conecta de mai multe ori, atunci: <br> <br> - Verificați autorizarea pe site <a style = 'color:#1a75ff;' href = 'https://tlauncher.org'> TLauncher.org </a>(înainte de a vă conecta, faceți clic pe butonul 'Deconectați-vă' dacă sunteți conectat)  <br> - Încercați să vă recuperați parola prin formularul de recuperare <a style = 'color:#1a75ff;' href = 'https://tlauncher.org/en/lost/'> TLauncher.org/en/lost/ </a>
+auth.error.restore.on.site.mojang=Dacă nu vă puteți conecta de mai multe ori, atunci: <br> <br> - Verificați autorizarea pe site <a style = 'color:#1a75ff;' href = 'https://mojang.com'> Mojang.com </a> <br> - Încercați să vă recuperați parola prin formularul de recuperare <a style = 'color:#1a75ff;' href = 'https://account.mojang.com/password'> account.mojang.com/password </a>
+auth.error.authorization=Date incorecte pentru autorizare. <br> Făcând clic pe 'OK', veți fi direcționat către 'Gestionarea contului', unde trebuie să introduceți din nou parola.
+auth.error.migrated=Acest utilizator deacum a trecut pe contul Mojang. În loc de numele al utilizatorului întroduceți E-mail.
+auth.error.internal=S-a întîmplat o eroare înterioară la actualizare.
+auth.profiles.save-error.title=Eroare la reținerea profilului
+auth.profiles.save-error=S-a întîmplat eroare la reținerea profilului. Faceți legătură cu dezvoltatorii.
+auth.error.nopass.title=E nevoie de parolă
+auth.error.nopass=Vă rugăm întroduceți parola de la cont!
+auth.error.nousername.title=E nevoie de numeleutilizatorului
+auth.error.nousername=Vă rugăm întroduceți numele utilizatorului!
+auth.error.email.account=Vă rugăm întroduceți poșta electronică!
+auth.error.email.account.title=Autorizarea
+auth.tip.mojang=<span style="color:gray;">Conturile de licențiere (Premium) </b><a style="color:#78d7ff;" href="https://Mojang.com">de la Mojang.com</a> oferă o oportunitate de a întra pe serverul de licență,a utiliza sistemul oficiale de skin. </span>
+auth.tip.mojang.height=50
+auth.tip.tlauncher=<span style="color:gray;">Autentificare prin contul dvs.  <a style="color:#78d7ff;"  href="http://TLauncher.org"> TLauncher.org </a>. Este oferit posibilitatea de a seta propria piele, care este vizibil pe toate serverele și caracteristicile Premium. Pentru a conecta merge la site-ul, creați un cont prin intermediul formularului de înregistrare, introduceți în această casetă datele dvs. de autorizare.</span>
+auth.tip.tlauncher.height=70
+forceupdate.local.title=E imposibil de actualizat versiunealocală
+forceupdate.local=Această versiune este locală, deaceea nu poate fi actualizată. \nDacă nu puteți restaura fișierul solicitat, reinstalați versiunea singuri.
+forceupdate.question.title=Fvertismenr despre pierdere de date
+forceupdate.question=Sunteți sigur că doriți să resetați versiunea în starea inițială? \nToate bibliotecile și alte resurse vor fi actualizate.
+account.empty.error.title=Lista conturilor e goală
+account.empty.error=Pentru a intra în joc, creați un cont și selectați-l din lista verticală. Dacă doriți doar să utilizați porecla fără parolă, apoi eliminați bifa de lângă inscripția \"Conturi\".
+# Loginform.info
+loginform.checkbox.autologin.tip.title=despre intrarea automată
+loginform.checkbox.autologin.tip=Data viitoare când executați lansatorul automat Minecraft. \n Pentru a lansa imediat un joc de rețea, puteți utiliza un argument special, care este setat în setările lansatorului:
+loginform.checkbox.autologin.tip.arg=--server ADRESA_SERVERULUI --port PORT server
+# Progressbar
+progressBar.init=Inițializarea ...
+progressBar.speed=MB/s
+progressBar.completed=Fisierul %0 incarcat$
+progressBar.downloading=Încărcarea %0 fișier (-e)
+progressBar.downloading-one=Încărcarea 1 fișier / %1 MB/s
+progressBar.remaining=A rămas %0 fișier(-e) / %1 MB/s
+# Launcher
+launcher.error.title=S-a întîmplat eroare
+launcher.error.unknown=S-a întîmplat o eroare necunoscută
+launcher.error.noArgs=Eroare la cererea argumentelor pentru lansarea Minecraft.\r\nTente marcar a caixa na parte inferior do "Atualizar cliente" e reinstalar a versão.
+launcher.error.download-jar=Eroare la cererea fișierelor executabile de pe server. Verificați conectarea.
+launcher.error.download-assets=Eroare la cererea resurselor de pe server. Verificați conectarea.
+launcher.error.save=Eroare la reținerea versiunii.
+launcher.error.unpack-natives=A apărut o eroare în timp de despachetare a bibliotecilor native. \nMarcați bifa "actualizați clientul" pentru a le încărca din nou.
+launcher.error.java-exec=Imposibil de găsit fișierul executiv Java:
+launcher.error.folder-not-found=Imposibil de găsit dosarul Minecraft:
+launcher.error.version-not-found=Imposibil de găsit versiunea lansatoare Minecraft:
+launcher.error.account-invalid=Numele contului incorect:
+launcher.error.account-not-found=Imposibil de găsit contul selectat:
+launcher.error.start=A apărut o eroare la pornirea mașinii Java. Încercați să specificați calea corectă de Java în setările TLauncher sau să ștergeți calea Java veche!
+launcher.error.download=A apărut o eroare la încărcarea fișierelor. Motive frecvente:\n-Conexiune la internet instabilă\n-Anti-Virus blochează conexiunile Java în general. Încercați să o dezactivați pentru o vreme.\n-Eroare de verificare a certificatului (când lucrați cu SSL). Soluții posibile:\n- - Setați ora corectă pe computer
+launcher.error.classpath=Nu s-a putut găsi fișierul necesar \nDacă nu poateți restaura, selectați "Actualizarea clientului":
+launcher.error.version-info=Imposibil de primit versiune versiune!
+launcher.error.incompatible=Actuala versiune TLauncher să e capabilă de a lansa această versiune de Minecraft Vă rugăm, actualizați TLauncher.
+launcher.error.delete-entries=Eroare la ștergerea fișierelor din JAR- arhiva versiunii.
+launcher.error.modpack.solutions=Nu am putut porni Mod-pack. Cel mai probabil, problema a apărut din cauza mod instalate sau a pachetelor de resurse. (Incompatibilitate cu unele mods sau de mod care nu corespund) <br> recomandăm să dezactivați toate mods și activează la un moment dat, pentru a înțelege care este cauza problemei. (Încercați să instalați versiuni diferite ale problemei sau de mod un pachet de resurse) <br> <br> Pentru o definiție mai precisă, a fost apelată "Consola pentru dezvoltatori". Utilizați următoarele indicații pentru lucrul cu consola: <a href='https://tlauncher.org/en/error-start-minecraft.html'> https://tlauncher.org/en/error-start-minecraft.html </a>
+launcher.error.standard.version.solutions=Minecraft nu a pornit din cauza unei erori necunoscute! Soluții populare pentru problema: <br> <br>%0- Încercați să instalați o altă versiune de Java. (De exemplu, Java 8 Actualizare 45, după îndepărtarea set) <br> - Încercați să actualizați driverul de placă grafică <br> Pentru o definiție mai precisă, a fost numit „Consola pentru dezvoltatori.“. Utilizați următoarele indicații pentru lucrul cu consola: <a href='https://tlauncher.org/en/error-start-minecraft.html'> https://tlauncher.org/en/error-start-minecraft.html </a>
+launcher.error.standard.version.point.mod=Minecraft nu a început din cauza unei erori necunoscute! Probabil s-a întâmplat pentru mods dvs., încercați să îl ștergeți sau să citiți mai jos.<br> <br> Ai instalat mod-uri. Vă sfătuim să vă asamblați ansamblul folosind sistemul nostru de mod-pack <a href='https://tlauncher.org/en/news_26/modpack-system_5100.html'> link </a>. <br> <br> <b> Cum vă ajută! </b> <br> 1) Dacă jocul se întrerupe (se prăbușește) cu mod-urile dvs., atunci opriți toate modurile (faceți clic pe caseta verde din dreapta modului instalat) și lansați lansatorul (pentru a vă asigura că funcționarea goală funcționează) ), apoi activați (faceți clic pe pătratul gri) câteva bucăți sau una și începeți jocul, astfel încât să înțelegeți în ce moment apare problema. <br> 2) Faceți copii de rezervă ale ansamblurilor dvs. de lucru. <br> 3) Trimiteți-vă prietenilor cu mod-packs. <br> <br> Pentru o definiție mai precisă, a fost apelată „Consola dezvoltatorului”. Folosiți următoarele recomandări ale consolei: <a href='https://tlauncher.org/en/error-start-minecraft.html'> https://tlauncher.org/en/error-start-minecraft.html </a> <br> <br> Dacă toate celelalte nu reușesc, atunci %0
+launcher.error.standard.version.point.shaderpack=Minecraft nu a început din cauza unei erori necunoscute! Probabil s-a întâmplat pentru shadepacks dvs., încercați să îl ștergeți sau să citiți mai jos.<br> <br> Aveți instalate shaders. Vă sfătuim să vă asamblați ansamblul folosind sistemul nostru de mod-pack <a href='https://tlauncher.org/en/news_26/modpack-system_5100.html'> link </a>. <br> <br> <b> Cum vă ajută! </b> <br> 1) Dacă jocul se rupe (se prăbușește) cu shaders-ul dvs., opriți toate shaders-urile (faceți clic pe caseta verde din dreapta shader-ului instalat) și lansați lansatorul (pentru a vă asigura că funcționează ansamblul gol. ), apoi activați (faceți clic pe pătratul gri) câteva sau unul câteodată și începeți jocul, astfel încât veți înțelege în ce moment apare problema. <br> 2) Faceți copii de rezervă ale ansamblurilor dvs. de lucru. <br> 3) Trimiteți prieteni Am construcțiile tale. <br> <br> Pentru o definiție mai precisă, a fost apelată „Consola dezvoltatorului”. Folosiți următoarele recomandări ale consolei: <a href='https://tlauncher.org/en/error-start-minecraft.html'> https://tlauncher.org/en/error-start-minecraft.html </a> <br> <br> Dacă toate celelalte nu reușesc, atunci %0
+launcher.error.standard.version.point.resourcepack=Minecraft nu a început din cauza unei erori necunoscute! Probabil s-a întâmplat pentru texturepacks dvs., încercați să îl ștergeți sau să citiți mai jos.<br> <br> Ai instalat pachete de resurse. Vă sfătuim să vă asamblați ansamblul folosind sistemul nostru de mod-pack <a href='https://tlauncher.org/en/news_26/modpack-system_5100.html'> link </a>. <br> <br> <b> Cum vă ajută! </b> <br> 1) Dacă jocul se întrerupe (se prăbușește) cu pachetele de resurse, atunci deconectați toate pachetele de resurse (faceți clic pe caseta verde din dreapta pachetului de resurse instalat) și lansați lansatorul ( pentru a vă asigura că ansamblul gol funcționează), apoi activați (faceți clic pe caseta gri) de mai multe ori pe rând și începeți jocul, astfel încât să înțelegeți în ce moment apare problema. <br> 2) Faceți copii de rezervă ale ansamblurilor dvs. de lucru. <br> 3) distribuie-ți asamblările către prieteni. <br> <br> Pentru o definiție mai precisă, a fost apelată „Consola pentru dezvoltatori”. Folosiți următoarele recomandări ale consolei: <a href='https://tlauncher.org/en/error-start-minecraft.html'> https://tlauncher.org/en/error-start-minecraft.html </a> <br> <br> Dacă toate celelalte nu reușesc, atunci %0
+# Launcher steps
+launcher.step.collecting=Strîngerea informației despre joacă...
+launcher.step.comparing-assets=Verificarea resurselor jocului...
+launcher.step.downloading=Încărcarea resurselor jocului...
+launcher.step.reconstructing-assets=Rearea dosarului virtual...
+launcher.step.unpacking-natives=Despachetarea bibliotecilor de joc ...
+launcher.step.deleting-entries=Folosirea magiei...
+launcher.step.constructing=Crearea procesului de joacă
+# Launcher warning
+launcher.warning.title=Avertisment
+launcher.warning.incompatible.environment=Versiunea selectată  Minecraft nu este compatibilă cu computerul, dar va încerca să-l lanseze.
+launcher.warning.incompatible.launcher=TLauncher nu este compatibil cu versiunea selectată de Minecraft, dar va încerca să-l lanseze.
+launcher.warning.assets=La descărcarea resurselor a apărut o eroare. Acest mesaj va fi afișat din nou după repornirea lansatorului. Amintiți-vă că nu toate fișierele au fost descărcate.
+launcher.warning.assets.kaspersky=La încărcarea resurselor  a apărut o eroare. Acesta este legat de faptul că software-ul antivirusul de la Kaspersky Lab instalat pe computer, blochează fișierele de pe serverul Mojang. \nAcest mesaj va fi afișat din nou după repornirea lansatorului. Amintiți-vă că nu s-au încărcat toate fișierele \nPentru rezolvarea aceastei probleme, adăugați o excepție anti-Banner prin următoarea cale:
+# Crashes
+crash.title=S-a întîmplat o eroare neașteptată
+crash.unknown=Minecraft a fost închis în caz de urgență din cauza unei erori necunoscute. Pentru a determina cauza erorii a fost chemată Consola dezvoltatorului.
+crash.store.title=Păstrarea crash-repoartelor
+crash.store=Vreți să ștergeți fișierul crash-reportului
+crash.store.success.title=Fișierul e șters!
+crash.store.success=Fișierul crash-report a fost șters cu succes.
+crash.store.failed.title=Fișierul nu a fost șters!
+crash.store.failed=Fișierul crash-report nu a fost șters din cauza unei erori.
+crash.opengl=Minecraft a fost închis din cauza șoferilor cardului video incompatibili. Trebuie să descărcați și să instalați cele mai recente drivere pentru placa video. Iată câteva modalități de ao remedia. <br> 1) Încercați mai întâi 1 <a href = 'https://ad.tlauncher.org/link/video-card-guide-en'> Faceți clic aici </a>, apoi restul unul câte unul %s %s <br><br> Dacă ați încercat toate punctele și jocul nu pornește,%s
+crash.opengl.help=scrieți la grupul nostru pentru ajutor prin linkul <a href='https://vk.com/tlauncher'> https://vk.com/tlauncher </a>
+crash.opengl.download.driver=Descărcați driverul
+crash.opengl.install.gpu=Dacă elementul de mai sus nu a ajutat, încercați să descărcați și să instalați driverul pentru o placă video de la mai multe site-uri utilizând linkul
+crash.opengl.install.cpu=Dacă elementul de mai sus nu a ajutat, încercați să descărcați și să instalați driverul pentru o placă video de la mai multe site-uri utilizând linkul
+crash.restart=Trebuie să reporniți lansatorul și să încercați să începeți jocul din nou! <br> Poate că jocul va începe, dar va funcționa lent, va îngheța din cauza unui FPS mic. <br> <br> <b> Dacă computerul este vechi sau slab și aveți Windows 10 instalat, este recomandat să instalați Windows 7 în loc de Windows 10, care este mai potrivit pentru computere cel vechi sau slabe. </b>
+crash.opengl.windows10.error=Puteți încerca să instalați drivere pentru placa video, dacă nu vă ajută, atunci vă recomandăm să instalați sistemul de operare Windows 7 în loc de Windows 10, <b> acest lucru ar trebui să vă ajute! </b>
+click.me=Faceți clic pe mine
+crash.invalid-modify=Minecraft a fost închis din cauza unei erori, care apare de obicei din cauza instalării incorecte a modurilor. Reinstalați-le și încercați din nou.
+crash.meta-inf=Java nu a fost capabilă să încarce clasele de Minecraft, deoarece a găsit o discrepanță în evidențele manifestului. Ștergeți dosarul META-INF în JAR-fișier versiunea ce se încarcă de Minecraft și încercați din nou.
+crash.missing-main=Java nu a fost capabilă să lanseze Minecraft, pentru că nu a găsit clasa principală. De obicei, acest lucru se datorează instalării necorespunzătoare a modurilor. Dacă nu poateți restabili versiunea JAR-fișier versiunii Minecraft singuri, faceți clic pe "Actualizarea clientului".
+crash.permgen-error=Minecraft a fost închis din cauza unei erori de alocare a memoriei în Java. \n- Încercați să o eliminați mai întâi:  mods, shaders, resource-packs și lansați lansatorul pentru a vedea dacă există modificări, deoarece poate exista un motiv pentru asta. \n- Dezinstalați toate Java, instalați versiune stabilă de pe site-ul <a href='https://java-for-minecraft.com'> </a>, dacă nu ajută, instalați cel mai recent <a href='https://www.java.com '> https://www.java.com </a>. \n- Încercați să setați diferite valori în setările lansatorului în 'Memorie alocare', de exemplu: 1500, 2500, 3500 megabyți. \n \n Dacă acest lucru nu ajută și acest lucru se întâmplă des, scrieți grupului nostru <a href='https://vk.com/tlauncher'> https://vk.com/tlauncher </a>.
+crash.outofmemory=Minecraft a fost închis din cauza faptului că a consumat toată memoria alocată. Încercați să măriți cantitatea de memorie alocată utilizând cursorul din setările TLauncher.
+crash.outofmemory.32bit=\r\n\r\nAveți instalat un sistem pe 32 de biți, dar procesorul dvs. acceptă un sistem pe 64 de biți, vă recomandăm să reinstalați sistemul de operare de la 32 biți la 64 de biți, acest lucru ar putea ajuta la remedierea acestei probleme. Aveți un sistem pe 32 de biți instalat, dar procesorul dvs. suportă un sistem pe 64 de biți, vă sfătuim să reinstalați de la sistemele de operare de la 32 biți la 64 de biți, acest lucru ar putea ajuta la remedierea acestei probleme.
+crash.old-videocard=Cardul dvs. de grafică nu acceptă versiunea OpenGL, care este utilizat în această versiune de Minecraft. Cea mai recentă versiune, care este acceptată de placa video - este 1.7.2.
+crash.invalid-sys-username=Eroarea este cauzată de aceea că în calea directoratului Minecraft este prezent simbolul "!".
+crash.old-ati-vdrivers=Sistemul dvs. utilizează driver video învechite sau cardul în sine este veche. \nÎn orice caz, încercați să actualizați driverele dvs. de pe site-ul oficial <a href="http://amd.com/">AMD</a>.
+crash.java.unsupported.version=Pentru a rula actualul joc, trebuie să instalați o versiune mai nouă a Java <a href='https://java.com'> https://java.com </a>
+crash.java.unsupported.java9=Versiunea jocului nu suportă versiunea instalată a Java. <br> Utilizați versiunea curentă a jocului sau instalați o versiune mai veche a Java.
+crash.java.not.enough.memory=Ați setat o valoare care nu funcționează pentru memoria RAM, faceți clic pe "Da" pentru a reseta lansatorul la valoarea implicită de lucru și a începe jocul!
+crash.java.not.enough.memory.solve.title=Problema cu RAM
+crash.java.not.enough.memory.solve=Nu s-a putut aloca cantitatea necesară de RAM în computerul dvs. %s megabytes de RAM. Cauzele problemei: <br> 1) Scurgeri cauzate de mods. <br> 2) Calculatoare slabe <br> 3) Multe alte programe rulează<br> 4) Problema cu determinarea întregii RAM.    %s <br><br> 1) Opriți toate programele, de exemplu Browser, tot ce puteți <br> 2) Încercați să măriți volumul de memorie RAM în setările TLauncher <br> 3) Încercați să executați această instrucțiune , dacă nu determinați toată memoria %s  <br> 4) Dacă punctele 1 și 2, 3 nu au ajutat, puteți consulta pentru a cumpăra RAM adecvat și inserat în centrul calculatorului. <br> <br> Pentru întrebări suplimentare, contactați <a style = 'color: #585858;' href = 'https://vk.me/tlauncher'> vk.me/tlauncher </a>
+crash.java.not.enough.memory.solve.additional.low.memory=<br> 5) Aveți mai puțin de 1600 megaocteți de memorie RAM, valoarea recomandată fiind de aproximativ 3000 megaocteți.
+crash.new.thread.problem=Rulați această versiune din nou, până când acest mesaj dispare (aproximativ 1-7 încercări), TLauncher va selecta setările potrivite pentru sistemul dvs. (acest lucru vă poate ajuta cu lansarea)!
+crash.run.version=Încercați să rulați jocul din nou!
+crash.remove._java_options=Trebuie să eliminați acest parametru _java_options, să studiați materialul de la linkul de mai jos. <br> <br><a href='https://tlauncher.org/en/java-options-problem.html'>https://tlauncher.org/en/java-options-problem.html</a>
+crash.vbo.vsync=Citiți acest tutorial pentru corecții <br> <a href='https://tlauncher.org/en/ig9icd32-dll-error.html'> https://tlauncher.org/en/ig9icd32-dll-error.html</a>
+crash.rerun.again=Încearcă să rulezi din nou jocul!
+crash.reinstall.driver=Pentru a repara, mai întâi trebuie să scoateți driverul de pe placa video, apoi să îl instalați din nou.
+crash.proper.gpu=Dacă jocul nu funcționează pentru dvs. de la versiunea 1.14 și alte versiuni mai mici de 1.14 și aveți un calculator vechi, atunci placa video nu îndeplinește cerințele, deci pentru a rula 1.14 sau mai mult, trebuie să înlocuiți vechea placă video cu una mai modernă.
+crash.switch.antivirus.system=Încercați să opriți antivirusul și să reporniți lansatorul, dacă acest lucru nu ajută, puteți încerca să eliminați antivirusul și să verificați din nou
+crash.switch.antivirus.system.auto=Lansatorul va începe să remedieze problema după închiderea acestui mesaj (poate fi nevoie de accesul administratorului, în acest caz, să permită lansarea de la administrator). <br> Așteptați 20 de secunde și reporniți computerul, apoi verificați dacă problema este rezolvată.
+crash.swap.file.increase=Trebuie să remediați singur această problemă, pentru aceasta: <br> 1) Aflați câtă memorie ați alocat pentru swap. <br> 2) Introduceți în motorul de căutare Internet „Modificați dimensiunea swap a memoriei computerului”. <br> 3) Dacă valoarea memoriei swap 0 sau mic, apoi setat pe 3000 megabyte.
+crash.gamepad=Poate că problema se datorează gamepadului, deconectați-l de la computer.
+crash.unrecognized.option=Ați adăugat o opțiune la setări, a creat o problemă. Ștergeți tot ce ați adăugat în setările lansatorului.
+crash.safeip.delete=Dacă aveți programul 'SafeIp' sau similar instalat care ascunde ip-ul sau îl modifică, atunci dezinstalați-l, probabil că nu permite Minecraft să funcționeze.
+crash.error87=Numele problemei 'Loadlibrary failed with error 87 minecraft'. Puteți căuta pe Internet, dacă nu ajută nimic, reinstalarea sistemului de operare este cea mai ușoară cale de ao repara.
+# Settings
+settings.title=<html><font style=\"color:D3D3D3;\">Сadru/</font><font style=\"color:white;\">In plus</font></p></html>
+settings.warning=Schimbați doar dacă știți ce faceți
+settings.restart=Se va aplica la lansarea viitoare.
+settings.res.def=Dimensiunea implicită: %0x%1
+settings.range=Numărul de la %0 pînă la %1
+settings.tab.minecraft=Lansarea Minecraft
+settings.tab.tlauncher=Setările TLauncher
+settings.client.gamedir.label=Directoratul
+settings.client.gamedir.invalid=Întroduceți directoratul Minecraft!
+settings.client.gamedir.noaccess.title=Eroare la scimbul directoratului
+settings.client.gamedir.noaccess=Nu există acces la directoratul introdus Minecraft!
+settings.client.gamedir.prompt=Calea la dosar, unde se păstrează Minecraft
+settings.client.resolution.label=Rezoluția:
+settings.client.resolution.width=Lățimea (pix.)
+settings.client.resolution.width.invalid=Lățimea inadmisibilă!
+settings.client.resolution.height=Înălțimea (pix.)
+settings.client.resolution.height.invalid=Înălțimea inadmisibilă!
+settings.client.resolution.fullscreen=Modul ecran complet
+settings.versions.label=Lista versiunilor
+settings.versions.snapshot=Afișarea snapșoturile ("Snapshots")
+settings.versions.old_beta=Afișarea Beta (anii 2010-2011)
+settings.versions.old_alpha=Afișarea Alfa (anul 2010)
+settings.versions.modified=Afișarea celor modificate
+settings.versions.sub.old_release=De afișat comunicate mai vechi (pînă la 1.5.2)
+settings.java.path.label=Calea la Java:
+settings.java.path.invalid=Întroduceți calea la Java!
+settings.java.path.prompt.win=Dosarul fișierului "bin/javaw.exe"
+settings.java.path.prompt.other=Dosarul fișierului "bin/java"
+settings.java.path.doesnotexist.title=Fișierul executabil nu este găsit!
+settings.java.path.doesnotexist=Ați introdus calea incorectă către fișierul executabil Java . \nDacă nu știți unde fișierul "bin/javaw.exe" sau "bin/java", pur și simplucurățiți linia «Calea Java
+settings.java.args.label=Argumente:
+settings.java.args.jvm=JVM-argumente (ex. -XX:MaxPermSize=256M)
+settings.java.args.minecraft=Minecraft-argumente(ex. --server 127.0.0.1)
+settings.java.memory.label=Selectarea memoriei:
+settings.java.memory.mb=Mb
+settings.java.memory.hint.ok=Valoarea recomandată
+settings.java.memory.hint.warning=Valoarea nerecomandată
+settings.java.memory.hint.danger=Valoarea de pericol
+settings.clientres.label=Dimensiunea lansatorului:
+settings.slide.list.label=Imagine fundală:
+settings.slide.list.prompt=Calea la fișierul imaginei (JPG, PNG)
+settings.console.label=Consola dezvoltatorului:
+settings.console.global=Generală
+settings.console.minecraft=Numai în Minecraft
+settings.console.none=Dezactivată
+settings.console.fullcommand.label=Comanda completă:
+settings.console.fullcommand=Afișarea comandei complete lansării Minecraft
+settings.console.fullcommand.warning.title=Avertisment despre furul de date
+settings.console.fullcommand.warning=Ați actuvat opțiunea «Comanda completă». În cazul în care utilizați intrarea premium, încercați să nu transmiteți conținutul consolei prin canalele de date neprotejate (chiar și cu atât mai mult pentru a păstra undeva în domeniul public) - tokenurile necriptate necesare se înregistrează pentru o intrare premium.
+settings.extra.label=Adaugator:
+settings.extra.check-username=Verificați numele utilizatorului
+settings.connection.label=Calitatea de conectare:
+settings.connection.good=Bună
+settings.connection.normal=Normală
+settings.connection.bad=Rea
+settings.tlauncher.autologin.label=Inrararea automată (în sec.)
+settings.tlauncher.autologin.parse=Numărul necunoscut!
+settings.direction.label=Forma de întrare:
+settings.direction.top_left=Stînga sus
+settings.direction.top=Sus
+settings.direction.top_right=Dreapta sus
+settings.direction.center_left=Stînga
+settings.direction.center=La mijloc
+settings.direction.center_right=Dreapta
+settings.direction.bottom_left=Stînga jos
+settings.direction.bottom=Jos
+settings.direction.bottom_right=Dreapta jos
+settings.launch-action.label=Cînd executați Minecraft:
+settings.launch-action.hide=Ascundeți TLauncher
+settings.launch-action.exit=Închideți TLauncher
+settings.launch-action.nothing=Nu faceți nimic
+settings.lang.label=Limba (Language):
+settings.tab.server=Creare serverului
+settings.default=În mod implicit
+settings.default.warning.title=Avertisment despre pierderiea de date
+settings.default.warning=Sunteți sigur că doriți să resetați la starea inițială?
+settings.save=Rețineți
+settings.back=Înapoi
+settings.popup.info=Cîmpul: %0
+settings.popup.default=De resetat valoarea
+settings.reset.button=Resetare completă
+settings.reset.button.start=Doriți să resetați cu o repornire?
+settings.reset.message=Ce date trebuie resetate:
+settings.reset.question.confirm=Doriți să ștergeți (reinițializați) unele fișiere TLauncher, sunteți sigur (ă) despre asta?
+settings.reset.question.confirm.title=
+settings.reset.remove.tlauncher.settings=Ștergeți setările TLauncher
+settings.reset.remove.versions=Ștergeți versiunile Minecraft (folderul cu versiuni)
+settings.reset.remove.minecraft.folder=Ștergeți Bibliotecile Configs și Minecraft
+settings.reset.not.remove.maps=Atenție vă rog! Lumile tale (salvează) nu vor fi șterse!
+settings.guard=Protejați-vă cu TLauncher Guard
+settings.guard.title=Guard:
+settings.servers.recommendation=Adăugați uneori server în Minecraft
+settings.servers.recommendation.title=Recomandări:
+# Updater
+updater.required.found.title=E găsită o actualizare obligatorie
+updater.required.found.message=Atenție! Sunt găsite actualizări marcate ca critice.\nVeți fi actualizat automat la versiunea%0. \nÎn cazul în care cererea nu se execută după actualizare, descărcați o nouă versiune a lansatorului pe cont propriu.
+updater.found.cannotopen.title=Eroare la deschiderea linkului.
+updater.found.cannotopen=S-a întîmplat eroare la deschiderea linkului. Vă rugăm să treceți prin el singuri
+updater.error.title=Eroare la cererea actualizării
+updater.error=S-a întîmplat eroare la cererea actualizării
+updater.download-error=A apărut o eroare în timpul descărcării actualizării. Doriți să descărcați fișierul dumneavoastră?
+updater.downloaded.title=Pregătit pentru actualizare
+updater.downloaded=Lansator este pregătit pentru actualizare.\n Aplicația va fi actualizată în mod automat, închise și repornit.
+updater.save-error.title=Eroare la reținere
+updater.save-error=A apărut o eroare la înlocuirea fișierului. Doriți să descărcați fișierul singuri?
+updater.notice=<p style = 'font-family: Calibri; color: #585858; margin-top: 11px; font-size: 11px; '> Dacă aveți vreo problemă, vă rugăm să ne contactați prin intermediul <a style =' color: #585858;' href='https://facebook.com/tlauncher'>facebook.com/tlauncher</a></p> <p style = 'font-family: Calibri; color: #585858; margin-top: 5px; font-size: 11px; '> Puteți obține toate informațiile de pe site-ul oficial <a style ='color: #585858;' href = 'https://tlauncher.org/en/'>tlauncher.org</a></p>
+updater.access.denied.message=Eroare de actualizare (acces refuzat). Pentru a actualiza cu succes, \r\n mutați clientul TLauncher pe desktop sau îl rulați ca administrator. \r\n\r\n Sau descărcați fișierul lansat actualizat manual.
+updater.button.download.handle=Descărcați manual
+updater.update.now=Actualizați lansatorul
+# Notifier
+notifier.failed.title=Avertisment despre imposibilitatea de conectare
+notifier.failed=Tlauncher n-a putut verifica disponibilitatea actualizărilor. Soluții posibile: \n- Verificați conexiunea la Internet \n- Verificați setările proxy ale sistemului în cazul în care vă conectați la Internet prin el \ n- Verificați setările antivirus : încercați să-l deactivați în timp jocului, pentru a confirma temerile \n- Dacă nu aveți Internet, puteți să nu acordați atenție la acest mesaj.\ n\nAceastă este cel mai probabil, o problemă locală, astfel încât de câteva ori, verificați totul înainte de a merge pentru a contacta cu cineva.
+notifier.found.title=Este găsită actualizarea
+notifier.found.question=Este găsită versiunea nouă a  lansatorului: %0. Vreți  să o încărcați?
+# Folder button
+folder.error.title=Eroare la deschiderea dosarului
+folder.error=E imposibil de deschis dosarul Minecraft. Posibil el a fost șters. \Încercați să o găsiți singuri: 
+# Alert
+alert.error.title=A apărut o eroare
+alert.error.message=A apărut o eroare neașteptată
+alert.error.request=Puteți trimite date despre erori pentru dezvoltatori, în așa fel, puteți ajuta a îmbunătăți  proiectul.
+alert.error.send.log.unsuccess=Eroarea a fost obținută  în timpul transmiterii fișierului.
+alert.error.send.log.success=Raportul despre eroare a fost trimis.
+alert.error.send.log.title=Trimiterea fișierelor -jurnalelor
+alert.error.linux.javafx=A apărut o problemă la lansarea lansatorului, din cauza lipsei unei biblioteci JavaFX din OpenJDK pe care ați instalat-o. Pentru soluție, instalați această bibliotecă prin terminal:<br><br> sudo apt-get install openjfx <br> <br> După aceea lansatorul va porni în mod normal. Detalii pe site <a href='https://tlauncher.org/en/openjdk-problem.html'> https://tlauncher.org/en/openjdk-problem.html </a>
+alert.error.not.run=A apărut o eroare critică, cereți ajutor <br> <a href='https://vk.me/tlauncher'> https://vk.me/tlauncher </a> sau prin poștă <b> support@tlauncher.org </b>
+alert.error.font.problem=A apărut o eroare critică, pentru ao rezolva, a citi acest material și a încerca să o rezolvi singură  <br><a href='https://tlauncher.org/pageLang/check-disk.html'> https://tlauncher.org/pageLang/check-disk.html </a>
+alert.start.message=Citiți acest tutorial pentru ao corecta. <a href='%0'> Faceți clic pe mine </a>
+alert.block.ip=Ip-ul dvs. curent a fost blocat. Pentru a rezolva problema, schimbați ip-ul. <br> <br> Moduri: <br> 1) Opriți modemul și porniți modemul după 10 minute, verificați problema. <br> 2) Copiați IP-ul dvs. folosind <a href='2ip.ru'> https://2ip.ru </a> și scrieți-ne în suport <a href = 'https: //vk.me/tlauncher '> https://vk.me/tlauncher </a> - „Deblochează-mă (IP-ul tău)”. Acolo, veți primi sfaturi despre această problemă.
+# Text popup
+popup.cut=Tăiați
+popup.selectall=Selectați totul
+popup.copy=Copiați
+popup.paste=Inserați
+popup.copyall=A copia totul
+# Console
+console=Consola dezvoltatorilor
+console.kill=Închiderea forțată al procesului Minecraft
+console.close.cancel=Anularea închiderei ferestrei (%0 sec)
+console.save.popup=A reține totul in fișier
+console.save.exists=Fișierul deacum există, alegeți alt nume!
+console.save.error=Nu se poate reține conținutul consolului în fișier!
+console.clear.popup=Ștergeți totul
+console.pastebin=Transmiterea pe Pastebin
+console.pastebin.sent.title=Transmis cu succes
+console.pastebin.sent=Conținutul consolei a fost trimis la Pastebin.com. Nu uitați că aceste vor fi păstrate de numai 7 zile în mod implicit și sunt disponibile numai prin intermediul linkului. \n\nVreți să vedeți conținutul consolei de pe site-ul?
+console.pastebin.failed.title=Nu s-a primit de transmis
+console.pastebin.failed=Nu a reușit să trimită conținutul consolei pe Pastebin.com. Asigurați-vă că conexiunea la Internet este disponibil și nu este blocat de un software antivirus sau firewall.
+console.pastebin.invalid.title=Ceva nu e așa...
+console.pastebin.invalid=Conținutul consolei nu poate fi trimis.
+# Link
+link.error.title=Eroare la comutare
+link.error=A apărut o eroare în timpul încearcă rii de trecere pe link. Vă rugăm să treceți pe ea singuri:
+# Autoupdater
+autoupdater.preparing=Pregatirea…
+autoupdater.requesting=Cererea versiunii TLauncher...
+autoupdater.downloading=Instalarea TLauncher %0...
+autoupdater.opening=Deschiderea TLauncher...
+autoupdater.buttons.hide=Ascunderea fereastrei actualizării
+autoupdater.buttons.skip=Săriți peste actualizare
+# UI
+ui.ok=ОК
+ui.yes=Da
+ui.no=Nu
+ui.go.no.matter=Conectați-vă oricum
+ui.cancel=Anularea
+ui.error.openfile.title=Eroare la deschiderea fișierului
+ui.error.openfile=S-a întîmplat eroare la deschiderea fișerului. Consola pentru dezvoltatori conține informație suplimentară. Încercați să o deschideți singuri:
+ui.error.openfolder.title=Eroare la deschiderea dosarului
+ui.error.openfolder=S-a întîmplat eroare la deschiderea dosarului. Consola pentru dezvoltatori conține informație suplimentară. Încercați să-l deschideți singuri:
+ui.error.openlink.title=Eroare la deschiderea linkului
+ui.error.openlink=Eroare la deschiderea linkului într-un browser extern:
+# Explorer
+explorer.title=Alegerea fișierului
+explorer.title.save=Reținerea fișierului
+explorer.title.open=Deschiderea fișierului
+explorer.title.image=Alegerea imaginei
+explorer.browse=Privire de ansamblu...
+explorer.type.image=Numai imagine (JPG, PNG)
+explorer.extension.jpeg=Imagine JPEG
+explorer.extension.jpg=Imagine JPEG
+explorer.extension.png=Imagine PNG
+explorer.extension.all=Toate fișierele
+explorer.extension.format=%0-fișierele
+explorer.lookin=Catalog:
+explorer.input.filename=Numele fișierului:
+explorer.input.foldername Numele dosarului:
+explorer.input.type=Tipul fișierului
+explorer.button.up.tip=Cu un nivel în sus
+explorer.button.up=În sus
+explorer.button.newfolder.tip=Crearea unui dosar nou
+explorer.button.newfolder.name=Dosar nou
+explorer.button.newfolder=Dosar nou
+explorer.button.home.tip=Întoarcerea la dosar în mod împlicit
+explorer.button.home=Acasă
+explorer.button.list.tip=Lista
+explorer.button.list=Lista
+explorer.button.details.tip=Mai detailat
+explorer.button.details=Mai detailat
+explorer.button.view.tip=Vizualizare
+explorer.button.view=Vizualizare
+explorer.button.save.tip=Reținerea fișierului ales
+explorer.button.save=Rețineți
+explorer.button.open.tip=Deschideți fișierul ales
+explorer.button.open=Deschideți
+explorer.button.cancel.tip=Ieșirea din dialogul de selectare a fișierului
+explorer.button.cancel=Anularea
+explorer.button.update.tip=Actulizarea listei de directoare
+explorer.button.update=Actualizaţi
+explorer.button.help.tip=Ajutor
+explorer.button.help=Ajutor
+explorer.button.open-dir.tip=Deschideţi obiectul ales
+explorer.button.open-dir=Deschideţ 
+explorer.context.refresh=Actualizaţi
+explorer.context.newfolder=Crearea unui dosar nou
+explorer.view.list=Lista
+explorer.view.list.name=Lista fișierelor
+explorer.view.details=Tabel
+explorer.view.details.name=Tabelul fișierelor
+explorer.details.file=Fișierul
+explorer.details.dir=Directoratul
+explorer.error.newfolder=Eroare la crearea unui nou dosar
+explorer.error.newfolder-nopath=Imposibil de creat un dosar nou în acest loc
+explorer.error.rename.title=Eroare la redenumire
+explorer.error.rename=E imposibil de redenumit fişierul.
+explorer.error.rename-exists=E imposibil de redenumit fişierul, fiindcă fişier cu aşf denumire deacum există.
+# Boot
+boot.loading=Încărcarea TLauncher %0...
+# Ad
+ad.server.openwith=Alegeţi versiunea pentru joacă pe «%0»:
+ad.server.openwith.current=Folosiţi versiunea alesă
+ad.server.error=Eroare atunci când încercați să executați clientul pentru a se conecta la server:
+# Browser
+browser.hyperlink.popup.open=Deschideţi linkul
+browser.hyperlink.popup.copy=Copiaţi linkul
+browser.hyperlink.popup.show=Arătaţi linkul
+browser.hyperlink.popup.show.alert.title=Link
+browser.hyperlink.popup.show.alert=Dacă vedeţi aceasta spuneţi dezvoltatorilor
+browser.hyperlink.create.error.title=Eroare la crearea linkului
+browser.hyperlink.create.error=E imposibil de creat linkul. Încercaţi să o deschideţi singuri: 
+# Message 
+menu.chooseVersion=Alegeti versia pentru joaca
+menu.version=Versiunea
+menu.start=Întraţi pe server
+menu.copy=Copiați adresa serverului
+menu.copy.done=Serverul a fost copiat cu succes în clipboard
+menu.favorite=Adaugaţi în favorite
+menu.favorite.done=Serverul a fost cu succes adaugat în favorite. (În joacă fila multiplayer)
+# Review 
+review.button.send=Trimiteţi comentariul
+review.button.close=Inchideți
+review.button.addFile=Adăugaţi fişierele
+review.window.title=De la echipa de dezvoltare
+review.label.wishesTitle=Trimiterea comentariului
+review.label.wishesDescription= Salut Echipa noastră este bucuroasă că utilizați lansatorul nostru.\n\r Avem nevoie de părerea dvs., fiindcă noi testăm programului nostru, iar comentariile și sugestiile dumneavoastră vor fi valoroase pentru noi.\n\rPuteți scrie despre bug-uri în forma specială de mai jos, precum și aveți posibilitatea de a atașa cât mai multe informații despre eroarea: succesiunea de acțiuni, după care se produce eroarea, capturi de ecran, jurnale. De asemenea, puteți introduce adresa de e-mail pentru a fi în măsură să vă contacteze.
+review.label.titleReview=Denumirea temei
+review.box.typeReviewBox=Plângere, Mulțumire,Bug,Lipsa,Dorința de
+review.description=Aici srieţi comentariul
+review.label.mail=Feedback-ul (Mail)
+review.label.titleReview=Tema
+review.chooser.addFile=Adaugați fișierul pentru trimitere
+review.chooser.warning.maxFile=Numărul maxim de fișiere pentru trimitere nu e mai mare decît trei
+review.chooser.warning.maxFile.title=Limita fișierelor
+review.chooser.warning.limitMaxSize=Fișierele e mare, reduceți fișierul sau zip
+review.chooser.warning.limitMaxSize.title=Eroare la adaugarea fișierului
+review.message.sendFile=Vă mulțumim pentru ajutor! Întotdeana ne bucurăm de comentariu
+review.message.fill=Comlectați cîmpul obligatoriu:
+review.message.description=Comentariu
+review.chooser.warning.incorrectFile=Formatul ilegal pentru transmitere
+review.message.email.invalid=Adresă de e-mail nevalidă sau Vk.com
+review.message.vk.mail=E-mail sau Vk.com
+# Update
+launcher.update.title=Actualizare
+launcher.update.no.space=Eliberați spațiu pe disk pentru a actualiza data viitoare
+launcher.update.message.optional=<p style='font-family:Calibri; font-size:18;'>S-a găsit o nouă actualizare!</p>
+launcher.update.message.mandatory=<p style='font-family:Calibri; font-size:18;'>S-au găsit un lansator de actualizare obligatoriu.</p>
+launcher.update.updater.button=Upgrade
+launcher.update.later.button=Amintește-mi mai târziu
+# HelperEditorAccount
+auth.helper.help.username=1. Întroduceţi poşta de la cont
+auth.helper.help.password=2. Întroduceți parola contului
+auth.helper.help.button=3. Apăsați \"Rețineți contul\"
+auth.helper.help.exit=4. Apăsați \"Acasă\" pentru ieșirea din menu
+auth.helper.help.account=0. Cum de adaugat contul Licențiat Minecraft.
+# ServerPage
+server.page.title=Serveruri de joc
+server.page.online=on-line
+server.page.back=Întoarce-te
+# Statistics
+statistics.settings.title=Analiză
+statistics.settings.checkbox.name=Dezactivatiți trimiterea statisticii anonime
+# LogPage
+check.email.input=Poșta elecronică nu este corectă
+check.email.name=Poșta dvs. (pentru comunicare)
+log.email.error.description=Descrieți acțiunile pînă la eroare
+log.email.error.issue=Descrierea eroării
+log.form.send=Trimiteţi
+log.form.send.no=Nu trimiteţi
+log.form.title=Trimiterea raportului de eroare
+memory.notification.message=Loc liberă pe disk pentru aplicarea corectă (recomandat 300 MB).
+memory.notification.title=Lipsa de spațiu liber pe disc
+system.32x.not.proper=<b> Nu este necesar! Totul funcționează bine! </b> <br> <br> Dar este mai bine să urmați recomandarea: <br>În prezent, aveți instalat Windows x32, deși calculatorul acceptă x64-biți. În acest moment, nu puteți aloca mai mult de 1,5 GB de memorie RAM la joc și puteți avea diferite defecțiuni. Vă recomandăm să reinstalați sistemul pe Windows x64.
+system.32x.not.proper.title=
+java.version.32x.not.proper=<b> Nu este necesar! Totul funcționează bine! </b> <br> <br> Dar este mai bine să urmați recomandarea: <br>Aveți x32 biți Java, aveți nevoie de x64 biți! Acum, nu puteți aloca mai mult de 1,5 GB de RAM și puteți avea diferite defecțiuni. Descarcă Java x64 de aici <br> <a href="https://tlauncher.org/en/ram-allocation.html"> https://tlauncher.org/en/ram-allocation.html </a> sau de pe site-ul oficial <a href="https://java.com"> https://java.com </a>. Acest lucru va dura doar câteva minute.
+java.version.32x.not.proper.title=
+error.jfxwebkit.title=Problemă Java
+error.jfxwebkit.message=Ați întâmpinat o problemă cu versiunea curentă de Java: "replace.message". Trebuie să instalezi o versiune mai veche de Java 8, de exemplu actualizare 101. <a Link href="https://tlauncher.org/en/jfxwebkit-error.html"> La articol cu o soluție la această problemă. </a>
+server.error.code=cod de eroare:
+# modpack
+modpack.create.button=Creare
+modpack.search.text=Căutare
+modpack.button.mod=Mods
+modpack.button.modpack=Mod-packs
+modpack.button.resourcepack=Resource-packs
+modpack.button.map=Maps
+modpack.button.shaderpack=Shaderpacks
+modpack.creation.modpack=Creați un mod-pack
+modpack.creation.input.name=introduceți numele
+modpack.creation.name=Nume:
+modpack.creation.version.game=Cea mai recentă versiune a jocului:
+modpack.creation.forge=Versiune Forge:
+modpack.creation.save=Salvează
+modpack.complete.site.button=Site-ul oficial
+modpack.complete.review.button=Prezentare generală
+modpack.complete.picture.button=Imagini
+modpack.complete.versions.button=Versiuni
+modpack.complete.old.button=Versiunea veche
+modpack.complete.review.mod=Mods
+modpack.complete.review.map=Maps
+modpack.complete.review.resource=Resource-packs
+modpack.complete.back.button=Înapoi
+modpack.complete.next.button=Redirecționați
+modpack.complete.author=Autor:
+modpack.complete.picture.empty=Nu exista poze!
+modpack.popup.delete=Ștergeți
+modpack.popup.open=Deschis
+modpack.all=Toate
+modpack.skyblock=SkyBlock
+modpack.fabric=Fabric
+modpack.storage=Depozit
+modpack.twitch_integration=Integrare cu Twitch
+#mod
+modpack.adventure_rpg=RPG
+modpack.magic=Magic
+modpack.cosmetic=Peisaj
+modpack.armor_weapons_tools=Militar
+modpack.technology=Tehnologie
+modpack.mc_food=Alimente
+modpack.redstone=Informational
+modpack.map_information=Lumea
+modpack.library_api=API
+modpack.chita=Trucuri
+modpack.applied_energistics_2=Applied Energistics
+modpack.blood_magic=Blood Magic
+modpack.addons_buildcraft=Buildcraft
+modpack.addons_forestry=Forestry
+modpack.addons_industrialcraft=Industrial Craft
+modpack.addons_thaumcraft=Thaumcraft
+modpack.addons_thermalexpansion=Thermal Expansion
+modpack.addons_tinkers_construct=Tinker's Construct
+modpack.mc_addons=Addons
+modpack.technology_energy=Energie
+modpack.technology_item_fluid_energy_transport=Lichide
+modpack.technology_farming=Agricultura
+modpack.technology_genetics=Genetică
+modpack.technology_player_transport=Transport
+modpack.technology_processing=Producție
+modpack.world_gen=Lumea
+modpack.world_biomes=Biomes
+modpack.world_dimensions=Dimensiuni
+modpack.world_mobs=Mobs
+modpack.world_ores_resources=Resurse
+modpack.world_structures=Structuri
+modpack.mc_miscellaneous=Diverse
+modpack.server_utility=Utilitare server
+#map
+modpack.adventure=Aventură
+modpack.creation=Creativ
+modpack.game_map=Gaming
+modpack.modded_world=Cu moduri
+modpack.parkour=Parkour
+modpack.puzzle=Puzzle-uri
+modpack.survival=Supraviețuire
+# texture-pack
+modpack.sixteen_x=16x
+modpack.thirty_two_x=32x
+modpack.sixty_four_x=64x
+modpack.one_twenty_eight_x=128x
+modpack.two_fifty_six_x=256x
+modpack.five_twelve_x_and_beyond=512x și mai mult
+modpack.animated=Animație
+modpack.medieval=Medieval
+modpack.mod_support=Suport pentru moduri
+modpack.modern=Modern
+modpack.photo_realistic=Realist
+modpack.steampunk=Steampunk
+modpack.traditional=Traditional
+modpack.miscellaneous=Diverse
+modpack.customization=Personalizare
+modpack.shaderpacks=Shaderpacks
+#shaderpack
+modpack.lucky_blocks=Lucky blocks
+modpack.guidebook=Guidebook
+modpack.hardcore_questing_mode=Hardcore question mode
+modpack.configuration=Configuration
+modpack.scripts=Scripts
+modpack.progression=Progression
+modpack.crafttweaker=CraftTweaker
+modpack.recipes=Recipes
+modpack.building_gadgets=Building Gadgets
+modpack.realistic=Realistic
+modpack.lag_less=Lag less
+modpack.low_end=Low end
+modpack.psychedelic=Psychedelic
+#modpack
+modpack.adventure_and_rpg=RPG
+modpack.combat_pvp=PVP
+modpack.exploration=Cercetare
+modpack.extra_large=Mare
+modpack.ftb_official_pack=FTB
+modpack.hardcore=Hardcore
+modpack.map_based=Bazat pe hartă
+modpack.mini_game=Mini Jocuri
+modpack.multiplayer=Multiplayer
+modpack.quests=Quest-uri
+modpack.sci_fi=Sci-Fi
+modpack.small_light=Lumină
+modpack.tech=Tehnologic
+modpack.favorite=Preferat
+modpack.populate_month=Sus
+modpack.populate_all_time=Descărcări totale
+modpack.name=Nume
+modpack.date=După dată
+modpack.sort.label=Sortare
+modpack.local.box.default=Nu este selectat
+modpack.local.box.default.list=nu pachete Mod-packs
+modpack.search.textfield.map=Maps instalate
+modpack.search.textfield.mod=Mods instalate
+modpack.search.textfield.resourcepack=Resource-packs instalate
+modpack.search.textfield.shaderpack=Shaderpacks instalate
+modpack.filter.label=Categorii:
+modpack.remove.button=Ștergeți
+modpack.process.button=În curs de desfășurare
+modpack.table.pack.element.name=Nume
+modpack.table.pack.element.author=Autor
+modpack.table.pack.element.operation=Funcționare
+modpack.table.pack.element.version=Versiunea jocului
+modpack.table.denied.button=Mod-pack-ul selectat și acest element sunt incompatibile! Selectați un element disponibil pentru instalare. Cauzele problemei: versiunea jocului sau incompatibilitatea cu alte elemente ale pachetului mod-pack.
+modpack.version=Versiunea Forge:
+modpack.config.system.label=Skin system TL:
+modpack.config.game.version=Versiunea jocului:
+modpack.config.skin.use=Utilizați sistemul de skin-uri TLauncher.org
+modpack.config.skin.install.message=Pentru această versiune a jocului nu există suport pentru sistemul de skin-uri, vă recomandăm să utilizați o versiune mai nouă a jocului:> 1.7.2.
+modpack.config.skin.install.message.title=
+modpack.config.title=Mod-Pack Management
+modpack.config.memory.message=Modificați numele Mod Pack
+modpack.config.memory.message.title=
+modpack.config.memory.box=Utilizați setările lansatorului
+modpack.config.recommended=RECOMANDAT
+modpack.config.high.level=<html> <div style='text-align: center;'> PENTRU ÎNALTELE TEXTURI <br> AUTORIZARE ȘI BALETĂ </div> <html>
+modpack.rename.exception=Nu s-a putut crea din nou! Posibile soluții: 1) eliberați spațiu pe disc. \r\n 2) Folosiți un nume diferit. \r\n 3) Problema cu drepturile de acces. \r\n 4) Ștergeți dosarul din versiuni.
+modpack.rename.exception.title=Redenumiți
+modpack.select.modpack=Mai întâi, selectați Mod-Pack pentru a instala. \r\nPentru aceasta, utilizați lista din colțul din stânga sus. Dacă nu aveți pachete de Mod-packs, utilizați butonul "Creați".
+modpack.select.modpack.title=Instalarea în mod-pack
+modpack.backup.settings=Mods de rezervă
+modpack.backup.not.found=Nu ați găsit ceva?
+modpack.backup.install.hand=Instalare manuală
+modpack.not.found.elements=Nu s-au găsit elemente
+modpack.all.elements=Toate elementele
+modpack.added.request=Trimiterea unei solicitări de adăugare
+modpack.added.request.message=Puteți raporta o problemă sau un feedback grupului nostru <a href='https://vk.com/tlauncher'> https://vk.com/tlauncher </a> <br> <br> Pentru a adăuga un Mod nou, Mod-pack, Resource-pack, Maps, inserați linkul din browser în formularul de mai jos și faceți clic pe trimiteți.
+modpack.link.file=Referința fișierului
+modpack.error.send.unsuccess.title=Starea de funcționare
+modpack.error.send.unsuccess=A apărut o eroare în timpul transferului de date.
+modpack.send.success.title=Starea de funcționare
+modpack.send.success=Solicitarea a fost procesată.
+modpack.description.download=Descărcări:
+modpack.description.date=Actualizat:
+modpack.request.update.title=Trimiteți o solicitare de actualizare a fișierului
+modpack.element.old.question=Ați găsit o versiune nouă și doriți să adăugăm pe lista de versiuni, să copiați linkul din browser și să-l lipiți în formularul de mai jos, apoi faceți clic pe butonul de trimitere! (Adăugarea durează 1-7 zile)
+modpack.element.collapse=Minimizează
+modpack.open.folder=Deschideți folderul mod-pack
+modpack.resave.exception=Eroare la schimbarea versiunii
+modpack.resave.exception.title=Schimbați versiunea
+modpack.config.memory.title=Setarea memoriei:
+modpack.install.handle.title=Instalare manuală
+modpack.install.handle.mod=Mod va fi instalată în mod-pack: modpack.name
+modpack.install.handle.resourcepack=Resource-pack va fi instalată în mod-pack: modpack.name
+modpack.install.handle.map=Map va fi instalată în mod-pack: modpack.name
+modpack.install.handle.shaderpack=Shaderpack-ul va fi instalat în Mod-pack: modpack.name
+modpack.install.handle.warning=<html> <div style='text-align: center;'><font size="5"> Avertisment! </font> <br> Nu garantăm robotosposobnost jocuri atunci când setarea manuală <br> elementele necontrolate din Mod-pack. <br> Când cedezi jocul, șterge datele de Mods! </div> </html>
+modpack.explorer.files=Selectați fișiere
+modpack.install.files.error=<html> <div> A apărut o eroare în timpul analizei. Posibil din motive: <br> 1) Elementul mod-pack cu acest nume este disponibil. <br> 2) Fișierul este deteriorat sau incorect. </div> </html>
+modpack.install.files.error.title=
+modpack.install.files.installed=Instalat.
+modpack.install.files.installed.title=
+modpack.install.process=Mânere...
+modpack.backup.title=Gestionare de rezervă
+modpack.backup.files.do=Efectuat.
+modpack.backup.files.error=A apărut o eroare în timpul operației.
+modpack.backup.button.backup=Creați copii de rezervă
+modpack.backup.button.restore=Restaurați din copia de rezervă
+modpack.backup.down.button.restore=Restaurare
+modpack.backup.info.label.0=Informații:
+modpack.backup.modpack.box=Toate pachetele mod-packs
+modpack.backup.init=Creați cel puțin un modpack!
+modpack.backup.init.title=
+modpack.backup.button.do=Faceți
+modpack.backup.message.info=Pentru a afișa informațiile, selectați fișierul de rezervă.
+explorer.error.choose.file=Selectați fișierul înainte de instalare
+explorer.error.choose.file.title=
+explorer.backup.file.chosen=Fișierul selectat
+modpack.million=mil
+modpack.thousand=mii
+modpack.remote.not.found=Nu se poate afișa acest element, motivele: <br>Verificați conexiunea la Internet și să actualizeze datele de client ..<br> %0
+modpack.remote.not.found.title=
+modpack.internet.update=Pentru a efectua această acțiune, verificați conexiunea la Internet și actualizați datele clientului(În colțul din dreapta jos, săgeata rotundă).
+modpack.internet.update.title=
+account.premium.chita=Chita disponibile numai utilizatorii Premium, detalii despre acesta poate fi găsit pe site-ul oficial <a href='https://tlauncher.org/ru/premium.html'> https://tlauncher.org/ru/ premium.html </a>
+account.premium.not.available=Doar utilizatorii Premium sunt disponibili, puteți afla mai multe despre acest lucru pe site-ul oficial al companiei <br><a href='https://tlauncher.org/en/premium.html'>https://tlauncher.org/en/premium.html</a>
+modpack.left.empty.mod.label.mod=Nu aveți mods!
+modpack.left.empty.mod.label.resourcepack=Nu aveți resource-packs!
+modpack.left.empty.mod.label.map=Nu aveți maps!
+modpack.left.empty.mod.label.shaderpack=Nu ai shaderpacks!
+modpack.left.fast.install=Instalarea rapidă a acestora!
+modpack.left.element.remove.question=Ștergerea sau dezactivarea %0 poate întrerupe articolele dependente:%1. \n Doriți să le ștergeți toate(dezactivarea)? \n Versiunea nu poate începe!
+modpack.version.any=Orice versiune
+modpack.criteria.not.found.resourcepack=Nu există resource-packs găsite după criteriile dvs.!
+modpack.criteria.not.found.mod=Nu există mods găsite după criteriile dvs.!
+modpack.criteria.not.found.map=Nu există maps găsite după criteriile dvs.!
+modpack.criteria.not.found.modpack=Nu există mod-packs găsite după criteriile dvs.!
+modpack.criteria.not.found.shaderpack=Nu shaderpacks găsit umbră conform criteriilor dvs.!
+modpack.search.without.modpack=<br> Căutarea fără a se lega de versiunea pachetului mod-pack, setată în lista pachetelor mod-packs: '%0'.
+modpack.backup.all.elements.mod=Totate mods!
+modpack.backup.all.elements.map=Toate maps!
+modpack.backup.all.elements.resourcepack=Toate resource-packs!
+modpack.backup.all.elements.shaderpack=Toți shaderpacks!
+modpack.table.empty.mod=În acest mod-pack nu există mods!
+modpack.table.empty.map=În acest mod-pack nu există maps!
+modpack.table.empty.resourcepack=În acest mod-pack nu există resource-packs!
+modpack.table.empty.shaderpack=Nu există shaderpacks în acest mod-pack!
+modpack.try.later=Încercați mai târziu să efectuați această acțiune, serverul este supraîncărcat sau indisponibil.
+modpack.map.same.folder=Acest map nu este compatibil cu vechea map (deja instalată). \r\n1) Faceți o copie de rezervă sau copiați vechea versiune a hărții astfel încât să puteți restaura \r\n2) Ștergeți vechea versiune a map \r\n3) Încercați să instalați din nou map
+modpack.map.same.folder.title=
+block.doctor.web=If you have Dr.Web , you have blocked correct work Minecraft and launcher, you should do next steps by yourself to fix it:<br>Open Dr.Web and open in it 'Exclusions', further open 'Websites' and add next sites <br>tlauncher.org<br>tlrepo.com<br>after it restart launcher, it must help you.

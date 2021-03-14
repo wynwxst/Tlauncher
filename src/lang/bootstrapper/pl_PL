@@ -1,0 +1,41 @@
+# notification java updater
+updater.java.notification.message=Ty odkryli wersję Java, która wkrótce nie będzie obsługiwana wyrzutni. <br><br> Można zainstalować wersję Java ostatniego niezależnego kliknięcie na \"Zainstalowanego na swoim\". Można również skorzystać z tej Autoinstalator kliknij \"SET\".
+updater.java.notification.message.special=Ty odkryli wersję Java, która wkrótce nie będzie obsługiwana wyrzutni. <br><br> Można zainstalować wersję Java ostatniego niezależnego kliknięcie na \"Zainstalowanego na swoim\".
+updater.java.notification.title=Aktualizacja oprogramowania Java !!!
+updater.java.install.button=Set
+updater.java.reminder.button=Przypomnij mi później
+updater.java.myself.button=Instalowane niezależnie
+update.java.notification.title=Instalacja Java
+updater.java.notification.before.install.myself=Po zainstalowaniu najnowszej wersji Java, ponownie uruchom wyrzutnię.
+# download java
+updater.java.jre.message=Java załadunku. Odczekaj kilka minut. Po pobraniu pojawi się monit o zainstalowanie odpowiedniego Java (Aby to zrobić, kliknij na \"Install\"), a następnie można uruchomić wyrzutnię i grać.
+updater.java.jre.title=Pobierz i zainstaluj Java
+unknown.config.error=Program nie może określić konfigurację systemu lub nie masz odpowiednie ustawienia instalacji Java dla systemu.
+error.network.message=Wystąpił błąd podczas transmisji danych, możliwe jest miejsc bez dostępu do Internetu.
+error.title=Błąd
+download.jre.title=Wybierz lokalizację, aby zapisać Java.
+download.jre.not.enough.space=zwolnić miejsce na dysku, aby zapisać plik i spróbuj ponownie.
+save.file.in.label=Zapisz
+file.name.label=Nazwa pliku
+type.label=Typ pliku
+save.button=Zapisz
+cancel.button=Anuluj
+# download libraries
+updater.frame.name=Ładowanie bibliotek dla klienta. Lewo
+updater.frame.speed=MB
+updater.download.fail=Nie można pobrać niezbędnych bibliotek z Internetu, dlatego <br> - Sprawdź połączenie z Internetem.<br>- %0
+java.reinstall=Usuń całą Java, zainstaluj stabilną wersję ze strony <a href='https://java-for-minecraft.com'>site</a>, jeśli to nie pomoże, zainstaluj najnowszą (nową) Javę.
+updater.download.disk.not_place=Zwolnić miejsce na disk do zainstalowania biblioteki i spróbuj ponownie.
+place.disk.warning=Aby program działał poprawnie, zalecamy zwolnienie miejsca na %0, po jego uruchomieniu uruchom ponownie program uruchamiający. Przeczytaj artykuł poniżej.
+double.running.title=Podwójny start
+double.running=Wygląda na to, że już uruchomiłeś TLaunchera i działa. \r\nPo zakończeniu 1-10 minut, aż się zacznie. \r\n\r\nUzyskaj TLaunchera?
+yes=Tak
+no=Nie
+addr.table.error=Masz krytyczny błąd, <b> jest napisany poniżej, jak to naprawić </b>, jeśli wiesz, co masz. Na przykład wczoraj zadziałało, dziś nie działa, po zainstalowaniu dowolnego programu lub po aktualizacji, daj nam znać w <a href='https://fb.com/tlauncher'> https://fb.com/tlauncher </a>, jeśli informacje są cenne, wydamy Ci premię za rok.<br><br> Aby naprawić, utwórz nowego użytkownika dla systemu Windows 7 <a href='https://www.bleepingcomputer.com/tutorials/create-new-user-account-in-windows-vista-7'>Kliknij tutaj</a><br>Dla Windows 10 <a href ='https://support.microsoft.com/en-us/help/4026923/windows-10-create-a-local-user-or-administrator-account'> Kliknij tutaj </a> <br> Zaloguj się do nowego użytkownika i zainstaluj tlaunchera, a następnie rozpocznij grę!
+alert.start.message=Przeczytaj ten samouczek, aby go poprawić <a href='%0'>Kliknij mnie</a>!
+run.again.launcher=Uruchom ponownie program uruchamiający (po zamknięciu wiadomości).
+warning.KB4515384.problem=Jeśli TLauncher nie uruchomi się lub wystąpi błąd po zamknięciu tego komunikatu, wykonaj następujące czynności:<br>1) Otwórz Start i wpisz szukany tekst 'Aktualizuj historię' i otwórz tę historię.<br> 2)Możesz zobacz w górnej części otwartego okna 'Odinstaluj aktualizacje' i kliknij na nią.<br>3) Teraz znajdź aktualizację KB4515384 i usuń ją, uruchom ponownie komputer (aby nie usuwać za każdym razem - należy wyłączyć aktualizację systemu Windows, aby że system Windows nie instaluje go ponownie, możesz przeczytać w Internecie, jak to zrobić).
+skin.notification.state=Nie pokazuj tego powiadomienia
+msi.after.burner.block=Musisz wyłączyć dopalacz MSI Afterburner podobny program pod względem funkcjonalności i spróbować ponownie uruchomić klienta.
+temp.dir.error=Zmienne temp są ustawione niepoprawnie, musisz je ustawić samodzielnie. W Start wpisz 'zmienne środowiskowe' i otwórz ten program. Znajdź TEMP, TEMP, teraz musisz wstawić istniejące foldery dla tych zmiennych i upewnij się, że istnieją foldery, na przykład C:\\TEMP, C:\\TMP!
+alert.access.denied.message=Nie mogliśmy uruchomić programu uruchamiającego w określonej ścieżce %0 z powodu braku uprawnień, utworzymy nowy folder %1 w celu poprawnego działania, zrestartuj program uruchamiający!

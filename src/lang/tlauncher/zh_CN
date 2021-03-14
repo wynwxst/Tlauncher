@@ -1,0 +1,806 @@
+# launcher progress
+progress.bar.panel.file.remained=剩下：
+progress.bar.panel.file=档案，总大小
+progress.bar.panel.speed=速度
+progress.bar.panel.speed.unity.MB=MB/秒
+progress.bar.panel.speed.unity.KB=KB/秒
+progress.bar.panel.remaining.time=大概时间
+progress.bar.panel.remaining.time.minutes=分.
+progress.bar.panel.remaining.time.less.than.minute=少于一分钟
+progress.bar.panel.size=MB
+progress.bar.panel.init=初始化运行
+# restart
+tlauncher.restart=重新开始
+tlauncher.restart.message=更改将在重新启动后的效果！重新启动？
+# skin
+skin.notification.image.explanation=图标<img src="TlIcon"/>表示，该系统的版本支持我们的皮肤（使用“账户TLauncher”只有当）。
+skin.not.work.notification=<p> <b>您的皮肤将无法显示！</b> <br> <br>您在没有TLauncher.org皮肤支持的情况下运行游戏版本，但使用我们的帐户。 在这个版本中，我们的皮肤将无法正常工作！ <br> <br>从列表中选择带有<img src ="％s">图标的版本，如下图所示 - 皮肤将开始工作！<br> <br> <img src ="％s" width =“559” height =“69”> </p>
+skin.notification.up.title=<html>设置你的皮肤!</html>
+skin.notification.common.message=你选择的版本已启用显示你的肌肤。 安装它，你必须： \r\n 1)在网站上注册TLauncher.org中。 \r\n 2)安装的皮肤。 \r\n 3)在启动打勾"帐户"，使用的数据，同时在网站上注册，加入"授权TLauncher"。
+skin.notification.link.message=全手册！ <a href="https://tlauncher.org/en/install-skins.html">链接！</a>
+skin.notification.title=注意到
+skin.notification.state=没有显示这通知
+skin.status.title=确认关闭
+skin.status.message=<b>您不会看到服务器上的所有其他球员的皮！</b>\n\n 您确定要停用<a href="https://tlauncher.org/en/">TLauncher.org</A>皮肤系统？
+skin.status.checkbox=使用外观TLauncher
+skin.checkbox.switch.on.title=启用皮肤
+skin.checkbox.switch.on.message=皮肤系统<a href="https://tlauncher.org/en/">TLauncher.org</a>激活！现在，您可以查看服务器上的玩家的皮肤，如果你想安装自己 - 使用<a href="https://tlauncher.org/en/">TLauncher.org帐户建立与皮肤包</A>。
+# Loginform
+loginform.checkbox.autologin=自动登录
+loginform.checkbox.forceupdate=升级软件
+loginform.checkbox.account=正版账户吗?
+loginform.enter=开始游戏
+loginform.enter.install=设置
+loginform.enter.reinstall=重新
+loginform.enter.cancel=废除
+loginform.cancel=废除自动登录 (%0)...
+loginform.cancel-download=停止下载
+loginform.site=访问我们的网站
+loginform.loading=装在...
+loginform.button.refresh=询问版本
+loginform.button.refresh-cancel=废除
+loginform.button.folder=开文件夹
+loginform.button.feedback=反馈
+loginform.button.settings=选项
+loginform.button.visit=访问我们的网站
+loginform.button.settings.account=账户经理
+loginform.button.settings.version=管理版本
+loginform.button.settings.launcher=设置
+loginform.helper.username=<html>1. 写使用者名字 (任何的)</html>
+loginform.helper.versions=<html>2. 选择版本</html>
+loginform.helper.play=<html>3. 为了开始游戏按按钮</html>
+# Account
+account.list.remove=删除
+account.list.add=添加帐户
+account.config=帐户设置
+account.username=使用者名字
+account.email=电子邮件
+account.email.restrict=电子邮件
+account.auth.free=无密码
+account.auth.mojang=授权Mojang.com:
+account.auth.tlauncher=授权TLauncher.org
+account.save=保存登录
+account.list=可以用的账户
+account.empty=(没有账户)
+account.manage=设置帐户...
+account.creating=(新帐户)
+account.protection.message.title=TLauncher Guard
+account.protection.message = <p align ='center'> <b>保护您的帐户！</b> </p> <br> <p> TLauncher提醒您遵循以下准则来保护您的帐户：< /p> <br> <p style ='margin-left：7px;'> - 不要只在密码中使用数字。<br> - 不要在服务器上使用具有许可和授权的帐户使用相同的密码！<br> - 打开秘密问题到您的帐户（在Mojang.com上）。<br> - 打开来自帐户的邮件的两步验证。</p> <br> <p>即使是一个项目也无法执行，可能会对攻击者的帐户造成威胁！ </p>
+account.message.show.again=谢谢。我已经做到了。不要显示更多。
+account.not.proper.warn=您正在尝试登录许可的服务器！<br> <br>从列表中选择您的<b> Mojang </b>帐户或登录启动器。如果您没有帐户，则可以在<a href='https://www.minecraft.net'> minecraft.net </a>网站上购买游戏。
+crash.2.monitor=如果您有两台显示器连接到您的计算机，请断开其中一台的连接，原因是由于此。
+account.username.validation=昵称的长度不得超过16个字符，并且不得以'-'字符开头
+# Versions
+versions.loading=下载版本...
+versions.notfound.title=询问版本的错误.
+versions.notfound=不可能从Minecraft的服务器收到版本. 可能的决定:\n- 检查互联网连接\n- 检查系统代理设置, 如果你用代理连接互联网\n- 检查防毒软件设置: 玩的时候，断开它.\n- 如果你没有互联网, 你可以不理这个报道.\n\n这很可能是当地的问题， 所以问帮助以前，请检查所有的问题。
+versions.notfound.tip=(未找到)
+version.refresh=等待...
+version.release=版本
+version.snapshot=快照
+version.old_beta=公测
+version.old_alpha=阿尔法
+version.latest.release=最新版本
+version.latest.snapshot=最新快照
+version.latest.modified=最新变质
+versions.found-update.title=发现更新
+versions.found-update=这个版本在服务器更新了. 我们坚决地劝您回答«是».\n注意,所有的程序库是重新下载.\n您想不想更新这个游戏的版本?
+versions.found-update.error.title=取消更新的错误
+versions.found-update.error=重写文件描述符的错误发生了(.json): 我们不能记录关于取消更新的信息, 下一次发射版本的时候消息再出现.
+versions.manage=版本管理...
+version.do.not.find=找不到这个版本，尝试更新版本的客户端，然后再试一次。
+version.do.not.find.title=搜索错误
+version.error.message.title=下載版本錯誤
+version.error.message=加载游戏文件时出错，但是单击“确定”后游戏将启动。这可能会影响游戏中的声音和纹理或其他问题。应该下载所有文件，因此请写信以支持<a href='https://vk.com/tlauncher'> https://vk.com/tlauncher </a>
+# Version manager
+version.manager.resolve.title=开始游戏
+version.manager.resolve.message=您似乎打算开始没有所有的程序库的版本. 为了下载打开互联网连接.
+version.manager.list=<html><style><font style=\"color:D3D3D3;\">环境/</font><font style=\"color:white;\">版本</font></html>
+version.manager.editor.select=从名单选择版本...
+version.manager.editor.multiselect=您选择版本的量: %0
+version.manager.editor.label.select=请选择在左边名单的版本.
+version.manager.editor.label.download=为了校阅版本您应该下载它
+version.manager.editor.label.wise=您应该了解的清楚你校阅什么
+version.manager.editor.label.downloading=这个版本已经在安装...
+version.manager.editor.field.id=版本的ID:
+version.manager.editor.field.type=版本的形式:
+version.manager.editor.field.releaseTime=发布日期:
+version.manager.editor.field.time=更新日期:
+version.manager.editor.field.jvmArguments=JVM论点:
+version.manager.editor.field.minecraftArguments=Minecraft论点
+version.manager.editor.field.mainClass=主要的等级:
+version.manager.editor.field.assets=资源:
+version.manager.editor.field.source=源:
+version.manager.editor.field.minimumLauncherVersion=发射的版本:
+version.manager.editor.button.save=保存版本
+version.manager.editor.button.reset=取消设置
+version.manager.editor.error.saving.title=保存的错误
+version.manager.editor.error.saving=保存选择的版本的时候错误发生了.
+version.manager.downloader.warning.title=注意!
+version.manager.downloader.warning.force.single=您选择不用更新的%0版本。继续吗?
+version.manager.downloader.warning.force.multiply=您选择%0个不用更新的版本。继续吗？
+version.manager.downloader.error.title=发生错误!
+version.manager.downloader.error.local=不能更新%0的版本,因为它是当地的.\n如果您肯定这是错误，您就重新更新从服务器版本的
+version.manager.downloader.error.getting=我们不能收到关于%0版本的休息.
+version.manager.downloader.error.saving=我们不能保存%0版本.
+version.manager.downloader.error.downloading=我蛮不能下载%0版本.
+version.manager.downloader.info.title=休息
+version.manager.downloader.info.no-needed=没有下载的文件.
+version.manager.downloader.menu.ordinary=下载只缺少的的文件
+version.manager.downloader.menu.force=更新版本(Force update)
+version.manager.refresher.menu.local=更新当地版本的名单
+version.manager.refresher.menu.remote=从服务器刷新列表版本
+version.manager.delete.error.title=删除错误
+version.manager.delete.error.single=删除版本的错误发生了
+version.manager.delete.error.multiply=删除版本的错误发生了.
+version.manager.delete.menu.jar=删除只版本的文件夹
+version.manager.delete.menu.libraries=删除也随附程序库
+version.list.needsupdate=(可用更新)
+# Loginform.errors
+auth.error.title=授权错误
+auth.error.unknown=授权的时候不知道的错误发生了
+auth.error.unreachable=授权服务器可能不可用.\n请检查您的互联网，并尝试禁用防病毒.
+auth.error.unparseable=不能识别来自服务器的响应.\n现在可以在服务器开展工程工作
+auth.error.relogin=用户名或密码无效。请再次输入您的用户名和密码。
+auth.error.restore.on.site.tlauncher=如果您无法多次登录，那么:<br> <br>  - 检查网站上的授权<a style ='color:#1a75ff;' href ='https://tlauncher.org'> TLauncher.org </a>（登录前，如果您获得授权，请单击“退出”按钮）<br>  - 尝试通过恢复表单恢复密码<a style ='color:#1a75ff ;' href ='https://tlauncher.org/en/lost/'> tlauncher.org/en/lost/ </a>
+auth.error.restore.on.site.mojang=如果您无法多次登录，那么:<br> <br>  - 检查网站上的授权<a style ='color:#1a75ff;' href ='https://mojang.com'> Mojang.com </a> <br>  - 尝试通过恢复表单恢复密码<a style ='color:#1a75ff;' href ='https://account.mojang.com/password'> account.mojang.com/password </a>
+auth.error.authorization=授权数据不正确。 <br>点击'确定'，您将被引导至'账户管理'，您需要再次输入密码。
+auth.error.migrated=这使用者已经有Mojang的账户. 替用户名输入他的电子邮件.
+auth.error.internal=内部身份验证错误.
+auth.profiles.save-error.title=设定档保存的错误
+auth.profiles.save-error=设定档保存的错误发生了。于设计人员联络.
+auth.error.nopass.title=密码必需
+auth.error.nopass=请输入账号密码！
+auth.error.nousername.title=用户名需要！
+auth.error.nousername=请输入您的用户名!
+auth.error.email.account=请输入您的电子邮件!
+auth.error.email.account.title=授权
+auth.tip.mojang=<span style="color:gray;"><b>授权账户(Premium) </b><a style="color:#78d7ff;" href="https://Mojang.com">从 Mojang.com</a> 容许用证服务器, 使用官方皮肤系统.</span>
+auth.tip.mojang.height=50
+auth.tip.tlauncher=<span style="color:gray;">登录帐户 <a style="color:#78d7ff;" href="http://TLauncher.org">TLauncher.org</a>. 给你可能设置自己的皮肤，这是可见的所有服务器上的和高级的特征。 授权进入网站，创建一个帐户的使用注册的形式，指定在这个窗口数据的授权。</span>
+auth.tip.tlauncher.height=70
+forceupdate.local.title=无法更新本地版本
+forceupdate.local=这个版本是本地的，因此它不能被更新.\n如果无法恢复请求的文件，自己重新安装这个版本.
+forceupdate.question.title=数据丢失的预防
+forceupdate.question=你确定你想在原来的状态重置版本?\n所有的程序库和其他资源将被升级。
+account.empty.error.title=账的名单是空
+account.empty.error=进入游戏，创建一个帐户，并从下拉列表中选择。如果你只是想使用你的昵称，没有密码，再取出检查题词“帐户”旁边。
+# Loginform.info
+loginform.checkbox.autologin.tip.title=自动输入该消息
+loginform.checkbox.autologin.tip=下一进入的时候发射器自动发射Minecraft.\n为即使开始在线游戏您可以您可以使用一个特在发射器设置选择的引数:
+loginform.checkbox.autologin.tip.arg=--server 服务器地址 --port 端口
+# Progressbar
+progressBar.init=初始化...
+progressBar.speed=MB/s
+progressBar.completed=文件 %0是下载了
+progressBar.downloading=下载 %0个文件
+progressBar.downloading-one=下载一个文件 / %1 MB/s
+progressBar.remaining=留下 %0个文件 / %1 MB/s
+# Launcher
+launcher.error.title=错误
+launcher.error.unknown=不知道的错误
+launcher.error.noArgs=询问为了发射Minecraft的引数的错误.\r\n尝试选中“更新客户端”底部的框并重新安装版本。
+launcher.error.download-jar=无法查询服务器可执行文件. 检查连接.
+launcher.error.download-assets=无法查询服务器资源。检查连接。
+launcher.error.save=保存时出错版.
+launcher.error.unpack-natives=解包原始程序库时的错误.\n标出 «更新软件»,为了重新下载它.
+launcher.error.java-exec=无法找到Java可执行文件:
+launcher.error.folder-not-found=找不到Minecraft的该文件夹:
+launcher.error.version-not-found=找不到Minecraft的发射版本:
+launcher.error.account-invalid=不正确的帐户名:
+launcher.error.account-not-found=找不到所选帐户:
+launcher.error.start=启动Java机器时发生错误。尝试在TLauncher设置中指定正确的Java路径或删除旧的Java路径！
+launcher.error.download=上载档案时发生错误。常见原因：\n -Internet连接不稳定\n -Anti-Virus通常会阻止Java连接。尝试禁用它一会\n -证书验证错误（使用SSL时）。可能的解决方案:\n- -在计算机上设置正确的时间
+launcher.error.classpath=所请求的文件未找到\n如果不能恢复它，选择“更新软件”：
+launcher.error.version-info=这是不可能接受关于版本的信息!
+launcher.error.incompatible=当前TLauncher的版本不可能发射这个Minecraft版本。请更新TLauncher.
+launcher.error.delete-entries=从JAR压缩文件的版本删除文件时出错
+launcher.error.modpack.solutions=无法启动Mod-pack。最有可能的问题是由于安装了mods或资源包。 （有一些器官功能障碍综合征或不合时尚不符）搜索结果，建议您禁用所有的模式和激活一次一个，以了解这是造成问题。（尝试安装不同版本的问题或时尚的资源包），点击<br>为了更精确的定义，调用了“开发者控制台”。使用下面的准则与控制台工作：<a href='https://tlauncher.org/en/error-start-minecraft.html'> https://tlauncher.org/en/error-start-minecraft.html </a>
+launcher.error.standard.version.solutions=我的世界不因未知错误开始！该问题的流行解决方案：<br> <br>％0-尝试安装不同版本的Java。 （例如Java 8更新45，取出后定）点击 - 尝试更新你的显卡驱动程序的搜索结果，对于更精确的定义，它被称为“开发者控制台”。使用下面的准则与控制台工作：<a href='https://tlauncher.org/en/error-start-minecraft.html'> https://tlauncher.org/en/error-start-minecraft.html </a>
+launcher.error.standard.version.point.mod=Minecraft由于未知错误而无法启动！ 您的国防部可能发生了这种情况，请尝试将其删除或阅读以下内容<br> <br>您已经安装了mod。我们建议您使用我们的mod-pack系统<a href='https://tlauncher.org/en/news_26/modpack-system_5100.html'>链接</a>组装装配。<br> <br> <b> </b> <br> 1）如果游戏用您的mod破坏（崩溃），请关闭所有mod（单击已安装mod右侧的绿色框），然后启动启动器（以确保空版本有效），然后激活（单击灰色方块）几块或一个，然后开始游戏，这样您便会明白问题出在哪一点。<br> 2）对工作组件进行备份。<br> 3）与您的朋友一起mod-packs。<br> <br>为了更精确的定义，调用了“开发人员控制台”。使用以下控制台准则：<a href='https://tlauncher.org/en/error-start-minecraft.html'> https://tlauncher.org/en/error-start-minecraft.html </a> <br> <br>如果其他所有方法均失败，则％0
+launcher.error.standard.version.point.shaderpack=Minecraft由于未知错误而无法启动！ 您的着色器包可能发生了这种情况，请尝试将其删除或在下面阅读<br> <br>您已安装了着色器。我们建议您使用我们的mod-pack系统<a href='https://tlauncher.org/en/news_26/modpack-system_5100.html'>链接</a>组装装配。<br> <br> <b> </b> <br> 1）如果游戏用您的着色器中断（崩溃），请关闭所有着色器（单击已安装的着色器右侧的绿色框），然后启动启动器（以确保空组件可以正常工作） ），然后一次激活（单击灰色方块）几次或一次并开始游戏，这样您就会知道出现问题的时间点。<br> 2）为您的工作程序集做备份。<br> 3）发送朋友我有您的构建。<br> <br>为了更精确的定义，调用了“开发人员控制台”。使用以下控制台准则：<a href='https://tlauncher.org/en/error-start-minecraft.html'> https://tlauncher.org/en/error-start-minecraft.html </a> <br> <br>如果其他所有方法均失败，则％0
+launcher.error.standard.version.point.resourcepack=Minecraft由于未知错误而无法启动！ 您的资源包可能发生了这种情况，请尝试将其删除或阅读以下内容<br> <br>您已经安装了资源包。我们建议您使用我们的mod-pack系统<a href='https://tlauncher.org/en/news_26/modpack-system_5100.html'>链接</a>来构建程序集。<br> <br> <b> </b> <br> 1）如果游戏随您的资源包一起中断（崩溃），请断开所有资源包的连接（单击已安装资源包右侧的绿色框），然后启动启动器（以确保空的程序集可以正常工作），然后一次激活（单击灰色框）几次或一次并开始游戏，这样您就可以了解问题出在什么位置。<br> 2）对工作程序集进行备份。<br> 3）将程序集分发给朋友<br> <br>为了更精确的定义，调用了“开发人员控制台”。使用以下控制台准则：<a href='https://tlauncher.org/en/error-start-minecraft.html'> https://tlauncher.org/en/error-start-minecraft.html </a> <br> <br>如果其他所有方法均失败，则％0
+# Launcher steps
+launcher.step.collecting=收集有关游戏信息...
+launcher.step.comparing-assets=检查游戏资源...
+launcher.step.downloading=加载游戏资源...
+launcher.step.reconstructing-assets=创建一个虚拟文件夹...
+launcher.step.unpacking-natives=解包游戏程序库...
+launcher.step.deleting-entries=使用魔法...
+launcher.step.constructing=创建一个游戏的进程...
+# Launcher warning
+launcher.warning.title=警告
+launcher.warning.incompatible.environment=选择Minecraft的版本不适合您的电脑, 但是我们企图发射游戏。
+launcher.warning.incompatible.launcher=选择Minecraft的版本不适合TLauncher, 但是我们企图发射游戏.
+launcher.warning.assets=当您下载资源发生错误. 重新发射器以后这个消息再被显示。请不忘记不所有的文件是下了.
+launcher.warning.assets.kaspersky=当您下载资源发生错误. 卡巴斯基反病毒闭塞Mojang服务器的文件。\n重新发射器以后这个消息再被显示。请不忘记不所有的文件是下了。\n为了解决这个问题把这个路径加到Antibanner的例外:
+# Crashes
+crash.title=意外的错误发生了
+crash.unknown=由于未知错误Minecraft被关闭了. 为了确定错误的原因控制台被发射。
+crash.store.title=存储崩溃报告
+crash.store=要删除崩溃报告文件吗?
+crash.store.success.title=文件被删除!
+crash.store.success=崩溃报告文件已成功删除.
+crash.store.failed.title=该文件不会被删除!
+crash.store.failed=由于错误该文件不会被删除.
+crash.opengl=由于视频卡驱动程序不兼容，Minecraft已关闭。您需要下载并安装视频卡的最新驱动程序。以下是修复它的方法。<br> 1）首先尝试1 <a href ='https://ad.tlauncher.org/link/video-card-guide-en'>点击这里</a>，然后一个接一个 %s %s <br><br>如果你已经尝试了所有积分并且游戏没有开始，%s
+crash.opengl.help=通过<a href='https://vk.com/tlauncher'> https://vk.com/tlauncher </a>链接写信给我们的小组寻求帮助
+crash.opengl.download.driver=驱动下载
+crash.opengl.install.gpu=如果上述项目没有帮助，请尝试使用该链接从多个站点下载并安装视频卡的驱动程序
+crash.opengl.install.cpu=如果上述项目没有帮助，请尝试使用该链接从多个站点下载并安装视频卡的驱动程序
+crash.restart=您需要重新启动启动器并尝试再次启动游戏！ <br>也许游戏会启动，但它会慢慢运行，因FPS很小而冻结。<br> <br> <b>如果您的计算机老旧或者安装了Windows 10，建议安装Windows 7而不是Windows 10，这更适合弱电或弱电(旧的)。</b>
+crash.opengl.windows10.error=您可以尝试安装视频卡的驱动程序，如果它没有帮助，那么我们建议您安装Windows 7操作系统而不是Windows 10，<b>这应该有帮助！</b>
+click.me=点击我
+crash.invalid-modify=由于不对地安置修改程序，Minecraft被关闭.重新设置它们，就在发射Minecraft.
+crash.meta-inf=Java不可能下载Minecraft等级, 因为在宣言中发现不相适应. 在下载Minecraft版本的JAR文件中删除META-INF/文件夹，就在发射Minecraft。
+crash.missing-main=由于不对地安置修改程序，Java不可能发射Minecraft, 因为Java找不到主要的等级.如果您不能自己安装Minecraft的JAR文件版本, 选择“更新软件“
+crash.permgen-error=由于Java中的内存分配错误，Minecraft已关闭\n-首先尝试将其删除：mod，着色器，资源包，然后启动启动器以查看是否有任何更改，因为这可能是有原因的。\n-卸载所有Java，安装</a>网站上的<a href='https://java-for-minecraft.com'>稳定版本，如果没有帮助，请安装最新的Java <a href='https://www.java.com'> https://www.java.com </a>。\n-尝试在“内存分配'的启动器设置中设置不同的值，例如：1500、2500、3500兆字节。 \n \n如果这样做没有帮助，并且经常发生，请写信给我们的小组<a href='https://vk.com/tlauncher'> https://vk.com/tlauncher </a>。
+crash.outofmemory=Minecraft被关闭了，因为它耗尽了分配给它的所有内存。尝试使用TLauncher设置中的滑块增加分配的内存量。
+crash.outofmemory.32bit=％s您安装了32位系统，但您的处理器支持64位系统，我们建议您从32位重新安装到64位操作系统，这应该有助于解决此问题。 您安装了32位系统，但您的处理器支持64位系统，我们建议您从32位重新安装到64位操作系统，这应该有助于解决此问题。
+crash.old-videocard=您的显卡不可能使用这Minecraft版本OpenGL的版本. 最新您显卡可以用的版本是1.7.2.
+crash.invalid-sys-username=由于Minecraft主目录的路径有«!»错误发生了.
+crash.old-ati-vdrivers=您的系统有过时的显卡驱动程序，也您的显卡可以过时。\n在任何情况下，尝试从官方网站更新您的驱动程序<a href="http://amd.com/">AMD</a>.
+crash.java.unsupported.version=要启动当前游戏，您需要安装较新版本的Java <a href='https://java.com'> https://java.com </a>
+crash.java.unsupported.java9=游戏的版本不支持已安装的Java版本。<br>使用当前版本的游戏或安装旧版本的Java。
+crash.java.not.enough.memory=您为RAM设置了非工作值，单击是将启动器重置为默认工作值并启动游戏！
+crash.java.not.enough.memory.solve.title=的问题(RAM）
+crash.java.not.enough.memory.solve=无法在计算机%s兆字节的RAM  中分配所需的RAM量。问题的原因：<br> 1）由于模块泄漏。<br> 2）计算机弱。<br> 3）许多其他程序运行。<br> 4）确定整个RAM的问题。 %s <br> <br>如何修复：<br> 1）关闭所有程序，例如浏览器，你可以做的一切。<br> 2）尝试增加TLauncher设置中的RAM量。<br> 3）尝试执行此指令，如果你没有确定所有内存<br> 4）如果第1点和第2点没有帮助，那么你可以咨询在计算机中心购买合适的插入内存。%s <br> <br>如有其他问题，请联系<a style ='color：＃585858;' href ='https：//vk.me/tlauncher'> vk.me/tlauncher </a>
+crash.java.not.enough.memory.solve.additional.low.memory=<br> 5）你的RAM少于1600兆字节，推荐值约为3000兆字节。
+crash.new.thread.problem=再次运行此版本，直到此消息消失（大约1-7次尝试），TLauncher将为您的系统选择适当的设置（这可以帮助启动）！
+crash.run.version=尝试再次运行游戏
+crash.remove._java_options=您需要删除此参数_java_options，在下面的链接中研究材料。<br><a href='https://tlauncher.org/en/java-options-problem.html'>https://tlauncher.org/en/java-options-problem.html</a>
+crash.vbo.vsync=阅读本教程以进行更正<br> <a href='https://tlauncher.org/en/ig9icd32-dll-error.html'> https://tlauncher.org/en/ig9icd32-dll-error.html</a>
+crash.rerun.again=尝试再次运行游戏！
+crash.reinstall.driver=要修复，您必须先删除视频卡上的驱动程序，然后重新安装。
+crash.proper.gpu=如果游戏在1.14版本中不起作用，而其他版本低于1.14，并且你有一台旧电脑，那么你的视频卡不符合要求，因此，要运行1.14或更高版本，你需要用更现代的视频卡替换旧视频卡。
+crash.switch.antivirus.system=尝试关闭防病毒软件并重新启动启动器，如果这样做没有帮助，则可以尝试删除防病毒软件并再次检查.
+crash.switch.antivirus.system.auto=关闭此消息后，启动器将开始解决问题（您可能需要管理员访问权限，在这种情况下，允许管理员启动）。 <br>等待20秒钟，然后重新启动计算机，然后检查问题是否已解决。
+crash.swap.file.increase=您需要自己解决此问题，为此：<br> 1）找出分配给交换的内存量<br> 2）在Internet搜索引擎中输入“更改计算机内存的交换大小” <br> 3）如果交换内存的值0或较小，然后设置为3000兆字节。
+crash.gamepad=可能是由于游戏手柄导致的问题，将其与计算机断开连接。
+crash.unrecognized.option=您在设置中添加了一个选项，这产生了一个问题。删除您在启动器设置中添加的所有内容。
+crash.safeip.delete=如果您安装了“ SafeIp'程序或类似的程序来隐藏您的IP或对其进行修改，请将其卸载，则很可能使Minecraft无法正常工作。
+crash.error87=问题名称'Loadlibrary failed with error 87 minecraft'。您可以搜索Internet，如果没有任何帮助，那么重新安装操作系统是解决它的最简单方法。
+# Settings
+settings.title=<html><style>p{font-size: 16pt;font-weight: bold; }</style><p><font style=\"color:D3D3D3;\">环境/</font><font style=\"color:white;\">另外</font></p></html>
+settings.warning=如果您知道做什么您可以修改
+settings.restart=它将在下一次加.
+settings.res.def=默认大小: %0x%1
+settings.range=数从%0到%1
+settings.tab.minecraft=发射Minecraft
+settings.tab.tlauncher=TLauncher设置
+settings.client.gamedir.label=主目录:
+settings.client.gamedir.invalid=输入Minecraft主目录!
+settings.client.gamedir.noaccess.title=换主目录的错误
+settings.client.gamedir.noaccess=Minecraft主目录不能访问进入!
+settings.client.gamedir.prompt=您存储Minecraft文件夹的路径
+settings.client.resolution.label=分辨率:
+settings.client.resolution.width=宽度 (像素)
+settings.client.resolution.width.invalid=宽大是错误!
+settings.client.resolution.height=高度(像素)
+settings.client.resolution.height.invalid=高度是错误!
+settings.client.resolution.fullscreen=全屏
+settings.versions.label=版本的名单:
+settings.versions.snapshot=显示快照("Snapshots")
+settings.versions.old_beta=显示测试(2010-2011年.)
+settings.versions.old_alpha=显示阿尔法(2010年.)
+settings.versions.modified=显示改型的
+settings.versions.sub.old_release=显示旧版本(1.5.2以前)
+settings.java.path.label=到Java路径:
+settings.java.path.invalid=输入到Java路径!
+settings.java.path.prompt.win=文件路径 "bin/javaw.exe"
+settings.java.path.prompt.other=文件路径 "bin/java"
+settings.java.path.doesnotexist.title=可执行文件未找到!
+settings.java.path.doesnotexist=到Java可执行文件您输入的路径是无效的.\n如果您不知道"bin/javaw.exe" 或 "bin/java", 是在哪儿,就是«Java路径»清洁.
+settings.java.args.label=引数:
+settings.java.args.jvm=JVM引数(例如-XX:MaxPermSize=256M)
+settings.java.args.minecraft=Minecraft引数(例如--server 127.0.0.1)
+settings.java.memory.label=分配内存:
+settings.java.memory.mb=兆字节
+settings.java.memory.hint.ok=建议值
+settings.java.memory.hint.warning=不建议值
+settings.java.memory.hint.danger=危险的值!
+settings.clientres.label=发射机的大小:
+settings.slide.list.label=壁纸:
+settings.slide.list.prompt=到图像文件的路径(JPG, PNG)
+settings.console.label=开发者控制台:
+settings.console.global=公共的
+settings.console.minecraft=只在Minecraft
+settings.console.none=关闭
+settings.console.fullcommand.label=完整的团队：
+settings.console.fullcommand=显示Minecraft发射完整的口令 
+settings.console.fullcommand.warning.title=防止数据被盗
+settings.console.fullcommand.warning=<b>您您已启用«完整的口令»选项</b>.<br/>如果您使用票外价格的入口,就不发送控制台的内容用不保护的数据通道– 为票外价格的入口不加密符记被记入.
+settings.extra.label=附加:
+settings.extra.check-username=检查用户名
+settings.connection.label=该连接的质量:
+settings.connection.good=好
+settings.connection.normal=正常
+settings.connection.bad=不好
+settings.tlauncher.autologin.label=自动登录(秒钟):
+settings.tlauncher.autologin.parse=无法识别的号码!
+settings.direction.label=登录表单:
+settings.direction.top_left=左上
+settings.direction.top=上
+settings.direction.top_right=右上
+settings.direction.center_left=左
+settings.direction.center=在中心
+settings.direction.center_right=右
+settings.direction.bottom_left=左下
+settings.direction.bottom=下
+settings.direction.bottom_right=右下
+settings.launch-action.label=发射Minecraft的时候:
+settings.launch-action.hide=隐藏TLauncher
+settings.launch-action.exit=关闭TLauncher
+settings.launch-action.nothing=没做什么
+settings.lang.label=言语(Language):
+settings.tab.server=创造服务器
+settings.default=默认
+settings.default.warning.title=数据丢失的预防
+settings.default.warning=您坚定地决定您想复位到其原始状态?
+settings.save=保存
+settings.back=前
+settings.popup.info=田: %0
+settings.popup.default=复位值
+settings.reset.button=完全重置
+settings.reset.button.start=你想重启一下吗？
+settings.reset.message=需要重置哪些数据：
+settings.reset.question.confirm=你想删除（重置）一些TLauncher文件，你确定吗？
+settings.reset.question.confirm.title=
+settings.reset.remove.tlauncher.settings=删除TLauncher设置
+settings.reset.remove.versions=删除Minecraft版本（版本文件夹）
+settings.reset.remove.minecraft.folder=删除配置和Minecraft库
+settings.reset.not.remove.maps=请注意！您的世界（保存）将不会被删除！
+settings.guard=使用TLauncher Guard保护您
+settings.guard.title=Guard：
+settings.servers.recommendation=有时将服务器添加到Minecraft
+settings.servers.recommendation.title=建议：
+# Updater
+updater.required.found.title=发现一个强制更新!
+updater.required.found.message=注意! 发现的更新为关键标记.\n您的软件自动地更新到%0版本.\n如果更新以后软件不会发射，请选择新发射器的版本。
+updater.found.cannotopen.title=打开链接的错误
+updater.found.cannotopen=打开链接的错误发生了.请您自己打开它。
+updater.error.title=请求更新的错误
+updater.error=请求更新的错误发生了.
+updater.download-error=选择更新的时候错误发生了。您想不想自己下载文件？
+updater.downloaded.title=准备更新
+updater.downloaded=发射器为更新准备了.\n软件被自动更新，关闭，重新开始。
+updater.save-error.title=保存的错误
+updater.save-error=替文件的时候错误发生了。您想不想自己下载文件?
+updater.notice=<p style='font-family:Calibri;color:#585858; margin-top:11px; font-size:11px;'>如果您有任何問題，請通過以下方式與我們聯繫<a style='color:#585858;' href='https://facebook.com/tlauncher'>facebook.com/tlauncher</a></p><p style='font-family:Calibri;color:#585858; margin-top:5px;font-size:11px;'>在官方網站上獲取所有的信息<a style='color:#585858;' href='https://tlauncher.org/en/'>tlauncher.org</a></p>
+updater.access.denied.message=更新错误（拒绝访问）。 要成功更新，\r\n将TLauncher客户端移动到桌面或以管理员身份运行它。 \r\n\r\n或手动下载更新的启动器文件。
+updater.button.download.handle=手动下载
+updater.update.now=更新启动器
+# Notifier
+notifier.failed.title=关于不可能有连接的警告
+notifier.failed=TLauncher不能检查更新. 可能的解决方案:\n- 检查互联网连接\n- 检查互联网连接\n- 检查系统代理设置, 如果你用代理连接互联网\n- 检查防毒软件设置: 玩的时候，断开它.\n- 如果你没有互联网, 你可以不理这个报道.\n\n这很可能是当地的问题， 所以问帮助以前，请检查所有的问题。
+notifier.found.title=更新发现了。
+notifier.found.question=更新发射器的版本发现了: %0. 您想下载它吗?
+# Folder button
+folder.error.title=打开文件夹的错误
+folder.error=无法打开Minecraft该文件夹。可能已被删除。\n尝试自己找到它:
+# Alert
+alert.error.title=错误发生了
+alert.error.message=意外的错误发生了
+alert.error.request=您可以把关于错误的消息送到开发者。这是帮助他们提高软件。
+alert.error.send.log.unsuccess=文件传输过程中接收到错误。
+alert.error.send.log.success=错误报告已发送了.
+alert.error.send.log.title=发送记录文件
+alert.error.linux.javafx=启动启动器时出现问题，因为您安装的OpenJDK中缺少JavaFX库。 要解决此问题，请通过终端安装此库：<br> <br> sudo apt-get install openjfx <br> <br>之后，启动程序将正常启动。 网站上的详细信息<a href='https://tlauncher.org/ru/openjdk-problem.html'> https://tlauncher.org/ru/openjdk-problem.html </a>
+alert.error.not.run=发生严重错误，请求帮助<br> <a href='https://vk.me/tlauncher'> https://vk.me/tlauncher </a>或邮件<b> support@tlauncher.org </b>
+alert.error.font.problem =发生严重错误，要解决此问题，请阅读此材料并尝试自行修复<br> <a href='https://tlauncher.org/pageLang/check-disk.html'> https://tlauncher.org/pageLang/check-disk.html </a>
+alert.start.message=阅读本教程以更正它。<a href='%s'>点击我</a>
+alert.block.ip=您当前的IP已被阻止。要解决此问题，请更改IP。 <br> <br>方式：<br> 1）关闭调制解调器，然后在10分钟后打开调制解调器，检查问题。 <br> 2）使用<a href='2ip.ru'> https://2ip.ru </a>复制您的IP，并在支持中写信给我们<a href ='https：//vk.me/tlauncher '> https://vk.me/tlauncher </a>-“取消屏蔽我（您的IP）”。在那里，您将收到有关该问题的建议。
+# Text popup
+popup.cut=剪切
+popup.selectall=选择所有
+popup.copy=拷贝
+popup.paste=粘贴
+popup.copyall=拷贝所有
+# Console
+console=开发者控制台
+console.kill=强制关闭Minecraft
+console.close.cancel=取消对话框的关闭 (%0秒)
+console.save.popup=把所有保存到文件...
+console.save.exists=文件已经存在，选择另一个名称!
+console.save.error=无法控制台的内容保存到文件!
+console.clear.popup=清除所有
+console.pastebin=送到Pastebin
+console.pastebin.sent.title=发送成功
+console.pastebin.sent=控制台的内容已发送到<a href=\"http://pastebin.com\">Pastebin.com</a>. 请记住，在默认情况下它会被存储只有7天，只能通过链接.\n\n你想在网站上看到控制台的内容?
+console.pastebin.failed.title=发送失败
+console.pastebin.failed=无法发送控制台的内容到 <a href=\"http://pastebin.com\">Pastebin.com</a>. 请确保您的互联网是可利用和不被防火墙或防病毒软件阻止的.
+console.pastebin.invalid.title=什么发生了...
+console.pastebin.invalid=控制台的内容不能被发送. 
+# Link
+link.error.title=打开的时候的错误
+link.error=打开链接的错误发生了.请您自己打开它:
+# Autoupdater
+autoupdater.preparing=准备着...
+autoupdater.requesting=请求新版本 TLauncher...
+autoupdater.downloading=安装TLauncher %0...
+autoupdater.opening=开始TLauncher...
+autoupdater.buttons.hide=隐藏更新窗口
+autoupdater.buttons.skip=跳过更新
+# UI
+ui.ok=好
+ui.yes=是
+ui.no=不是
+ui.go.no.matter=仍然登录
+ui.cancel=废除
+ui.error.openfile.title=打开文件的错误
+ui.error.openfile=打开文件的错误发生了. 开发者控制台有更多的信息.请自己打开它。:
+ui.error.openfolder.title=打开文件夹的错误
+ui.error.openfolder=打开文件夹的错误发生了. 开发者控制台有更多的信息.请自己打开它:
+ui.error.openlink.title=打开链接的错误。
+ui.error.openlink=在浏览器里打开链接的错误发生了:
+# Explorer
+explorer.title=选择文件
+explorer.title.save=保存文件
+explorer.title.open=打开文件
+explorer.title.image=选择图片
+explorer.browse=概观...
+explorer.type.image=只图片 (JPG, PNG)
+explorer.extension.jpeg=图片JPEG
+explorer.extension.jpg=图片JPEG
+explorer.extension.png=图片PNG
+explorer.extension.all=所有的文件
+explorer.extension.format=%0-文件
+explorer.lookin=文件夹:
+explorer.input.filename=文件名:
+explorer.input.foldername=文件夹名:
+explorer.input.type=文件形式:
+explorer.button.up.tip=上一层
+explorer.button.up=上
+explorer.button.newfolder.tip=创建一个新的文件夹
+explorer.button.newfolder.name=新建文件夹
+explorer.button.newfolder=新建文件夹
+explorer.button.home.tip=返回到默认的文件夹
+explorer.button.home=回家
+explorer.button.list.tip=名单
+explorer.button.list=名单
+explorer.button.details.tip=更多
+explorer.button.details=更多
+explorer.button.view.tip=外表
+explorer.button.view=外表
+explorer.button.save.tip=保存选择的文件
+explorer.button.save=保存
+explorer.button.open.tip=打开选择的文件
+explorer.button.open=打开
+explorer.button.cancel.tip=退出文件选择对话框
+explorer.button.cancel=消除
+explorer.button.update.tip=更新目录的列表
+explorer.button.update=更新
+explorer.button.help.tip=帮助
+explorer.button.help=帮助
+explorer.button.open-dir.tip=打开选择的对象
+explorer.button.open-dir=打开
+explorer.context.refresh=更新
+explorer.context.newfolder=创建一个新的文件夹
+explorer.view.list=名单
+explorer.view.list.name=文件的名单
+explorer.view.details=表
+explorer.view.details.name=文件的表
+explorer.details.file=文件
+explorer.details.dir=文件目录
+explorer.error.newfolder=创建新的文件夹的错误
+explorer.error.newfolder-nopath=无法在此位置创建文件夹
+explorer.error.rename.title=重命名的错误
+explorer.error.rename=无法重命名文件.
+explorer.error.rename-exists=无法重命名文件,因为在这儿有这样名的文件.
+# Boot
+boot.loading=下载这TLauncher %0...
+# Ad
+ad.server.openwith=选择游戏的版本«%0»:
+ad.server.openwith.current=用您选择的版本
+ad.server.error=发射为连接到服务器的软件的错误:
+# Browser
+browser.hyperlink.popup.open=打开链接
+browser.hyperlink.popup.copy=复制链接
+browser.hyperlink.popup.show=显示链接
+browser.hyperlink.popup.show.alert.title=链接
+browser.hyperlink.popup.show.alert=如果您看见这告诉开发者。
+browser.hyperlink.create.error.title=创造链接的错误
+browser.hyperlink.create.error=无法创建链接。尝试自己打开:
+# Message
+menu.chooseVersion=选择为游戏的版本
+menu.version=版本
+menu.start=查看服务器
+menu.copy=复制服务器地址
+menu.copy.done=服务器已成功复制到剪贴板
+menu.favorite=加入到收藏夹
+menu.favorite.done=服务器已经成功添加到收藏夹 (游戏的多人卡)
+# Review
+review.button.send=发送反馈
+review.button.close=关闭
+review.button.addFile=添加文件
+review.window.title=从开发团队
+review.label.wishesTitle=发送反馈
+review.label.wishesDescription=您好!我们队很喜欢您用我们的发射器。\n\r我们想看您的意见，因为我们正在测试我们的程序, 您的建议和意见很对我们重要的。\n\r您可以在下面的特殊格式记述关于错误，您也可以附加更多信息：操作方法，截图，记录。请入口您的电子邮件，为了我们可以回答您。
+review.label.titleReview=主题标题
+review.box.typeReviewBox=投诉,谢谢,错误,缺,许愿
+review.description=在这里写下您的评论
+review.label.mail=您的电子邮件
+review.label.titleReview=标题
+review.chooser.addFile=添加要发送的文件
+review.chooser.warning.maxFile=为发送文件的数目不超过三个。
+review.chooser.warning.maxFile.title=文件限制。
+review.chooser.warning.limitMaxSize=文件太大, 请减少或压缩文件
+review.chooser.warning.limitMaxSize.title=无法添加文件
+review.message.sendFile=谢谢您! 我们总是期待着您的评论
+review.message.fill=必填字段:
+review.message.description=评论
+review.chooser.warning.incorrectFile=为发送非法的格式
+review.message.email.invalid=无效的电子邮件地址或Vk.com
+review.message.vk.mail=电子邮件或Vk.com
+# Update
+launcher.update.title=更新
+launcher.update.no.space=腾出空间 disk 下次更新
+launcher.update.message.optional=<p style='font-family:Calibri; font-size:18;'>找到新的必要更新！</p>
+launcher.update.message.mandatory=<p style='font-family:Calibri; font-size:18;'>发现一个强制发射器的更新.</p>
+launcher.update.updater.button=更新
+launcher.update.later.button=提醒我后面
+# HelperEditorAccount
+auth.helper.help.username=1. 输入Mojang.net的账户的电子邮件
+auth.helper.help.password=2. 收入密码
+auth.helper.help.button=3. 按钮\"保存账户\"
+auth.helper.help.exit=4. 按钮\"回家\", 为了出口
+auth.helper.help.account=0. 如何添加许可证Minecraft的帐户.
+# ServerPage
+server.page.title=游戏服务器
+server.page.online=在线
+server.page.back=回来吧
+# Statistics
+statistics.settings.title=分析:
+statistics.settings.checkbox.name=禁止发送匿名统计
+# LogPage
+check.email.input=电子邮件是错误的
+check.email.name=您的电子邮件（为通讯）
+log.email.error.description=描述你发生错误之前的行为
+log.email.error.issue=错误的说明
+log.form.send=送
+log.form.send.no=不发送
+log.form.title=发送错误报告
+memory.notification.message=出内存
+memory.notification.title=关于 disk 的正确应用程序的可用内存（推荐300 MB）。
+system.32x.not.proper=<b>这不是必要的！ 现在一切正常！</b> <br> <br>但最好遵循以下建议：<br>您目前安装了Windows x32，但计算机支持x64位。目前，您不能分配超过1.5 GB的记忆游戏，你可以有不同的故障。我们建议您在Windows x64上重新安装系统。
+system.32x.not.proper.title=
+java.version.32x.not.proper=<b>这不是必要的！ 现在一切正常！</b> <br> <br>但最好遵循以下建议：<br>你有x32位Java，你需要x64位！现在，你可以不分配超过1.5 GB的内存（RAM），你可以有不同的故障。从这里下载Java的x64点击<a href="https://tlauncher.org/ru/ram-allocation.html"> https://tlauncher.org/ru/ram-allocation.html </a>或从官方网站<a href="https://java.com"> https://java.com </a>。这只需要你几分钟。
+java.version.32x.not.proper.title=
+error.jfxwebkit.title=Java问题
+error.jfxwebkit.message=你已经遇到了一个问题与当前版本的Java：“replace.message”。您需要一个解决问题的办法安装旧版本的Java8中，例如更新101.<a href="https://tlauncher.org/en/jfxwebkit-error.html">链接到</a>一文。
+server.error.code=錯誤代碼：
+modpack.create.button=创建
+modpack.search.text=搜索
+modpack.button.mod=Mods
+modpack.button.modpack=Mod-packs
+modpack.button.resourcepack=Resource-packs
+modpack.button.map=Maps
+modpack.button.shaderpack=Shaderpacks
+modpack.creation.modpack=创建一个mod-pack
+modpack.creation.input.name=输入名称
+modpack.creation.name=名称：
+modpack.creation.version.game=游戏的最新版本：
+modpack.creation.forge=伪造版本：
+modpack.creation.save=保存
+modpack.complete.site.button=官方网站
+modpack.complete.review.button=概览
+modpack.complete.picture.button=图片
+modpack.complete.versions.button=版本
+modpack.complete.old.button=旧版本
+modpack.complete.review.mod=Mods
+modpack.complete.review.map=Maps
+modpack.complete.review.resource=Resource-packs
+modpack.complete.back.button=返回
+modpack.complete.next.button=转发
+modpack.complete.author=作者：
+modpack.complete.picture.empty=没有图片！
+modpack.popup.delete=删除
+modpack.popup.open=打开
+modpack.all=全部
+modpack.skyblock=Skyblock
+modpack.fabric=Fabric
+modpack.storage=贮藏
+modpack.twitch_integration=与Twitch集成
+#mod
+modpack.adventure_rpg=RPG
+modpack.magic=魔法
+modpack.cosmetic=风景
+modpack.armor_weapons_tools=军事
+modpack.technology=技术
+modpack.mc_food=食物
+modpack.redstone=Redstone
+modpack.map_information=世界
+modpack.library_api=API
+modpack.chita=秘籍
+modpack.applied_energistics_2=Applied Energistics
+modpack.blood_magic=Blood Magic
+modpack.mc_addons=插件
+modpack.addons_buildcraft=Buildcraft
+modpack.addons_forestry=Forestry
+modpack.addons_industrialcraft=Industrial Craft
+modpack.addons_thaumcraft=Thaumcraft
+modpack.addons_thermalexpansion=Thermal Expansion
+modpack.addons_tinkers_construct=Tinker's Construct
+modpack.technology_energy=能量
+modpack.technology_item_fluid_energy_transport=液体
+modpack.technology_farming=Farming
+modpack.technology_genetics=遗传学
+modpack.technology_player_transport=运输
+modpack.technology_processing=生产
+modpack.world_gen=世界
+modpack.world_biomes=生物群落
+modpack.world_dimensions=尺寸
+modpack.world_mobs=Mobs
+modpack.world_ores_resources=资源
+modpack.world_structures=结构
+modpack.mc_miscellaneous=其他
+modpack.server_utility=服务器实用程序
+#map
+modpack.adventure=冒险
+modpack.creation=创意
+modpack.game_map=游戏
+modpack.modded_world=使用mods
+modpack.parkour=跑酷
+modpack.puzzle=拼图
+modpack.survival=生存
+modpack.sixteen_x=16x
+modpack.thirty_two_x=32x
+modpack.sixty_four_x=64x
+modpack.one_twenty_eight_x=128x
+modpack.two_fifty_six_x=256x
+modpack.five_twelve_x_and_beyond=512x和更多
+modpack.animated=动画
+modpack.medieval=中世纪
+modpack.mod_support=支持mods
+modpack.modern=现代
+modpack.photo_realistic=现实
+modpack.steampunk=蒸汽朋克
+modpack.traditional=传统
+modpack.miscellaneous=杂项
+modpack.customization=客制化
+modpack.shaderpacks=Shaderpacks
+#shaderpack
+modpack.lucky_blocks=Lucky blocks
+modpack.guidebook=Guidebook
+modpack.hardcore_questing_mode=Hardcore question mode
+modpack.configuration=Configuration
+modpack.scripts=Scripts
+modpack.progression=Progression
+modpack.crafttweaker=CraftTweaker
+modpack.recipes=Recipes
+modpack.building_gadgets=Building Gadgets
+modpack.realistic=Realistic
+modpack.lag_less=Lag less
+modpack.low_end=Low end
+modpack.psychedelic=Psychedelic
+#modpack
+modpack.adventure_and_rpg=RPG
+modpack.combat_pvp=PVP
+modpack.exploration=研究
+modpack.extra_large=大
+modpack.ftb_official_pack=FTB
+modpack.hardcore=铁杆
+modpack.map_based=基于Maps
+modpack.mini_game=迷你游戏
+modpack.multiplayer=多人游戏
+modpack.quests=任务
+modpack.sci_fi=科幻
+modpack.small_light=光
+modpack.tech=技术
+modpack.favorite=最喜欢的
+modpack.populate_month=顶部
+modpack.populate_all_time=总下载
+modpack.name=名称
+modpack.date=按日期
+modpack.sort.label=排序
+modpack.local.box.default=未选中
+modpack.local.box.default.list=你没有Mod Packs
+modpack.search.textfield.map=安装的Maps
+modpack.search.textfield.mod=固定模式
+modpack.search.textfield.resourcepack=安装的Resource-packs
+modpack.search.textfield.shaderpack=已安装的着色器
+modpack.filter.label=分类：
+modpack.remove.button=删除
+modpack.process.button=进行中
+modpack.table.pack.element.name=Name
+modpack.table.pack.element.author=作者
+modpack.table.pack.element.operation=操作
+modpack.table.pack.element.version=游戏版本
+modpack.table.denied.button=所选的mod-pack与该元素不兼容！选择一个可用的项目进行安装。问题的原因：游戏的版本或与mod pack的其他元素不兼容。
+modpack.version=Forge版本：
+modpack.config.system.label=皮肤系统TL：
+modpack.config.game.version=游戏版本：
+modpack.config.skin.use=使用皮肤系统TLauncher.org
+modpack.config.skin.install.message=对于这个版本的游戏，不支持皮肤系统，我们推荐使用更新版本的游戏：> 1.7.2。
+modpack.config.skin.install.message.title=
+modpack.config.title=Mod-Pack管理
+modpack.config.memory.message=更改Mod Pack的名称
+modpack.config.memory.message.title=
+modpack.config.memory.box=使用启动器设置
+modpack.config.recommended=推荐
+modpack.config.high.level=<html><div style='text-align: center;'>对于高分辨率的解决方案和TA</div><html>
+modpack.rename.exception=无法重新创建！可能的解决方案：1）释放磁盘空间 \r\n 2）使用不同的名称 \r\n 3）存在访问权限问题 \r\n 4）删除版本中的文件夹。
+modpack.rename.exception.title=重命名
+modpack.select.modpack=首先选择Mod-Pack进行安装。为此，请使用左上角的列表。\r\n 如果您没有mod-packs，请使用“创建”按钮。
+modpack.select.modpack.title=在mod-pack中安装
+modpack.backup.settings=备份Mods
+modpack.backup.not.found=没有找到东西？
+modpack.backup.install.hand=手动安装
+modpack.not.found.elements=找不到任何项目
+modpack.all.elements=所有项目
+modpack.added.request=发送添加文件的请求
+modpack.added.request.message=您可以向我们的<a href='https://vk.com/tlauncher'>组https://vk.com/tlauncher </a>报告问题或反馈<br> <br>要添加新的mod， Mod-pack，Resource-pack，Maps，在下面的表单中插入浏览器中的链接，然后单击“发送”。
+modpack.link.file=文件引用
+modpack.error.send.unsuccess.title=运行状态
+modpack.error.send.unsuccess=在数据传输过程中收到错误。
+modpack.send.success.title=操作状态
+modpack.send.success=请求已被处理。
+modpack.description.download=下载：
+modpack.description.date=更新：
+modpack.request.update.title=发送更新文件的请求
+modpack.element.old.question=您找到了一个新版本，并希望我们将其添加到版本列表中，从浏览器复制链接并将其粘贴到下面的表单中，然后单击“提交”按钮（添加过程需要1至7天）
+modpack.element.collapse=最小化
+modpack.open.folder=打开mod-pack文件夹
+modpack.resave.exception=更改版本时出错
+modpack.resave.exception.title=更改版本
+modpack.config.memory.title=内存设置：
+modpack.install.handle.title=手动安装
+modpack.install.handle.mod=Mod将被安装在Mod-pack：modpack.name中
+modpack.install.handle.resourcepack=Resource-pack安装将在Mod-pack：modpack.name中完成
+modpack.install.handle.map=Map将被安装在Mod-pack：modpack.name中
+modpack.install.handle.shaderpack=着色器将安装在Mod-pack中：modpack.name
+modpack.install.handle.warning=<html><div style='text-align: center;'><font size="5">警告!</font><br>手动安装时，我们不保证游戏的健壮性<br>在MOD-PAC未经测试的元素。酒店与漂亮的比赛，删除Mods细节！</div> </html>
+modpack.explorer.files=选择文件
+modpack.install.files.error=<html> <div>分析过程中发生错误。可能的原因：结果1）元素包的方式使用相同的名字有结果，2）文件已损坏或无效的</div> </html>
+modpack.install.files.error.title=
+modpack.install.files.installed=已安装。
+modpack.install.files.installed.title=
+modpack.install.process=手柄...
+modpack.backup.title=备份管理
+modpack.backup.files.do=完成。
+modpack.backup.files.error=在操作过程中发生错误。
+modpack.backup.button.backup=创建备份
+modpack.backup.button.restore=从备份中恢复
+modpack.backup.down.button.restore=恢复
+modpack.backup.info.label.0=信息：
+modpack.backup.modpack.box=所有的mod-packs包
+modpack.backup.init=创建至少一个modpack！
+modpack.backup.init.title=
+modpack.backup.button.do=制作
+modpack.backup.message.info=要显示信息，请选择备份文件。
+explorer.error.choose.file=安装前选择文件
+explorer.error.choose.file.title=
+explorer.backup.file.chosen=选择的文件
+modpack.million=万
+modpack.thousand=千
+modpack.remote.not.found=无法显示此项目的原因：<br>检查到互联网和更新客户数据的连接..<br> %0
+modpack.remote.not.found.title=
+modpack.internet.update=要执行此操作，请检查Internet连接并更新客户端数据（在右下角，圆形箭头）。
+modpack.internet.update.title=
+account.premium.chita=赤塔唯一可用的高级用户，其详细信息可以在官方网站<a找到href='https://tlauncher.org/ru/premium.html'> https://tlauncher.org/ru/ premium.html </a>
+account.premium.not.available =仅供高级用户使用，您可以在官方网站上了解更多相关信息，请访问<a href='https://tlauncher.org/en/premium.html'>https://tlauncher.org/en/premium.html</a>
+modpack.left.empty.mod.label.mod=你没有mods！
+modpack.left.empty.mod.label.resourcepack=你没有Resource-packs！
+modpack.left.empty.mod.label.map=你没有Maps！
+modpack.left.empty.mod.label.shaderpack=您没有着色器！
+modpack.left.fast.install=快速安装它们！
+modpack.left.element.remove.question=删除或禁用 %0 可以破坏相关元素：%1. \n 是否要删除所有内容(关闭)？\n Version可能无法启动！
+modpack.version.any=任何版本
+modpack.criteria.not.found.resourcepack=没有资源包被你的标准找到！
+modpack.criteria.not.found.mod=你的标准没有找到mods！
+modpack.criteria.not.found.map=没有您的标准找到的地图！
+modpack.criteria.not.found.modpack=没有你的标准找到的mod包！
+modpack.criteria.not.found.shaderpack=找不到符合您条件的着色器！
+modpack.search.without.modpack=<br>要搜索而不绑定到mod-pack的版本，请在mod-packs列表中设置：'%0'。
+modpack.backup.all.elements.mod=所有的时尚！
+modpack.backup.all.elements.map=所有地图！
+modpack.backup.all.elements.resourcepack=所有资源包！
+modpack.backup.all.elements.shaderpack=所有着色器！
+modpack.table.empty.mod=这个mod包里没有mods！
+modpack.table.empty.map=这个MOD包没有卡！
+modpack.table.empty.resourcepack=这个mod包里没有资源包！
+modpack.table.empty.shaderpack=这个模组包中没有着色器！
+modpack.try.later=稍后尝试执行此操作时，服务器会过载或不可用。
+modpack.map.same.folder=此卡与旧卡（已安装）不兼容。 \r\n1）进行备份或复制地图的旧版本，以便恢复\r\n2）删除地图的旧版本\r\n3）尝试再次安装卡
+modpack.map.same.folder.title=
+block.doctor.web=If you have Dr.Web , you have blocked correct work Minecraft and launcher, you should do next steps by yourself to fix it:<br>Open Dr.Web and open in it 'Exclusions', further open 'Websites' and add next sites <br>tlauncher.org<br>tlrepo.com<br>after it restart launcher, it must help you.

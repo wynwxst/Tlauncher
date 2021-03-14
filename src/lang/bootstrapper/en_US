@@ -1,0 +1,41 @@
+# Notification java updater
+updater.java.notification.message=You were discovered version of Java, which will soon be unsupported launcher. <br> <br> You can install Java version of last independent clicking on the \"Install myself\". You can also use this autoinstaller click \"INSTALL\".
+updater.java.notification.message.special==You were discovered version of Java, which will soon be unsupported launcher. <br> <br> You can install Java version of last independent clicking on the \"Install myself\".
+updater.java.notification.title=Update the version of Java!!!
+updater.java.install.button=Install
+updater.java.reminder.button=Remind me later
+updater.java.myself.button=Install myself
+update.java.notification.title=Install Java
+updater.java.notification.before.install.myself=After installing the latest version of Java, run the launcher again.
+# Download java
+updater.java.jre.message=Loading Java. Wait a few minutes. Once downloaded you are prompted to install an appropriate Java (To do this, click on \"Install\"), then you can run your launcher and play.
+updater.java.jre.title=Download and install Java
+unknown.config.error=The program could not determine the configuration of the system or do not have the appropriate Java installation settings for the system.
+error.network.message=An error occurred during data transmission, it is possible without access to the Internet.
+error.title=Error
+download.jre.title=Select location to store the Java.
+download.jre.not.enough.space=Free up disk space to save the file and try again.
+save.file.in.label=Save
+file.name.label=File Name
+type.label=File Type
+save.button=Save
+cancel.button=Cancel
+# Download libraries
+updater.frame.name=Loading libraries for the client. Left
+updater.frame.speed=MB
+updater.download.fail=Could not download the necessary libraries from the Internet therefore <br> - Check the connection to the Internet.<br>- %0
+java.reinstall=Remove all Java, install the stable version from the <a href='https://java-for-minecraft.com'>website</a>, if it doesn’t help, install the latest (new) Java.
+updater.download.disk.not_place=Insufficient on disk to install the library and try again.
+place.disk.warning=For the program to work correctly, we recommend that you free up disk space on %0; after release, launch the launcher again.
+double.running.title=Double start
+double.running=It looks like you already started TLauncher and it is working. \r\nWait 1-10 minutes until it starts. \r\n\r\nLaunch TLauncher anyway?
+yes=Yes
+no=No
+addr.table.error=You have a critical error, <b> it is written below how to fix it </b>, if you know then what you have. For example, yesterday it worked, today it does not work, after you have installed any program or after the update, let us know in <a href='https://vk.com/tlauncher'> https://vk.com/tlauncher </a>, if the information is valuable, we will issue you a premium for a year. <br> <br> To fix, create a new user for Windows 7 <a href='https://www.bleepingcomputer.com/tutorials/create-new-user-account-in-windows-vista-7'>Click here</a><br>For Windows 10 <a href ='https://support.microsoft.com/en-us/help/4026923/windows-10-create-a-local-user-or-administrator-account'> Click here </a> <br> Log in to the new user and install the tlauncher, and start the game!
+alert.start.message=Read this tutorial to correct it. <a href='%0'>Click me</a>!
+run.again.launcher=Launch the launcher again (when you close the messages).
+warning.KB4515384.problem=If TLauncher doesn't run or occurs any error after closing off this message, you should follow next steps:<br>1) Open Start and write in search text 'Update history' and open this history.<br>2) You can see in upper part of the opened window 'Uninstall updates' and click on it.<br>3) Now find update KB4515384 and delete it, restart the computer (so as not to delete each time - you need to disable the Windows update so that Windows does not install it again, you can read on the Internet how to do it).
+skin.notification.state=Do not show this notification
+msi.after.burner.block=You need to turn off MSI Afterburner or a similar program in functionality and try to start the client again.
+temp.dir.error=The temp variables are set incorrectly, you need to set them yourself. In Start, enter 'environment variables' and open this program. Find TEMP, TEMP, now you need to insert existing folders for this variables and be sure that folders exist, example C:\\TEMP , C:\\TMP!
+alert.access.denied.message=We were unable to launch the launcher at the specified path %0 due to lack of rights, we will create a new folder %1 for correct operation, restart the launcher!

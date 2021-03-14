@@ -1,0 +1,274 @@
+{
+  variables: {
+    "forge": "^(?:[0-9-]+ [0-9:]+ \\[[\\w]+\\]\\ {0,1}\\[{0,1}[\\w]*\\]{0,1}\\ {0,1}){0,1}",
+    "crash": "^.*[\\#\\@\\!\\@\\#][ ]Game[ ]crashed!.+[\\#\\@\\!\\@\\#][ ](.+)$"
+  },
+  signatures: [
+    {
+      name: "2 monitor error",
+      pattern: '^> org.lwjgl.LWJGLException\\: Failed to set display mode \\(-5\\)',
+      path: "2.monitor"
+    },
+    {
+      name: "not proper java option",
+      pattern: '^> Conflicting collector combinations in option list.*',
+      path: "unrecognized.option"
+    },
+    {
+      name: "forge config error",
+      pattern: '.*ParsingException\\: Not enough data available$',
+      path: "rerun.again"
+    },
+    {
+      name: "not proper java option",
+      pattern: '^> Unrecognized option\\:.*',
+      path: "unrecognized.option"
+    },
+    {
+      name: "gamepad error",
+      pattern: '.*Invalid axis in gamepad mapping.*',
+      path: "gamepad"
+    },
+    {
+      name: "Problem app",
+      pattern: '^> Invalid maximum heap size.*',
+      path: "Если видите сообщение напишите нам"
+    },
+    {
+      name: "safe ip problem",
+      path: "safeip.delete",
+      exit: -1073740777
+    },
+    {
+      name: "safe ip problem",
+      pattern: '.*SafeIPs64\\.dll.*',
+      path: "safeip.delete"
+    },
+    {
+      name: "failed create event loop",
+      pattern: '.*failed to create a child event loop$',
+      path: "switch.antivirus.system"
+    },
+    {
+      name: "problem g1gc",
+      pattern: '^# Native memory allocation \\(mmap\\) failed to map.*',
+      path: "run.version"
+    },
+    {
+      name: "problem swap",
+      pattern: '^# Native memory allocation \\(malloc\\) failed to allocate .*',
+      path: "swap.file.increase"
+    },
+    {
+      name: "Bad video drivers",
+      pattern: '^.*atio6axx.dll\\+0xc57b5\\]$',
+      path: "opengl"
+    },
+    {
+      name: "not proper gpu1",
+      pattern: '^java.lang.IllegalStateException: GLFW error 65542: WGL: The driver does not appear to support OpenGL$',
+      path: "restart"
+    },
+    {
+      name: "Bad video drivers",
+      path: "opengl",
+      exit: -1073740940
+    },
+    {
+      name: "Bad video drivers",
+      path: "opengl",
+      pattern: '.*ig7icd64.dll\\+0x6c933\\]$'
+    },
+    {
+      name: "not proper gpu",
+      path: "proper.gpu",
+      pattern: '^java.lang.IllegalStateException: The driver does not appear to support framebuffer objects$'
+    },
+    {
+      name: "not proper gpu",
+      path: "proper.gpu",
+      pattern: '^java.lang.NullPointerException: Initializing game$'
+    },
+    {
+      name: "error 87",
+      path: "error87",
+      exit: 87
+    },
+    {
+      name: "vbo fix",
+      path: "rerun.again",
+      pattern: '.*ig9icd64.dll\\+0x202ee\\]$'
+    },
+    {
+      name: "vbo fix",
+      path: "rerun.again",
+      pattern: '.*ig75icd64.dll\\+0x6ca03\\]$'
+    },
+    {
+      name: "vbo fix",
+      path: "rerun.again",
+      pattern: '.*ig75icd64.dll\\+0x6a9b5\\]$'
+    },
+    {
+      name: "vbo fix",
+      path: "rerun.again",
+      pattern: '.*ig4icd64.dll\\+0x137d63\\]$'
+    },
+    {
+      name: "vbo fix",
+      path: "rerun.again",
+      pattern: '.*ig4icd64.dll\\+0x62ff0\\]$'
+    },
+    {
+      name: "Bad video drivers",
+      path: "opengl",
+      pattern: '^org.lwjgl.LWJGLException: Pixel format not accelerated.*'
+    },
+    {
+      name: "reinstall driver",
+      path: "reinstall.driver",
+      pattern: '.*0x0000000000000000$'
+    },
+    {
+      name: "gson lenient",
+      path: "rerun.again",
+      pattern: '.*Use JsonReader\\.setLenient\\(true\\) to accept malformed JSON at line 1 column 3 path \\$\\.$'
+    },
+    {
+      name: "gson lenient",
+      path: "rerun.again",
+      pattern: '.*Use JsonReader\\.setLenient\\(true\\) to accept malformed JSON at line 1 column 3$'
+    },
+    {
+      name: "config.mc.problem",
+      path: "vbo.vsync",
+      pattern: '.*ig9icd64.dll\\+0x1f82e]$'
+    },
+    {
+      name: "Restriction parameter _JAVA_OPTIONS",
+      path: "remove._java_options",
+      pattern: '^Picked up _JAVA_OPTIONS: -Xmx.*'
+    },
+    {
+      name: "thread creation problem",
+      path: "new.thread.problem",
+      pattern: '.*java.lang.OutOfMemoryError: unable to create new native thread$'
+    },
+    {
+      name: "jetty ram problem",
+      path: "java.not.enough.memory",
+      exit: 1,
+      pattern: '.*Internal Exception: io.netty.handler.codec.EncoderException: java.lang.OutOfMemoryError$'
+    },
+    {
+      name: "Not reserve ram",
+      path: "java.not.enough.memory",
+      exit: 1,
+      pattern: '^Could not reserve enough space for.*'
+    },
+    {
+      name: "Unsupported java 9",
+      path: "java.unsupported.java9",
+      exit: 1,
+      pattern: '.*java.base/jdk.internal.loader.ClassLoaders\\$AppClassLoader cannot be cast to java.base/java.net.URLClassLoader$'
+    },
+    {
+      name: "Unsupported major.minor version 52.0",
+      path: "java.unsupported.version",
+      exit: 1,
+      pattern: '.*net/minecraft/client/main/Main : Unsupported major.minor version 52.0$'
+    },
+    {
+      name: "Bad video drivers",
+      path: "opengl",
+      pattern: '[\\s]*org\\.lwjgl\\.LWJGLException\\: Pixel format not accelerated',
+      forge: true
+    },
+    {
+      name: "Bad video drivers",
+      path: "opengl",
+      pattern: '.*The driver does not appear to support OpenGL$'
+    },
+    {
+      name: "Invalid META-INF",
+      path: "meta-inf",
+      exit: 1,
+      pattern: 'Exception in thread "main" java.lang.SecurityException: SHA1 digest error for .+',
+      forge: true
+    },
+    {
+      name: "Direct close bug",
+      exit: 1,
+      pattern: 'Someone is closing me!',
+      forge: true,
+      fake: true
+    },
+    {
+      name: "Missing main class",
+      path: "missing-main",
+      exit: 1,
+      pattern: '^Error: Could not find or load main class .+'
+    },
+    {
+      name: "PermGen error",
+      path: "permgen-error",
+      exit: -805306369
+    },
+    {
+      name: "OutOfMemory error",
+      path: "outofmemory",
+      exit: -1,
+      pattern: '^java.lang.OutOfMemoryError: .+'
+    },
+    {
+      name: "OpenGL unsupported by videocard",
+      path: "old-videocard",
+      exit: 1,
+      pattern: '^# C \\[ig4dev32\\.dll\\+.+\\]$'
+    },
+    {
+      name: "Invalid system user name",
+      path: "invalid-sys-username",
+      exit: 1,
+      pattern: "^[\\s]*at org.apache.logging.log4j.util.PropertiesUtil.<init>\\(PropertiesUtil.java:71\\)$"
+    },
+    {
+      name: "Bad video drivers",
+      path: "opengl",
+      exit: 1,
+      pattern: '.*atioglxx\\.dll\\+0x[0-9a-z]+\\]$'
+    },
+    {
+      name: "Bad video drivers",
+      path: "opengl",
+      exit: 1,
+      pattern: '.*atio6axx\\.dll\\+0x[0-9a-z]+\\]$'
+    },
+    {
+      name: "Bad video drivers",
+      path: "opengl",
+      pattern: '.*ig7icd64.*'
+    },
+    {
+      name: "Bad video drivers",
+      path: "opengl",
+      pattern: '.*ig75icd64.*'
+    },
+    {
+      name: "Bad video drivers",
+      path: "opengl",
+      pattern: '.*ig9icd64.*'
+    },
+    {
+      name: "Bad video drivers",
+      path: "opengl",
+      pattern: '.*No context is current or a function that is not available in the current context was called. The JVM will abort execution\\.$'
+    },
+    {
+      name: "OpenGL unsupported by videocard",
+      path: "old-videocard",
+      exit: 1,
+      pattern: '.*ig4dev64.*'
+    }
+  ]
+}

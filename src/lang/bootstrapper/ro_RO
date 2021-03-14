@@ -1,0 +1,41 @@
+# notification java updater
+updater.java.notification.message=Ai descoperit versiunea de Java, care va fi în curând lansator de neacceptat. <br><br> Puteți instala versiunea Java ultimului clic independent pe \"Instalat pe cont propriu\". De asemenea, puteți utiliza acest autoinstaller clic \"SET\".
+updater.java.notification.message.special=Ai descoperit versiunea de Java, care va fi în curând lansator de neacceptat. <br><br> Puteți instala versiunea Java ultimului clic independent pe \"Instalat pe cont propriu\".
+updater.java.notification.title=Actualizați versiunea de java!!!
+updater.java.install.button=Setare
+updater.java.reminder.button=Amintește-mi mai târziu
+updater.java.myself.button=Instalat în mod independent,
+update.java.notification.title=Java instalarea
+updater.java.notification.before.install.myself=După instalarea cea mai recentă versiune de Java, executați din nou lansator.
+# download java
+updater.java.jre.message=Se incarca Java. Așteptați câteva minute. Odată descărcat vi se solicită să instalați un Java adecvat (Pentru a face acest clic pe \"Install\"), atunci puteți rula lansator și să se joace.
+updater.java.jre.title=Descărcați și instalați Java
+unknown.config.error=Programul nu a putut determina configurația sistemului sau nu au setările de instalare Java corespunzătoare pentru sistem.
+error.network.message=A apărut o eroare în timpul transmisiei de date, este posibil de locuri fără acces la Internet.
+error.title=Eroare
+download.jre.title=Selectați locația pentru a stoca Java.
+download.jre.not.enough.space=Eliberați spațiu pe disc pentru a salva fișierul și încercați din nou.
+save.file.in.label=Salvare
+file.name.label=Numele fișierului
+type.label=Tip fișier
+save.button=Salvare
+cancel.button=Anulare
+# download libraries
+updater.frame.name=Se încarcă biblioteci pentru client. Stânga
+updater.frame.speed=MB
+updater.download.fail=Nu s-a putut descărca bibliotecile necesare de pe Internet, prin urmare, <br> - Verificați conexiunea la Internet.<br>- %0
+java.reinstall=Ștergeți tot Java, instalați versiunea stabilă de pe site-ul <a href='https://java-for-minecraft.com'>site</a>, dacă nu vă ajută, instalați cea mai recentă (nouă) Java.
+updater.download.disk.not_place=Eliberați spațiu pe disk pentru a instala biblioteca și încercați din nou.
+place.disk.warning=Pentru ca programul să funcționeze corect, vă recomandăm să eliberați spațiu pe %0, după lansare lansați din nou lansatorul. Citiți articolul de mai jos.
+double.running.title=Începeți dublu
+double.running=Se pare ca ai inceput deja TLauncher si functioneaza. \r\nAsteapta 1-10 minute pana cand incepe. \r\n\r\nLaunecați TLauncher oricum?
+yes=Da
+no=Nu
+addr.table.error=Aveți o eroare critică, <b> este scris mai jos cum să remediați acest lucru </b>, dacă știți atunci ce aveți. De exemplu, ieri a funcționat, astăzi nu funcționează, după ce ați instalat niciun program sau după actualizare, anunțați-ne în <a href='https://fb.com/tlauncher'>https://fb.com/tlauncher</a>, dacă informațiile sunt valoroase, vă vom emite o primă pentru un an. <br> <br> Pentru a repara, a crea un nou utilizator pentru Windows 7 <a href='https://www.bleepingcomputer.com/tutorials/create-new-user-account-in-windows-vista-7'>Faceți clic aici</a><br>Pentru Windows 10 <a href ='https://support.microsoft.com/en-us/help/4026923/windows-10-create-a-local-user-or-administrator-account'> Faceți clic aici </a> <br> Conectați-vă la noul utilizator și instalați tastele și începeți jocul!
+alert.start.message=Citiți acest tutorial pentru ao corecta. <a href='%0'>Faceți clic pe mine</a>!
+run.again.launcher=Lansați lansatorul din nou (când închideți mesajele).
+warning.KB4515384.problem=Dacă TLauncher nu rulează sau nu produce nicio eroare după închiderea acestui mesaj, trebuie să urmați pașii următori:<br>1) Deschideți Start și scrieți în textul de căutare „Actualizare istoric” și deschideți acest istoric.<br>2) Vezi în partea superioară a ferestrei deschise 'Dezinstalați actualizările' și faceți clic pe ea.<br>3) Acum găsiți actualizarea KB4515384 și ștergeți-l, reporniți computerul (pentru a nu șterge de fiecare dată - trebuie să dezactivați actualizarea Windows, astfel încât că Windows nu îl instalează din nou, puteți citi pe Internet cum se face).
+skin.notification.state=Nu afișați această notificare
+msi.after.burner.block=Trebuie să dezactivezi MSI Afterburner sau un program similar în funcționalitate și să încerci să pornești din nou clientul.
+temp.dir.error=Variabilele temp sunt setate incorect, trebuie să le setați singur. În Start, introduceți 'variabile de mediu' și deschideți acest program. Găsiți TEMP, TEMP, acum trebuie să introduceți folderele existente pentru aceste variabile și asigurați-vă că există dosare, de exemplu C:\\TEMP, C:\\TMP!
+alert.access.denied.message=Nu am putut lansa lansatorul pe calea specificată %0 din lipsa drepturilor, vom crea un nou folder %1 pentru operarea corectă, reporniți lansatorul!
